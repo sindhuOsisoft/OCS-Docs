@@ -24,32 +24,36 @@ OMF message types fall into three categories: type, container, and data, which a
   Because SdsTypes are immutable, update operations are not supported. The keywords in the 
   type definition, by OMF version, are interpreted as follows:
 
-### OMF 1.0
+### OMF 1.0 and 1.1
 
   + ``id``: Corresponds to the SdsType Id field. It must conform to the rules defined for a 
     typeId specified here: [types](xref:sdsTypes)
-
   + ``classification``: Only the ``dynamic`` classification is currently supported.
   + ``version``: Versioning of SdsTypes is not supported.
   + ``name``: Corresponds to the SdsType Name field. This is the friendly name for the type.
   + ``description``: Corresponds to the SdsType Description field. 
-  + ``tags``: Optional array of strings to tag the type
-  + ``metadata``: Optional key-value pairs associated with the type
-
-### OMF 1.1
-
-  OMF 1.1 type messages contain the same keywords as OMF 1.0 plus the following:
-
   + ``properties``: Key-value pairs defining the properties of a type
   + ``type``: Inherited from JSON Schema. Must be set to object. 
 
+### OMF 1.1
+
+  + ``id``: Corresponds to the SdsType Id field. It must conform to the rules defined for a 
+    typeId specified here: [types](xref:sdsTypes)
+  + ``classification``: Only the ``dynamic`` classification is currently supported.
+  + ``version``: Versioning of SdsTypes is not supported.
+  + ``name``: Corresponds to the SdsType Name field. This is the friendly name for the type.
+  + ``description``: Corresponds to the SdsType Description field. 
+  + ``properties``: Key-value pairs defining the properties of a type
+      **Note**: A uom keyword for type properties was added with OMF 1.1.
+  + ``type``: Inherited from JSON Schema. Must be set to object.
+      **Note**: Nullable type properties were added with OMF 1.1.
+  
 ### OMF 1.2
 
   OMF 1.2 type messages contain the same keywords as OMF 1.0 and 1.1, plus the following:
 
   + ``enum``: Optional array of name/value pairs used to define an allowed set of values. Classification should not be set when defining an enum type.
 
-  
   The ``isindex`` keyword corresponds to the ``iskey`` attribute of an SdsTypeProperty. 
   SdsTypes support clustered indexes which can be specified with multiple properties marked 
   with the ``isindex`` keyword with a value of ``true``. For compound indexes, the 
