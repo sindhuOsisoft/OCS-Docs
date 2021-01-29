@@ -54,7 +54,7 @@ OMF message types fall into three categories: type, container, and data, which a
 
   + ``enum``: Optional array of name/value pairs used to define an allowed set of values. Classification should not be set when defining an enum type.
 
-  **Note**: OMF 1.2 adds support for enum type messages. Enumeration types can be created and used in object types using the "reftypeid" keyword. For more information, see the [OMF v1.2 Spec](https://omf-docs.osisoft.com/documentation_v12/Types/Enum_Type.html).
+  **Note**: OMF 1.2 adds support for enum and flags type messages. These types can be created and used in object types using the "reftypeid" keyword. For more information, see the [OMF v1.2 Spec](https://omf-docs.osisoft.com/documentation_v12/Types/Enum_Type.html).
   
   The ``isindex`` keyword corresponds to the ``iskey`` attribute of an SdsTypeProperty. 
   SdsTypes support clustered indexes which can be specified with multiple properties marked 
