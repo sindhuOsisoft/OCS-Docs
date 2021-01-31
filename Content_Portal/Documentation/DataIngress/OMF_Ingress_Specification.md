@@ -125,5 +125,4 @@ Data definitions are interpreted as follows:
 
 * ``typeid``: Data that is not grouped by containerId is not supported.
 * ``containerid``: Stream Id for the associated Sds Stream.
-* ``typeversion``: Not supported.
 * ``values``: An array of the generic Sds values.
