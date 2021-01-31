@@ -121,7 +121,7 @@ in the Container definition, by OMF version, are interpreted as follows:
 
 ## Data messages
 A Data message is mapped to generic Sds values in the Sequential Data Store. The keywords in the 
-Data definitions, by OMF version, are interpreted as follows:
+Data definitions are interpreted as follows:
 
 * ``typeid``: Data that is not grouped by containerId is not supported.
 * ``containerid``: Stream Id for the associated Sds Stream.
