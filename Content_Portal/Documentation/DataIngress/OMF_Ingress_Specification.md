@@ -124,5 +124,6 @@ A Data message is mapped to generic Sds values in the Sequential Data Store. The
 Data definitions are interpreted as follows:
 
 * ``typeid``: Data that is not grouped by containerId is not supported.
+* ``typeversion``: Versioning of SdsTypes is not supported.
 * ``containerid``: Stream Id for the associated Sds Stream.
 * ``values``: An array of the generic Sds values.
