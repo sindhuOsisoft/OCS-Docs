@@ -121,9 +121,18 @@ in the Container definition, by OMF version, are interpreted as follows:
 
 ## Data messages
 A Data message is mapped to generic Sds values in the Sequential Data Store. The keywords in the 
-Data definitions are interpreted as follows:
+Data definitions. by OMF version, are interpreted as follows:
+
+### OMF 1.0/OMF 1.1
 
 * ``typeid``: Data that is not grouped by containerId is not supported.
 * ``typeversion``: Versioning of SdsTypes is not supported.
 * ``containerid``: Stream Id for the associated Sds Stream.
+* ``values``: An array of the generic Sds values.
+
+### OMF 1.2
+
+* ``typeid``: Data that is not grouped by containerId is not supported.
+* ``containerid``: Stream Id for the associated Sds Stream.
+* ``properties``:	Optional key-value pairs defining the properties of the type. Used to support sending type-less static data values.
 * ``values``: An array of the generic Sds values.
