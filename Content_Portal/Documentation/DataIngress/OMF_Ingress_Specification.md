@@ -117,7 +117,7 @@ in the Container definition, by OMF version, are interpreted as follows:
  OMF 1.2 container messages contain the same keywords as OMF 1.0 and 1.1, plus the following:
 
 * ``datasource``: Optional string used to specify the source of a stream of data.
-* ``propertyoverrides``: Optional key-value pairs used to override properties on a type definition.
+* ``propertyoverrides``: Optional key-value pairs used to override properties on a type definition. Uom is the only property for which override is supported by OMF 1.2.
 
 ## Data messages
 A Data message is mapped to generic Sds values in the Sequential Data Store. The keywords in the 
