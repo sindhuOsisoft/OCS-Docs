@@ -44,7 +44,7 @@ OMF message types fall into three categories: type, container, and data, which a
   + ``name``: Corresponds to the SdsType Name field. This is the friendly name for the type.
   + ``description``: Corresponds to the SdsType Description field. 
   + ``properties``: Key-value pairs defining the properties of a type
-      **Note**: A uom keyword for type properties was added with OMF 1.1.
+      **Note**: A `uom` keyword for type properties was added with OMF 1.1.
   + ``type``: Inherited from JSON Schema. Must be set to object.
       **Note**: Nullable type properties were added with OMF 1.1.
   
