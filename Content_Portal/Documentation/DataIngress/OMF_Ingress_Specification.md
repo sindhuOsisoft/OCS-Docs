@@ -44,9 +44,13 @@ OMF message types fall into three categories: type, container, and data, which a
   + ``name``: Corresponds to the SdsType Name field. This is the friendly name for the type.
   + ``description``: Corresponds to the SdsType Description field. 
   + ``properties``: Key-value pairs defining the properties of a type
+  
       **Note**: A `uom` keyword for type properties was added with OMF 1.1.
+      
   + ``type``: Inherited from JSON Schema. Must be set to object.
+  
       **Note**: Nullable type properties were added with OMF 1.1.
+      
   
 ### OMF 1.2
 
@@ -117,7 +121,7 @@ in the Container definition, by OMF version, are interpreted as follows:
  OMF 1.2 container messages contain the same keywords as OMF 1.0 and 1.1, plus the following:
 
 * ``datasource``: Optional string used to specify the source of a stream of data.
-* ``propertyoverrides``: Optional key-value pairs used to override properties on a type definition. Uom is the only property for which override is supported by OMF 1.2.
+* ``propertyoverrides``: Optional key-value pairs used to override properties on a type definition. `Uom` is the only property for which override is supported by OMF 1.2.
 
 ## Data messages
 A Data message is mapped to generic Sds values in the Sequential Data Store. The keywords in the 
