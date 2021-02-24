@@ -58,9 +58,7 @@ Because SdsTypes are immutable, update operations are not supported. The keyword
 
   **Note**: OMF 1.2 adds support for [enum](https://omf-docs.osisoft.com/documentation_v12/Types/Enum_Type.html) and [flag](https://omf-docs.osisoft.com/documentation_v12/Types/Type_Properties_and_Formats.html) type messages. These types can be created and used in object types using the "reftypeid" keyword. 
   
-  The ``isindex`` keyword corresponds to the ``iskey`` attribute of an SdsTypeProperty. SdsTypes support clustered indexes which can be specified with multiple properties marked 
-  with the ``isindex`` keyword with a value of ``true``. For compound indexes, the index property order within the message corresponds to the ``Order`` field of 
-  an SdsTypeProperty. The ``isname`` keyword is not supported.
+  The ``isindex`` keyword corresponds to the ``iskey`` attribute of an SdsTypeProperty. SdsTypes support clustered indexes which can be specified with multiple properties marked with the ``isindex`` keyword with a value of ``true``. For compound indexes, the index property order within the message corresponds to the ``Order`` field of an SdsTypeProperty. The ``isname`` keyword is not supported.
 
 ### Link type
 
