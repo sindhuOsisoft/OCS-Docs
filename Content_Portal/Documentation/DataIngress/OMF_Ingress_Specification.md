@@ -2,27 +2,25 @@
 uid: omfIngressSpecification
 ---
 
-
 # Use OSIsoft Message Format with OSIsoft Cloud Services
 
-[The OSIsoft Message Format (OMF) specification](http://omf-docs.osisoft.com) is generic in that it does
-not specify a particular back-end system. This topic is a companion to the OMF specification which describes how
-OMF is interpreted by OSIsoft Cloud Services back-end system. 
+[The OSIsoft Message Format (OMF) specification](http://omf-docs.osisoft.com) is generic in that it does not specify a particular back-end system. This topic is a companion to the OMF specification which describes how OMF is interpreted by OSIsoft Cloud Services back-end system. 
 
 ## Headers
-For a description of each of the headers, see [OMF specification](http://omf-docs.osisoft.com). Note that rather than using a ``producertoken``, data ingress calls to OCS require a bearer token to be attached in the header, as documented in the [OCS Quick Start](xref:sdsQuickStart) documentation. The bearer token is used to authenticate 
-the sender and to authorize the sender for use with a particular Tenant. The client Id associated with this token is used to route messages to a particular [Topic](xref:omfIngressTopics) that it is mapped to.
+For a description of each of the headers, see [OMF specification](http://omf-docs.osisoft.com). Note that rather than using a ``producertoken``, data collection calls to OCS require a bearer token to be attached in the header, as documented in the [OCS Quick Start](xref:sdsQuickStart) documentation. The bearer token is used to authenticate the sender and to authorize the sender for use with a particular tenant. The client ID associated with this token is used to route messages to a particular [topic](xref:omfIngressTopics) that it is mapped to.
 
 The ``omfversion`` header must match the version of the OMF spec used to construct the message.
 Versions 1.0, 1.1, and 1.2 of the spec are currently supported. 
 
 ## Message types
-OMF message types fall into three categories: type, container, and data, which are described below. 
+
+OMF message types fall into three categories: *type*, *container*, and *data*, which are described below. 
 
 ## Type messages
-  A type message is interpreted by OSIsoft Cloud Services as an SdsType in the Sequential Data Store. 
-  Because SdsTypes are immutable, update operations are not supported. The keywords in the 
-  type definition, by OMF version, are interpreted as follows:
+
+A *type* message is interpreted by OSIsoft Cloud Services as an SdsType in the Sequential Data Store. 
+
+Because SdsTypes are immutable, update operations are not supported. The keywords in the type definition, by OMF version, are interpreted as follows:
 
 ### OMF 1.0 and 1.1
 
@@ -60,22 +58,22 @@ OMF message types fall into three categories: type, container, and data, which a
 
   **Note**: OMF 1.2 adds support for [enum](https://omf-docs.osisoft.com/documentation_v12/Types/Enum_Type.html) and [flag](https://omf-docs.osisoft.com/documentation_v12/Types/Type_Properties_and_Formats.html) type messages. These types can be created and used in object types using the "reftypeid" keyword. 
   
-  The ``isindex`` keyword corresponds to the ``iskey`` attribute of an SdsTypeProperty. 
-  SdsTypes support clustered indexes which can be specified with multiple properties marked 
-  with the ``isindex`` keyword with a value of ``true``. For compound indexes, the 
-  index property order within the message corresponds to the ``Order`` field of 
+  The ``isindex`` keyword corresponds to the ``iskey`` attribute of an SdsTypeProperty. SdsTypes support clustered indexes which can be specified with multiple properties marked 
+  with the ``isindex`` keyword with a value of ``true``. For compound indexes, the index property order within the message corresponds to the ``Order`` field of 
   an SdsTypeProperty. The ``isname`` keyword is not supported.
 
 ### Link type
-  Link types are not supported in Sequential Data Store.
 
+Link types are not supported in Sequential Data Store, and will be ignored.
+
+<!--deleting per Chris feedback
 ### Span type
   Span types are not supported in Sequential Data Store.
+-->
 
 ### Property types and formats
-  OMF supports setting the ``format`` keyword to specify how a particular JSON type should 
-  be interpreted. The following is a mapping for the Sequential Data Store supported 
-  types (see [Types](xref:sdsTypes)):
+OMF supports setting the ``format`` keyword to specify how a particular JSON type should be interpreted. The following is a mapping for the Sequential Data Store supported 
+types (see [types](xref:sdsTypes)):
 
 
 Type     | Format   | SdsTypeCode
@@ -96,8 +94,9 @@ string   |          | String
 string   | date-time | DateTime
 
 ## Container messages
-A Container message is interpreted as an SdsStream in the Sequential Data Store. The keywords 
-in the Container definition, by OMF version, are interpreted as follows:
+
+A *container* message is interpreted as an SdsStream in the Sequential Data Store. The keywords 
+in the *container* definition are interpreted as follows:
 
 ### OMF 1.0
 
@@ -118,14 +117,15 @@ in the Container definition, by OMF version, are interpreted as follows:
 
 ### OMF 1.2
 
- OMF 1.2 container messages contain the same keywords as OMF 1.0 and 1.1, plus the following:
+OMF 1.2 container messages contain the same keywords as OMF 1.0 and 1.1, plus the following:
 
 * ``datasource``: Optional string used to specify the source of a stream of data.
 * ``propertyoverrides``: Optional key-value pairs used to override properties on a type definition. `Uom` is the only property for which override is supported by OMF 1.2.
 
 ## Data messages
-A Data message is mapped to generic Sds values in the Sequential Data Store. The keywords in the 
-Data definitions, by OMF version, are interpreted as follows:
+
+A *data* message is mapped to generic Sds values in the Sequential Data Store. The keywords in the 
+*data* definitions are interpreted as follows:
 
 ### OMF 1.0/OMF 1.1
 
