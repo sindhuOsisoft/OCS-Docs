@@ -150,10 +150,8 @@ You can transfer data to OCS after you have finished adding PI points.  During a
 3. In the `Details pane`, click the **Start Transfer** button, then click **Start**.
 
    The data transfer begins and the fields in the Transfer Overview section display the transfer's progress.
+   ![](../../images/transfer-details.png)
 
-![](../../images/transfer-details.png)
-
-   
 4. In the Details pane, click the Data Source down arrow to view more information about your transfer:
 
    * Server version: The version of the connected PI Data Archive

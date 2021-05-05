@@ -1,14 +1,14 @@
 - name: Overview of data transfers
-  href: pi-to-ocs-data-transfers/overview-data-transfers.md
+  href: overview-data-transfers.md
 - name: Transfer data to OCS
-  href: pi-to-ocs-data-transfers/transfer-data-to-ocs.md
+  href: transfer-data-to-ocs.md
 - name: Data transfer statuses
-  href: pi-to-ocs-data-transfers/data-transfer-statuses.md
+  href: data-transfer-statuses.md
 - name: Point type change
-  href: pi-to-ocs-data-transfers/pi-point-change.md
+  href: pi-point-change.md
 - name: Confirm data retrieval
-  href: pi-to-ocs-data-transfers/confirm-data-retrieval.md
+  href: confirm-data-retrieval.md
 - name: Export transfer details
-  href: pi-to-ocs-data-transfers/export-transfer-details.md
+  href: export-transfer-details.md
 - name: Export missing PI point details
-  href: pi-to-ocs-data-transfers/export-missing-pi-points.md 
+  href: export-missing-pi-points.md 
