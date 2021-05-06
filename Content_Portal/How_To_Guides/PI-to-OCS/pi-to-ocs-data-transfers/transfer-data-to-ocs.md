@@ -75,7 +75,14 @@ You build a PI points transfer list to select which PI points you want in a data
 1. Click the **Add** button to open the Search pane on the left.
    
 2. Define your search query by entering filter criteria:
-   ![ ](../../images/query-table.png)
+
+| To... | Do this... | 
+| ------------- | ----------------- | 
+| Include common PI point attributes in a query | Enter criteria in any of the following fields:<ul><li>Name (alias for tag attribute).</li><li>Point Source</li></ul>Note: The search fields default to * or all PI points if search criteria is not ensured. |
+| Include point descriptions in a query | Enter criteria in the following fields:<ul><li>Descriptor</li><li>Extended Descriptor</li></ul> |
+| Include engineering units in a query | Enter criteria in the Engineering Units field. |
+| Specify a specific PI point type for a query |Select one of the following point types from the Point Type drop-down list: <ul><li>Float32</li><li>Float64</li><li>Int16</li><li>Int32</li><li>Digital</li><li>Timestamp</li><li>String</li></ul> |
+| Specify specific location code(s) for a query | Enter search criteria for PI tag attributes in the Location Codes fields (Location1, Location2, Location3, Location4, and/or Location5).  |
 
    TIP: Click the **Search Criteria** toggle arrow to hide or show search fields.
 
