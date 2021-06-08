@@ -56,7 +56,7 @@ You can open the PI to OCS Agent Configuration Utility to change server connecti
 | **5.**  | Currently running PI to OCS Agent version                    |
 | **6.**  | Type of agent service account.                               |
 | **7.**  | Set data privacy options and assign an agent description.    |
-|         | View information about the server connection and its configuration. |
+| **8.**  | View information about the server connection and its configuration. |
 | **9.**  | Source AF server name                                        |
 | **10.** | The version of PI AF installed on the connected AF server    |
 | **11.** | The ID number of the connected AF server                     |
@@ -184,7 +184,7 @@ After adding an AF server, you can select the source PI Data Archive you want to
 
 ## Create a PI mapping 
 
-PI mappings enable access to data stored on a PI Data Archive by service accounts assigned to a PI identity.  PI mappings can be created for a PI identity, user or group. Accounts assigned to a PI identity can read and transfer PI point data to OCS.  See ["What are PI identities and mappings?"](https://livelibrary.osisoft.com/LiveLibrary/content/en/server-v14/GUID-AD57C990-0DE6-4280-B9F3-1432C6E444C5) for more information. The following applies to PI mappings:
+PI mappings enable access to data stored on a PI Data Archive by service accounts assigned to a PI identity.  PI mappings can be created for a PI identity, user or group. Accounts assigned to a PI identity can read and transfer PI point data to OCS.  See ["What are PI identities and mappings?"](https://docs.osisoft.com/bundle/pi-server/page/what-are-pi-identities-and-mappings_new.html) for more information. The following applies to PI mappings:
 
 * The user account used to launch the utility must have permissions to create mappings.
 * You can edit mappings.

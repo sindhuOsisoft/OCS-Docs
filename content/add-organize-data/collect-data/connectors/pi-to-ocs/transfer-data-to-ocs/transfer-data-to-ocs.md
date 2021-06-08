@@ -91,7 +91,7 @@ You build an AF elements transfer by setting query criteria and then selecting t
 
 14. Click **Save** to add the selected AF elements to the transfer.
 
-    **Note:** You can continue adding AF elements after adding and saving a selection. AF Indexing needs to complete before you can view implicit PI points and start the transfer process.
+    **Note:** You can continue adding AF elements after adding and saving a selection. AF Indexing needs to be completed before implicit PI points are loaded and you can start the transfer process.
 
 ## View AF element details
 
