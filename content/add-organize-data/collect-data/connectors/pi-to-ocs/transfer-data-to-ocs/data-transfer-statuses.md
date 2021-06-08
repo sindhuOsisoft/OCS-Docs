@@ -1,10 +1,19 @@
 ---
+
 uid: data-transfer-statuses
 ---
 
 # Data transfer statuses
 
-The **Current Activity** field displays details about the status of a data transfer.
+You can view the current status of a transfer as streams gets created and data is sent to OCS on the **Details** tab.
+
+
+
+![](../..\images\data-statuses.png)
+
+## List of data statuses
+
+The table below contains a list of data statuses and their meanings.
 
 
 Data status | Meaning
