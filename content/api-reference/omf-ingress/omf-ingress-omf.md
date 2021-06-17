@@ -27,30 +27,10 @@ POST /api/v1/tenants/{tenantId}/namespaces/{namespaceId}/omf
 |Header|Type|Required|Description|
 |---|---|---|---|
 |MessageType|string|true|Describes the type of message contained in the message body. One of: `type`, `container`, or `data`.|
-
-#### Request Headers
-
-|Header|Type|Required|Description|
-|---|---|---|---|
 |MessageFormat|string|true|Describes the data serialization format employed in the message body. Currently limited to `json`.|
-
-#### Request Headers
-
-|Header|Type|Required|Description|
-|---|---|---|---|
 |OmfVersion|string|true|Specifies the version of the OSIsoft Message Format used in the message. Current supported versions are `1.0`, `1.1`, and `1.2`.|
-
-#### Request Headers
-
-|Header|Type|Required|Description|
-|---|---|---|---|
 |Action|string|false|Describes the action to be performed using the data in the message body. One of: `create`, `update`, or `delete`.
 If omitted, `create` is assumed.|
-
-#### Request Headers
-
-|Header|Type|Required|Description|
-|---|---|---|---|
 |Compression|string|false|The compression algorithm used to compress the message body. Currently limited to `gzip`. 
 If not specified, the message body is assumed to be uncompressed.|
 
