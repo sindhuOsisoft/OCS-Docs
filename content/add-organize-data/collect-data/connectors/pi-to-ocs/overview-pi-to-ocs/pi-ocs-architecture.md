@@ -13,11 +13,11 @@ This topic discusses the following information:
 
 PI to OCS enables you to transfer on-prem PI Server data to OCS from a PI Data Archive and an optional Asset Framework (AF) server using one PI to OCS Agent. The PI to OCS Agent creates and sends a transfer with select PI point data (metadata and PI events) and assets (AF elements and attributes) to OCS. <!--What else do we want to say here?-->
 
-![ ](..\..\images\pi-ocs-architecture.png)
+![ ](../../images/pi-ocs-architecture.png)
 
 ## Restrictions of PI to OCS architecture
 
-These are some restrictions to the PI to OCS architecture:
+These are some restrictions for PI to OCS architecture:
 
 * The connecting AF server must reference the connected PI Data Archive. The list of available PI Data Archive servers is based on what servers are referenced by elements on the AF server you selected.
 
@@ -52,4 +52,4 @@ This table lists what AF objects can and cannot be included in a PI to OCS data 
 
 The average data transfer rate is approximately 120-150 assets per second, and 1,000 assets per minute. Streams are created first, followed by AF element and asset data. If you use the same stream for various elements, the transfer time may be shorter.
 
-**Note:** There may be some variance to these numbers.
+**Note:** There numbers and rates may vary.

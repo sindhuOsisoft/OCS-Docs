@@ -33,4 +33,5 @@ If implicit PI points cannot be loaded to a transfer, details for these points a
    * **PI Points (Explicit)**: All the explicit PI points
 5. Click the **Export** button to open the **Save As** dialog box.
 6. In the `Save As` dialog box, navigate to where you want to save the file, enter a name for the .csv file, then click **Save**.
+
    **Result:** A .csv file that contains a list of your selected transfer details is saved.

@@ -37,7 +37,7 @@ You can open the PI to OCS Agent Configuration Utility to change server connecti
 
 The screen capture and table below point out and describe the fields in the PI to OCS Agent Configuration Utility. 
 
-   ![AF server details](../..\images\utility-callouts.png)
+   ![](../../images/utility-callouts.png)
 
 
 | Number  | Description                                                  |
@@ -76,11 +76,11 @@ The utility validates an AF server connection to ensure the following criteria i
 ### Procedure
 
   1. In the PI to OCS Agent Configuration Utility, click the **AF** button.
-![](..\..\images\utility-01.png)
+   ![](../../images/utility-01.png)
 2. Enter the name of your AF server in the **AF Server Name** text box, then click **Add Server**.
 
    **Result:** After successful detection, you are advanced to a screen that displays details about the data source connection and agent.
-![](..\..\images\af-details-refreshed.png)
+   ![](../../images/af-details-refreshed.png)
 ​	**Note:** After the AF Server is added, the utility searches for any PI Data Archives referenced by the AF Server.
 
 3. Review the AF source server details to ensure they are correct:
@@ -105,12 +105,12 @@ You can assign an AF mapping to an AF identity. AF mappings enable a specific se
 2. Click the pencil icon next to the **AF Mapping** field.
 
    **Result:** The **Configure AF Mapping** dialog box opens.
-   ![](..\..\images\af-mapping-db.png)
+   ![](../../images/af-mapping-db.png)
 3. Select an identity for the AF mapping.
 4. Click **Edit**. 
 
    **Result:** If successful, the AF mapping is created for the selected identity.
-   ![](..\..\images\success-af-map.png)
+   ![](../../images/success-af-map.png)
 
    **Note:** If an AF mapping has been created with another tool, a warning is displayed.  
 5. Click **Close** to exit.
@@ -124,11 +124,11 @@ After adding an AF server, you have the option of adding a source PI Data Archiv
 1. Click the **Add Data Archive** **Server** button in the PI to OCS Agent Configuration Utility.
 
    **Result**:  The first screen of the **PI to OCS Agent Configuration Utility** opens.
-   ![](..\..\images\utility-03.png)
+   ![](../../images/utility-03.png)
 2. In the **Data Archive Server Name** text box, enter the name of the PI Data Archive server you want to add, then click **Add Server**.
 
    **Result:** The PI Data Archive connection is added and details about the newly added PI Data Archive are displayed.
-   ![PI Data Archive connection details](..\..\images\utility-pda-details.png)
+   ![](../../images/utility-pda-details.png)
 3. Review the following details for your PI Data Archive:
    * Server name, version, and server ID
    * IP address
@@ -145,7 +145,7 @@ After adding an AF server, you have the option of adding a source PI Data Archiv
 
 ## Create a PI mapping 
 
-PI mappings enable access to data stored on a PI Data Archive by service accounts assigned to a PI identity.  PI mappings can be created for a PI identity, user or group. Accounts assigned to a PI identity can read and transfer PI point data to OCS.  See ["What are PI identities and mappings?"](https://livelibrary.osisoft.com/LiveLibrary/content/en/server-v14/GUID-AD57C990-0DE6-4280-B9F3-1432C6E444C5) for more information. The following applies to PI mappings:
+PI mappings enable access to data stored on a PI Data Archive by service accounts assigned to a PI identity.  PI mappings can be created for a PI identity, user or group. Accounts assigned to a PI identity can read and transfer PI point data to OCS.  See ["What are PI identities and mappings?"](https://docs.osisoft.com/bundle/pi-server/page/what-are-pi-identities-and-mappings_new.html) for more information. The following applies to PI mappings:
 
 * The user account used to launch the utility must have permissions to create mappings.
 * You can edit mappings.
@@ -157,7 +157,7 @@ PI mappings enable access to data stored on a PI Data Archive by service account
 2. Click the pencil icon next to the **PI Mapping** field.
    **Result:** The **Configure Mapping** dialog box opens.
 
-![Configure Mapping dialog box](..\..\images\configure-mapping-window.png)
+   ![](../../images/configure-mapping-window.png)
 
 3. Select one of the identities for the PI mapping, then click **Edit**.
 
@@ -169,16 +169,16 @@ PI mappings enable access to data stored on a PI Data Archive by service account
 
 You can set data privacy settings and assign a descriptive name to an agent. Data privacy controls if a host name of a PI Data Archive is published and displayed in OSIsoft Cloud Services (OCS). By default, OCS does not publish host names.  If you opt to have a host name published, it appears in the OCS portal on the `PI to OCS Agents` window as shown here. 
 
-![Agent description and hostname displayed in PI to OCS Agents window](..\..\images\pi-to-ocs-agents-hostname.png)
+![](../../images/pi-to-ocs-agents-hostname.png)
 
-This description appears where the agent is referenced and allows you to search by agent description.
+This description appears where the agent is referenced in OCS and allows you to search by agent description.
 
 ### Procedure
 
 1. In the `PI to OCS Agent Configuration Utility` window, click the pencil icon to the right of **Agent Service Account**.
    **Result:** The **PI to OCS Agent Settings** dialog box opens.
 
-   ![PI to OCS Agent Settings dialog box](..\..\images\pi-2-ocs-agent-settings-dialog.png)
+   ![PI to OCS Agent Settings dialog box](../../images/pi-2-ocs-agent-settings-dialog.png)
 
 2. Under **Data Privacy**, select the **Opt-in to publishing PI to OCS Agent Hostname in OCS** option.
 
