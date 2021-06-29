@@ -7,12 +7,11 @@ uid: data-transfer-statuses
 
 As streams are created and data is sent to OCS, you can view the data status or current activity of a transfer.
 
-![Transfer status is shown in the Current Activity field on the Details pane.](../..\images\data-statuses.png)
+![](..\..\images\data-statuses.png)
 
 ## List of data statuses
 
-This table provides a list of data statuses and their meanings.
-
+For a list of data statuses and definitions, see the table below.
 
 Data status | Meaning
 ---------|-----------

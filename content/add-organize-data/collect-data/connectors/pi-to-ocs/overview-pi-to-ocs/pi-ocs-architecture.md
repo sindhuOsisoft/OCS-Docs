@@ -4,11 +4,16 @@ uid: pi-to-ocs-architecture
 
 # PI to OCS architecture
 
-PI to OCS enables you to connect and transfer your on-prem data to OCS from one PI Data Archive and one optional Asset Framework (AF) server using one PI to OCS Agent. The PI to OCS Agent creates and sends a transfer that contains the requested PI point data (metadata and PI events) and assets (AF elements and attributes) to OCS. <!--What else do we want to say here?-->
+This topic discusses the following information:
 
-![ ](../..\images\pi-ocs-architecture.png)
+* PI to OCS architecture
+* Restrictions of PI to OCS architecture
+* What AF data is transferrable?
+* Performance metrics for AF data
 
+PI to OCS enables you to transfer on-prem PI Server data to OCS from a PI Data Archive and an optional Asset Framework (AF) server using one PI to OCS Agent. The PI to OCS Agent creates and sends a transfer with select PI point data (metadata and PI events) and assets (AF elements and attributes) to OCS. <!--What else do we want to say here?-->
 
+![ ](..\..\images\pi-ocs-architecture.png)
 
 ## Restrictions of PI to OCS architecture
 
@@ -18,10 +23,9 @@ These are some restrictions to the PI to OCS architecture:
 
 * The same PI to OCS Agent is required to transfer data from the on-prem PI Data Archive and AF server.
 
-## What AF data is transferred?
+## What AF data is transferrable?
 
 You can transfer the following AF element data into OCS:
-
 
 * Simple PI point attributes
 * Static attribute values
@@ -44,9 +48,8 @@ This table lists what AF objects can and cannot be included in a PI to OCS data 
 | Implicit PI points with multiple attributes on an AF element | Only one attribute will be transferred |
 | Implicit PI points with attributes that reference other attributes | No                                     |
 
-## Performance metrics: AF data transfer
+## Performance metrics for AF data transfers
 
 The average data transfer rate is approximately 120-150 assets per second, and 1,000 assets per minute. Streams are created first, followed by AF element and asset data. If you use the same stream for various elements, the transfer time may be shorter.
 
 **Note:** There may be some variance to these numbers.
-
