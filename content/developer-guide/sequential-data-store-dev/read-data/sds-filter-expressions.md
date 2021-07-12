@@ -3,7 +3,7 @@ uid: sdsFilterExpressions
 ---
 
 # Filter expressions for SDS values
-Filter expressions can be applied to read operations such as [`Get Values`](xref:sdsReadingDataApi#get-values) and [`Get Summaries`](xref:sdsReadingDataApi#get-summaries) that return Sequential Data Store (SDS) values.
+Filter expressions can be applied to read operations such as [List Values](xref:sds-stream-data#list-values) and [List Summaries](xref:sds-stream-data#list-summaries) that return Sequential Data Store (SDS) values.
 
 
 ## SdsTypeCodes
@@ -46,6 +46,10 @@ expression:
 | ``and``    | And logical operator                                |
 | ``not``    | Not logical operator                                |
 | ``-``      | Negation                                            |
+
+> [!NOTE]
+> You use logical operators on ordered properties.
+> When filtering on an ordered property, performance improves significantly if the property is a [secondary index](xref:sdsIndexes#secondary-indexes).   
 
 ### Examples of logical operators
 The examples below assume that the SdsType event includes a field named ``Value`` of type *double*: 
