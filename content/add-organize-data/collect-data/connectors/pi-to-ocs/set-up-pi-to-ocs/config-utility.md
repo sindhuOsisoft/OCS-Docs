@@ -2,7 +2,7 @@
 uid: pi-to-ocs-utility
 ---
 
-# Use the PI to OCS Agent Configuration Utility
+# Run the PI to OCS Agent Configuration Utility
 
 The PI to OCS Agent Configuration Utility is used to configure AF server and PI Data Archive server connection settings prior to transferring data into OCS. After a PI to OCS Agent installation or upgrade, you can use the utility to add or change the source PI Data Archive and/or AF server, view connection details, create and add AF and PI mappings, and set data privacy settings.
 
@@ -75,14 +75,14 @@ The utility validates an AF server connection to ensure the following criteria i
 
 ### Procedure
 
-  1. In the PI to OCS Agent Configuration Utility, click the **AF** button.
+1. In the PI to OCS Agent Configuration Utility, click the **AF** button.
    ![](../../images/utility-01.png)
 2. Enter the name of your AF server in the **AF Server Name** text box, then click **Add Server**.
 
    **Result:** After successful detection, you are advanced to a screen that displays details about the data source connection and agent.
    ![](../../images/af-details-refreshed.png)
-​	**Note:** After the AF Server is added, the utility searches for any PI Data Archives referenced by the AF Server.
-
+   
+   **Note:** After the AF Server is added, the utility searches for any PI Data Archives referenced by the AF Server.
 3. Review the AF source server details to ensure they are correct:
    * AF server name, version & ID
    * IP address
@@ -155,6 +155,7 @@ PI mappings enable access to data stored on a PI Data Archive by service account
 1. Navigate to the PI Data Archive details page in the `PI to OCS Agent Configuration Utility` window.
 
 2. Click the pencil icon next to the **PI Mapping** field.
+
    **Result:** The **Configure Mapping** dialog box opens.
 
    ![](../../images/configure-mapping-window.png)
@@ -162,6 +163,7 @@ PI mappings enable access to data stored on a PI Data Archive by service account
 3. Select one of the identities for the PI mapping, then click **Edit**.
 
    **Result:** The PI mapping is created for the selected identity, group or user.
+
    **Note:** If a PI mapping has already been created with another tool, a warning is displayed. 
 4. Click **Close** to return to the utility.
 
@@ -176,6 +178,7 @@ This description appears where the agent is referenced in OCS and allows you to 
 ### Procedure
 
 1. In the `PI to OCS Agent Configuration Utility` window, click the pencil icon to the right of **Agent Service Account**.
+
    **Result:** The **PI to OCS Agent Settings** dialog box opens.
 
    ![PI to OCS Agent Settings dialog box](../../images/pi-2-ocs-agent-settings-dialog.png)
