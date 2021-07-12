@@ -5,6 +5,7 @@ uid: pi-point-change
 # Point type change
 
 When the source PI Data Archive tag changes point type, PI to OCS Services will detect this change and present the transfer status as “PI Point Type Change Detected”.
+
 The user must manually decide what to do with the destination SDS stream as well as data that has already been transferred.  The SDS stream in question will appear in the log files. The PI to OCS service cannot make an informed decision of why this point change occurred for the following reasons:
 
 * The source tag had an incorrect configuration of data and type. The data and tag must be deleted and recreated.

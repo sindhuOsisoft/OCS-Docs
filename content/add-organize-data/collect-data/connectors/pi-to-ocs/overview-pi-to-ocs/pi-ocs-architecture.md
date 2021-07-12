@@ -52,4 +52,4 @@ This table lists what AF objects can and cannot be included in a PI to OCS data 
 
 The average data transfer rate is approximately 120-150 assets per second, and 1,000 assets per minute. Streams are created first, followed by AF element and asset data. If you use the same stream for various elements, the transfer time may be shorter.
 
-**Note:** There numbers and rates may vary.
+**Note:** Transfer rates may vary.

@@ -12,7 +12,7 @@ The following tasks must be performed before you can complete a data transfer:
 2. Configure your PI Data Archive and/or AF server connections.
 3. Optional: Set an historical start-end date and time.
 4. Build and save your transfer list(s).
-5. Transfer selected data into OCS. 
+5. Transfer selected data into OCS.
 
 ## Slow moving PI points
 
@@ -30,7 +30,7 @@ During transfer creation, you can choose to include historical data. A historica
 
 ### What is backfilling?
 
-Backfilling comes into play only when a PI to OCS Agent goes down after it has begun work on a transfer. When it goes down due to being stopped or because the PI to OCS Agent Windows service shuts down, it loses its update signup. For example, if the service has been down for two hours, it will have to re-signup for updates when it becomes available; however, it doesn't have a way to get the data for those two hours it was down using updates. In this case, the backfill transfer job will fill the gap for those two hours and then shut down just like the historical transfer shuts down after it has finished.
+Backfilling comes into play only when a PI to OCS Agent goes down after it has begun work on a transfer. When an agent goes down, it loses its update signup. An agent might go down because it gets stopped or the PI to OCS Agent Windows service shuts down. For example, if the service has been down for two hours, it will have to re-signup for updates when it becomes available; however, it doesn't have a way to get the data for those two hours it was down using updates. In this case, the backfill transfer job will fill the gap for those two hours and then shut down just like the historical transfer shuts down after it has finished.
 
 ### Summary of historical transfer vs. backfilling
 
