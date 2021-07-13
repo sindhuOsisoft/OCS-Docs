@@ -4,7 +4,7 @@ uid: install-agent
 
 # Install the PI to OCS Agent
 
-When you install the PI to OCS Agent, make sure to do the following:
+When you install the PI to OCS Agent, follow these guidelines:
 
 * Install the agent on a host computer separate from your PI Data Archive deployment
 * Use an account that has been granted Administrator privileges
@@ -12,6 +12,14 @@ When you install the PI to OCS Agent, make sure to do the following:
 You can download the PI to OCS Agent Installation kit and then transfer it to the computer that will host the agent.
 
 **NOTE:** The PI to OCS Agent installation cannot be completed if the system time is not correct. Additionally, you will not be able to complete the PI to OCS Agent installation if Internet Explorer Enhanced Security configuration is enabled. See [Disable Internet Explorer Enhanced Security Configuration](xref:disable-ie-security) for details. 
+
+## Configure access to PI Data Archive Security tables and PI point data
+
+**IMPORTANT:** You must have read access to the following data on PI Data Archive:
+
+* Archive data (the PIARCDATA Security table)
+* The PI points configuration table (PIPOINT Security table)
+* The PI points and data to be transferred
 
 ## Topics in this section
 
