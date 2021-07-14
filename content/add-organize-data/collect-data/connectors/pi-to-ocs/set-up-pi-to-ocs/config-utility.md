@@ -30,12 +30,12 @@ Install the [PI to OCS Agent](xref:install-agent). To open the PI to OCS Agent C
 
 1. Click the ![](../../images/pda-source-icon.png) button in the PI to OCS Agent Configuration Utility.
    
-   ![](../../images/utility-01.png)
+   ![](../../images/config-utility-screen-01.png)
    
 2. Enter the name of the source PI Data Archive in the text box, then click **Add Server**.
 
    **Result:** After successful detection, the PI Data Archive connection is added and you are advanced to the next page of the utility.
-   ![PI Data Archive connection details](../../images/utility-02.png)
+   ![PI Data Archive connection details](../../images/config-utility-screen-02.png)
 
 3. Review the following details for your PI Data Archive:
    * Server name, version, and server ID
@@ -78,7 +78,9 @@ PI mappings enable access to data stored on a PI Data Archive by service account
 
 ## Set data privacy and add an agent description
 
-You can set data privacy settings and assign a descriptive name to an agent in the PI to OCS Agent Settings dialog box. In the OCS portal, this description appears where the agent is referenced, and also allows you to search by agent name. Data privacy settings control if the host name of a PI Data Archive is published and displayed in OSIsoft Cloud Services (OCS). 
+You can set data privacy settings and assign a descriptive name to an agent in the PI to OCS Agent Settings dialog box. In the OCS portal, this description appears where the agent is referenced, and also allows you to search by agent name. Data privacy settings control if the host name of a PI Data Archive is published and displayed in OSIsoft Cloud Services (OCS). If you opt to have a host name published, it appears in the OCS portal on the PI to OCS Agents window as shown in the screen capture below.
+
+![](../../images/agent-settings.png)
 
 **Note:**  By default, OCS does not publish host names.  If you opt to have the host name published, it appears in the OCS portal on the PI to OCS Agents window. 
 
@@ -89,7 +91,7 @@ You can set data privacy settings and assign a descriptive name to an agent in t
 
    ![PI to OCS Agent Settings dialog box](../../images/agent-settings.png)
 
-2. To have your PI to OCS Agent's hostname visible and published in OCS, select the **Opt-in to publishing PI to OCS Agent Hostname in OCS?** option.
+2. To have your PI to OCS Agent's hostname visible and displayed in OCS on the PI to OCS Agent page, select the **Opt-in to publishing PI to OCS Agent Hostname in OCS?** option.
 
 3. **Optional:** Enter a descriptive name for the agent In the **PI to OCS Agent Description** text box.
 

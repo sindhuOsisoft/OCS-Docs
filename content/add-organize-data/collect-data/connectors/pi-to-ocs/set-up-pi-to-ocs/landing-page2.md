@@ -13,4 +13,4 @@ This section contains the following topics:
 * [Run the PI to OCS Agent Configuration Utility](xref:pi-to-ocs-utility)
 
 
-**IMPORTANT:** Read access to PI Data Archive Security tables and PI point data is required to transfer data to OCS. See [PI to OCS minimum system requirements](xref:min-sys-reqmnts) for more information. 
+**IMPORTANT:** The account used to run the PI to OCS Service requires read permission to PI Data Archive security tables and PI point data. See [PI to OCS minimum system requirements](xref:min-sys-reqmnts) for more information.

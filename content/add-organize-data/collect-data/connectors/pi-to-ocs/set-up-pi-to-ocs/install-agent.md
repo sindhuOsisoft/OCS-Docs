@@ -15,7 +15,7 @@ You can download the PI to OCS Agent Installation kit and then transfer it to th
 
 ## Configure access to PI Data Archive Security tables and PI point data
 
-**IMPORTANT:** You must have read access to the following data on PI Data Archive:
+**IMPORTANT:** The account used to run the PI to OCS Service requires read permission to the following PI Data Archive tables and data:
 
 * Archive data (the PIARCDATA Security table)
 * The PI points configuration table (PIPOINT Security table)
@@ -65,7 +65,7 @@ This topic contains these sections:
     * **NT Service**: Use an NT account to connect to PI Data Archive.
     * **This account**: Specify a user name and password (domain\account) to connect to PI Data Archive.
 
-    **Note:** The service account must have Administrator privileges and read access to certain data on PI Data Archive.
+    **Note:** The account used to run the PI to OCS Service requires Administrator privileges and read permission to the PIARCDATA Security table, the PIPOINT Security table, and the PI points and data to be transferred.
 
 12. Click **Install**.
 
@@ -93,4 +93,4 @@ After installation, check that the PI to OCS Agent Windows service is running on
 4. On the **Details** pane, Verify that "Registered" appears next to the **Agent Status** field.
 ![Agent status](../../images/details-pane.png)
 
-   **Note:**  The agent status is also displayed in the PI to OCS Configuration Utility.  See [List of agent status states](xref:pi-to-ocs-utility) for a list of states and descriptions that explain why an agent may not be running.
+   **Note:**  The agent status is also displayed in the PI to OCS Configuration Utility.  See [List of agent status states](xref:pi-to-ocs-utility#list-of-agent-status-states) for a list of states and descriptions that explain why an agent may not be running.
