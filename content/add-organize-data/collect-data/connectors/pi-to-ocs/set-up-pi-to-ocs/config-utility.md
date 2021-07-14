@@ -80,7 +80,7 @@ PI mappings enable access to data stored on a PI Data Archive by service account
 
 You can set data privacy settings and assign a descriptive name to an agent in the PI to OCS Agent Settings dialog box. In the OCS portal, this description appears where the agent is referenced, and also allows you to search by agent name. Data privacy settings control if the host name of a PI Data Archive is published and displayed in OSIsoft Cloud Services (OCS). If you opt to have a host name published, it appears in the OCS portal on the PI to OCS Agents window as shown in the screen capture below.
 
-![](../../images/agent-settings.png)
+![](../../images/pi-to-ocs-agents-hostname.png)
 
 **Note:**  By default, OCS does not publish host names.  If you opt to have the host name published, it appears in the OCS portal on the PI to OCS Agents window. 
 
