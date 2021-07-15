@@ -15,7 +15,7 @@ Follow the [Get started with streams](xref:gsStreams) procedure and create a sec
 
 ## Procedure
 
-Follow the procedures below to create a data view and customize how the data is displayed and organized:
+Follow the procedure below to create a data view and customize how the data is displayed and organized:
 
 1. [Add the data view](#add-data-view)
 2. [Change the data view shape](#change-shape)
@@ -28,7 +28,7 @@ Follow the procedures below to create a data view and customize how the data is 
 
 ### <a name="add-data-view"></a>Step 1: Add the data view
 
-In this procedure, you add the streams that you want to include in your data view.
+In this step, you add the streams that you want to include in your data view.
 
 1. Click the ![Menu icon](images/menu-icon.png) icon and click **Data Views** (under Analytics).
 
@@ -36,7 +36,7 @@ In this procedure, you add the streams that you want to include in your data vie
 
 1. In the toolbar, click **Add Data View**.
 
-1. In the `Add Data View` pane, enter the following:
+1. Enter the following in these fields:
 
    - `Name` &ndash; **MyOCS.DataView**
    - `Description` &ndash; (Optional) Enter a description for the data view
@@ -51,46 +51,58 @@ In this procedure, you add the streams that you want to include in your data vie
     - MyOCS.NorthAmerica.SLTC.PumpA
     - MyOCS.NorthAmerica.SLTC.PumpB
 
-    **Note:** You can define additional queries to include other streams. Click **Add Query** in the left pane.
+    **Note:** 
+
+    - You can switch to searching for assets instead of streams by choosing **Assets** as the **Query Type**. 
+
+    - It is possible to define additional queries to include other streams by clicking **Add Query**. For the purpose of this exercise, we will not add more streams.
 
     ![Add Data View](images/add-data-view.png)
 
-6. Click **Save** to save the data view and open the `Configure Data View` page.
+6. Click **Save** to save the data view and open the <!--`Configure Data View` --> next page where you configure the data view.
 
-### The Configure Data View page
+### <!--The Configure Data View page -->
 
-The following is a screen capture of the Configure Data View page.
+1. Click **Generate Preview**.
 
-![Configure Data View page](images/configure-data-view-page.png)
+   <!-- Retake screen capture. "Capture Data View" was removed. Generate Preview button added. -->
 
- A preview of your data view results appears in a table in the right pane: 
+   ![Configure Data View page](images/configure-data-view-page.png)
 
-   - By default, the left most column is the property used to index your streams, in this example, Timestamp. <!-- Am I getting this right? Is the indexed property always in the first column? --> 
-   - The next column is Name, the name of the stream that contains the data displayed in this row.
-   - The remaining columns are the value properties of the stream. The column name is the value property name, followed by the unit of measure, if applicable. In this example, the columns are named Pressure kg/m3, Status, and Temperature °C. 
-   - Each row displays data for either the MyOCS.NorthAmerica.SLTC.PumpA stream or the MyOCS.NorthAmerica.SLTC.PumpB stream.
+    A preview of your data view results appears in a table in the right pane: 
+
+      - By default, the left most column is the property used to index your streams, in this example, Timestamp. 
+      - The next column is Name, the name of the stream that contains the data displayed in this row.
+      - The remaining columns are the value properties of the stream. The column name is the value property name, followed by the unit of measure, if applicable. In this example, the columns are named Pressure kg/m3, Status, and Temperature °C. 
+      - Each row displays data for either the MyOCS.NorthAmerica.SLTC.PumpA stream or the MyOCS.NorthAmerica.SLTC.PumpB stream.
+   
+2. Click **Auto Refresh**.
+
+   As you configure your data view in the left pane, the preview in the right pane automatically updates to reflect the choices you make.
+
+
 
 ###  <a name="change-shape"></a>Step 2: Change the data view shape
 
-By changing the data view shape, you can create a consistent table format for your data views. This procedure describes how to display the minimum properties or the full set of properties.
+By changing the data view shape, you can create a consistent table format for your data views. This step describes how to display the minimum properties or the full set of properties.
 
-1. In the upper pane, find the **Data View Shape** field. Click **Narrow** and then click **Apply** in the lower right corner of the left pane. 
+1. In the upper pane, find the **Data View Shape** field. Click **Narrow**<!-- and then click **Apply** in the lower right corner of the left pane-->. <!-- Need a new screen capture here. -->
 
    ![Data View Shape](images/data-view-shape.png)
 
    The **Narrow** option removes all other columns from the table and displays only the following columns: Timestamp, Name, Field, and Value. The narrow data shape may be useful in ensuring a consistent table format for any data view. 
 
-2. Click **Standard**, and then click **Apply** before continuing to the next step. 
+2. Click **Standard**<!--, and then click **Apply**--> before continuing to the next step. 
 
-   To edit the query or add additional streams with another query, click **Manage Queries.** This returns you to the `Manage Queries` page. 
+   To edit the query or add additional streams with another query, click **Manage Queries.** <!-- This returns you to the `Manage Queries` page. -->
 
-3. After you are finished editing or adding a query, click **Apply** or **Cancel** to return to the `Configure Data View` page. 
+3. After you are finished editing or adding a query, click **Apply** or **Cancel and Return** to return to the<!-- `Configure Data View`--> configuration page. 
 
 ### <a name="add-data-fields"></a>Step 3: Add data fields to the data view
 
-In this procedure, you add the data fields to the data view and specify that the UOM is displayed.
+In this step, you add the data fields to the data view and specify that the UOM is displayed.
 
-1. In the left pane, under **Field Management**, click **Add** to open the `Add Data Fields` dialog.
+1. In the left pane, click **Add** to open the `Add Data Fields` dialog.
 
    The fields for the MyOCS query are displayed.
 
@@ -98,7 +110,7 @@ In this procedure, you add the data fields to the data view and specify that the
 
     The number in the **Apply (2)** indicates the number of pending changes to the data fields and increments as you make additional changes.
 
-3. Click the **X** in the **Value** box to remove the summary type filter. <!-- What is the Value filter filtering? And once deleted, how do you restore this filter -->
+3. The **Value** box indicates that the fields are filtered to display only value fields, and summary fields are not displayed. Click the **X** in the **Value** box to remove the filter.
 
     ![Add Data Fields](images/add-data-fields.png)
 
@@ -108,17 +120,17 @@ In this procedure, you add the data fields to the data view and specify that the
 
     ![Edit Data Fields](images/edit-data-fields.png)
 
-    In this step, you can give the column a user-friendly name, different from the field name in the source. You can select the **Include UoM as a column** checkbox to add a column for the UoM of each data field, if it is applicable. Explore these options and preview the results. When you are finished, click **Back**.
+    In this step, you can give the column a user-friendly name, different from the field name in the source. You can select the **Include UoM as a column** checkbox to add a column for the UoM of each data field, if it is applicable. 
 
-5. Click **Apply** to add the three fields with the default options.
+5. Click **Apply (3)** to add the three fields with the default options.
 
     Three new columns are added to the data view.
 
 ### <a name="remove-data-fields"></a>Step 4: Remove data fields from the data view
 
-In this procedure, you remove the Id field from the data view.
+In this step, you remove the Id field from the data view.
 
-1. Select the **{IdentifyingValue} Id** checkbox under the MyOCS stream. 
+1. Select the **IdentifyingValue Id** checkbox under the MyOCS stream. 
 
 1. Click the **More Options** menu and click **Remove**. 
 
@@ -132,19 +144,17 @@ In this procedure, you remove the Id field from the data view.
 
 In this procedure, you change the Site column label. Before you begin, scroll through the preview and locate the Site column.
 
-1. Select the **{IdentifyingValue}Site{UoM}** checkbox under the MyOCS stream.
+1. Select the **IdentifyingValue Site UoM** checkbox under the MyOCS stream.
 
 1. Click the **More Options** menu, and click **Edit** to open the `Edit Data Fields` dialog.
 
-1. In the `Data Field Label` field, enter **{identifyingValue} City**.
+1. In the `Data Field Label` field, enter **{IdentifyingValue} City**.
 
 1. (Optional) Select the **Include UoM as a column** checkbox to add a column with the UoM for the data field.
 
 1. Click **Apply**. 
 
     The column heading changes from *Site* to *City* and a City Uom column is added to the preview.
-    
-    <!-- We are inconsistent in how we capitalize UoM. In the UI, we use UoM, but in the column heading, it's Uom. I've also seen it used elsewhere in all caps, UOM. -->
 
 ### <a name="add-stream-names"></a>Step 6: Add stream names to the column headings
 
@@ -152,9 +162,9 @@ Notice the number of rows in the data view preview displayed at the bottom of th
 
 ![Rows in Preview Table](images/table-total-rows.png)
 
-In this procedure, you remove the grouping field and decrease the total number of rows in the view. Then you add an `Id` field name to the column labels, making it easier to identify the stream associated with the data.
+In this step, you remove the grouping field and decrease the total number of rows in the view. Then you add an `Id` field name to the column labels, making it easier to identify the stream associated with the data.
 
-1. In the **Grouping Fields** section in the left pane, select the **{IdentifyingValue} Name** checkbox. 
+1. In the **Grouping Fields** section in the left pane, select the **IdentifyingValue Name** checkbox. 
 
 1. Click the **More Options** menu, and click **Ungroup Field > All Eligible Queries**.
 
@@ -162,11 +172,9 @@ In this procedure, you remove the grouping field and decrease the total number o
 
     ![Grouping Fields](images/grouping-fields.png)
 
-1. Click **Apply**.
-
     The data preview is changed in the following way:
 
-    - The number of rows is reduced. There is one row, rather than multiple rows, for each timestamp.
+    -  The number of rows is reduced. There is one row, rather than multiple rows, for each timestamp.
 
     - Each row includes data for both streams. Each column label has a number appended to it. This distinguishes columns with the same labels, for example, Name.7 and Name.14.
 
@@ -180,21 +188,21 @@ In this procedure, you remove the grouping field and decrease the total number o
 
 1. Click **Apply**.
 
-    The column labels are prepended with the stream name. The *Name* column is prepended with the stream name *MyOCS.NorthAmerica.SLTC.PumpB*. 
-    
-    ![Identifying field](images/identifying-field-column.png)
-    
-    By default, data views are grouped by the stream name. However, if no grouping field is used, appending an identifying label to the column labels makes it easier to see which columns are associated with which stream. 
+The column labels are prepended with the stream name. In the screen capture below, the *Name* column is prepended with the stream name *MyOCS.NorthAmerica.SLTC.PumpB*. 
+
+![Identifying field](images/identifying-field-column.png)
+
+By default, data views are grouped by the stream name. However, if no grouping field is used, appending an identifying label to the column labels makes it easier to see which columns are associated with which stream. 
 
 ### <a name="change-field-order"></a>Step 7: Change the order of the fields
 
-In this procedure, you reorder the fields in the data view. 
+In this step, you reorder the fields in the data view. 
 
-1. In the **Grouping Fields** section, click the **{IdentifyingValue} City** field. 
+1. In the **MyOCS** section, click the **IdentifyingValue City** field. 
 
-2. Click the ![Up arrow](images/up-arrow.png)in the **Field Management** toolbar to move it to the top of the list, and click **Apply**.
+2. Click the ![Up arrow](images/up-arrow.png)in the **Field Management** toolbar until the field is moved to the top of the list.
 
-    The Site column is moved to the left of the table.
+    The Site column is moved to the left side of the table, following the Timestamp column.
 
 ### <a name="specify-time-range"></a>Step 8: Specify the data view time range 
 
@@ -202,7 +210,7 @@ The time range for the data in the table is displayed below the preview.
 
 ![Time range](images/time-range.png)
 
-In this procedure, you set a default time range for the data view.
+In this step, you set a default time range for the data view.
 
 1. (Optional) Click the time range button to open the dialog where you can set the **Start Index (Local)**, **End Index (Local)**, and **Time Interval**. 
 
@@ -212,7 +220,7 @@ In this procedure, you set a default time range for the data view.
 
     - When you execute a data query, you must specify a start index, end index, and interpolation interval. If this is not specified, the data query results in an error.
 
-    - Save the time range settings by selecting **Save Defaults with Data View**.  These saved settings are used, by default, when you execute a query.
+    - Save the time range settings by selecting **Save Defaults with Data View**. These saved settings are used, by default, when you execute a query that does not specify a time range and interval.
 
     - You can override any defaults before the data view query is executed. 
 
