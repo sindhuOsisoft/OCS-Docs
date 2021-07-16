@@ -114,7 +114,7 @@ It may take a few minutes for your PI System to be registered. The following sta
 
 You can open the PI to OCS Agent Configuration Utility to change server connections and other settings after the initial setup. 
 
-**Note:** If you're not the original user who installed the agent, the new user account will need to be authenticated in OCS before access is granted to the utility. 
+**Note:** If you're not the original user who installed the agent, the user account used needs to be authenticated in OCS before you can access the utility.
 
 ### Procedure
 
