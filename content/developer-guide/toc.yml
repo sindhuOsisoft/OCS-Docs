@@ -10,3 +10,6 @@
 - name: OSIsoft Message Format
   href: omf-dev/toc.yml
   topicHref: omf-dev/omf-lp.md
+- name: Data views
+  href: data-views-dev/toc.yml
+  topicHref: data-views-dev/data-views-overview.md
