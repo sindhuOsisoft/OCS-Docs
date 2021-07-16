@@ -4,7 +4,7 @@ uid: install-agent
 
 # Install the PI to OCS Agent
 
-When you install the PI to OCS Agent, follow these guidelines:
+Follow these guidelines to install the PI to OCS Agent:
 
 * Install the agent on a host computer separate from your PI Data Archive deployment
 * Use an account that has been granted Administrator privileges
