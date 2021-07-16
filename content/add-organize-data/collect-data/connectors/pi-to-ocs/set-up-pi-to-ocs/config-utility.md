@@ -4,7 +4,7 @@ uid: pi-to-ocs-utility
 
 # Run the PI to OCS Agent Configuration Utility
 
-Use the PI to OCS Agent Configuration Utility to configure your PI Data Archive server connection settings before creating a data transfer. After a PI to OCS Agent installation or upgrade, use the utility to add or change the source PI Data Archive, view connection details, add PI mappings, and set data privacy settings.
+Use the PI to OCS Agent Configuration Utility to configure your PI Data Archive server connection settings before creating a transfer and after an agent upgrade. You can use the utility to change a data source, view connection details, add PI mappings, and set data privacy settings.
 
 ### Topics in this section
 
@@ -53,11 +53,11 @@ Install the [PI to OCS Agent](xref:install-agent). To open the PI to OCS Agent C
 
 8. **Optional:** If you are finished, click **Exit**.
 
-   **Note:** You must click **Save** to finish setting up your PI Data Archive connection.  
+   **Note:** You must click **Save** to save your PI Data Archive connection settings.  
 
 ## Create a PI mapping 
 
-PI mappings enable access to data stored on a PI Data Archive by service accounts assigned to a PI identity.  PI mappings can be created for a PI identity, user or group. Accounts assigned to a PI identity can read and transfer PI point data to OCS. See ["What are PI identities and mappings?"](https://docs.osisoft.com/bundle/pi-server/page/what-are-pi-identities-and-mappings_new.html) for more information. The following applies to PI mappings:
+PI mappings enable access to data stored on a PI Data Archive by service accounts assigned to a PI identity.  PI mappings are created for a PI identity, user or group. Accounts assigned to a PI identity can read and transfer PI point data to OCS. See ["What are PI identities and mappings?"](https://docs.osisoft.com/bundle/pi-server/page/what-are-pi-identities-and-mappings_new.html) for more information. The following applies to PI mappings:
 
 * The user account used to launch the utility must have permissions to create mappings.
 * You can edit mappings.
@@ -66,13 +66,13 @@ PI mappings enable access to data stored on a PI Data Archive by service account
 
 1. In the PI to OCS Agent Configuration Utility, click the pencil icon next to the **PI Mapping** field to open the **Configure Mapping** dialog box.
 
-![Configure Mapping dialog box](../../images/configure-mapping-db.png)
+   ![Configure Mapping dialog box](../../images/configure-mapping-db.png)
 
 2. Select an identity for the PI mapping under Identity.
 3. Click **Edit**.
-   
+
    **Result:** The PI mapping is created for the selected identity, group or user.
-   
+
    **Note:** If a PI mapping has already been created with another tool, a warning is displayed. 
 4. Click **Close** to return to the utility, then click **Save**.
 

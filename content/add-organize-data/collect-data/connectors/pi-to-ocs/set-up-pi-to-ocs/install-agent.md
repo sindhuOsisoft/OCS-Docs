@@ -42,8 +42,10 @@ This topic contains these sections:
 4. Navigate to the downloaded PI to OCS agent installation file.
 2. Right-click the PI to OCS Agent installation file, then click **Run as administrator**.
 6. Click **Yes**.
+
    **Result**: The Welcome page opens.
 7. Click **Next**.
+
    **Result:** The Company Information page opens.
    ![](../../images/agent-co-info.png)
 8. Enter your OCS tenant ID or company alias in the **Tenant ID or Company Alias** text box, then click **Next**.
@@ -65,7 +67,7 @@ This topic contains these sections:
     * **NT Service**: Use an NT account to connect to PI Data Archive.
     * **This account**: Specify a user name and password (domain\account) to connect to PI Data Archive.
 
-    **Note:** The account used to run the PI to OCS Service requires Administrator privileges and read permission to the PIARCDATA Security table, the PIPOINT Security table, and the PI points and data to be transferred.
+    **IMPORTANT:** The account used to run the PI to OCS Service requires Administrator privileges. Read permission to the PIARCDATA Security and PIPOINT Security tables, and the PI points and data to be transferred is also required.
 
 12. Click **Install**.
 
@@ -78,7 +80,7 @@ This topic contains these sections:
     
     **Result**: The PI to OCS Configuration Utility opens. See [Run the PI to OCS Agent Configuration Utility](xref:pi-to-ocs-utility) for instructions.
 
-    **Note:** An agent cannot be registered until a PI Data Archive server has been added and configured.
+    **Note:** The PI to OCS Agent is not registered until you add and configure a PI Data Archive.
 
 ## Verify the PI to OCS Agent is running and registered
 
