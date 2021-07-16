@@ -12,7 +12,7 @@ To transfer PI points into OCS, you must first define transfer settings and then
 * [Build a PI points transfer list](#build-a-pi-points-transfer-list)
 * [View PI point details](#view-pi-point-details)
 * [Remove PI points from a transfer](#remove-pi-points-from-a-transfer)
-* [Save and transfer data to OCS](#save-and-transfer-data-to-OCS)
+* [Save and transfer data to OCS](#save-and-transfer-data-to-ocs)
 
 ## Create a transfer
 
@@ -133,7 +133,6 @@ You can view attribute details for a PI point that has been added to a transfer.
 2. Click ![](../../images/view-details-btn.png) at the top right of the **Transfer** pane.
 
    **Result:** The PI Points Information pane opens to the right and the PI point's attributes are shown.
-   ![](../../images/view-details-pane.png)
 
 3. To view another PI point's details, click to unselect the selected PI point, then select the new point.
 
