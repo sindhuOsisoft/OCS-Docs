@@ -54,6 +54,8 @@ You build a PI points transfer list in the **PI Points Search** pane. You define
 
 ![ ](../../images/pi-pt-search-callouts.png)
 
+This table contains descriptions for the numbered fields and controls in the above screen capture.
+
 No. | Description  | 
 ---------|----------
 1   | Hide or reveal the Search Criteria panel  
@@ -92,7 +94,8 @@ You build a PI points transfer list to select the PI points you want included in
    **Result:** The **Search** pane opens on the left.
 
 2. Click the **PI Point Search** tab.
-3. Refer to the table below to define your search query and search for PI points:
+
+3. Refer to the table below to define your search query critera.
 
    | Specific Values | Action to Take |
    -------------------------- | ------------------------
@@ -146,9 +149,11 @@ You can remove unwanted PI points from a transfer prior to saving the transfer.
 ### Procedure
 
 1. On the PI Points tab, click to select the PI points you wish to remove from your transfer.
+
 2. Click the **Remove # Selected Items** button, then click **Remove** again.
 
    **Result:** The PI point are removed from the transfer.
+
 3. **Optional:** To remove all PI points from a transfer, click the checkbox to the left of the **PI Point** column header, then click the **Remove # Selected Items** button.
 
 ## Save and transfer data to OCS
@@ -178,4 +183,5 @@ You must save a transfer before you can start to transfer selected data to OCS. 
    * Historical start and end: The time range of past, historical events transferred to OCS 
 
 5. **Optional:** Click the **Stop Transfer** button, then click **Stop** to stop the transfer of data to OCS.
+
 6. **Optional:** Click the **Remove Transfer** button, then click **Remove** to delete the transfer completely.
