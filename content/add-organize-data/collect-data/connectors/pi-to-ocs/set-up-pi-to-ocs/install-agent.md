@@ -38,22 +38,30 @@ This topic contains these sections:
 1. In the OCS portal, click the ![ ](../../images/waffle-button.png) icon, then click **Data Collection > PI to OCS Agents**.
 
    **Result:** The `PI to OCS Agents` window opens.
+
 2. Click the **Download Agent** button.
+
 3. Download the agent to the desired location.
+
 4. Navigate to the downloaded PI to OCS agent installation file.
+
 5. Right-click the PI to OCS Agent installation file, then click **Run as administrator**.
+
 6. Click **Yes**.
 
    **Result**: The Welcome page opens.
+
 7. Click **Next**.
 
    **Result:** The Company Information page opens.
    ![](../../images/agent-co-info.png)
+   
 8. Enter your OCS tenant ID or company alias in the **Tenant ID or Company Alias** text box, then click **Next**.
 
     **Note:** You are prompted to log on with your tenant account in OCS.  The account used to log on must be assigned to the OCS Tenant Administrator role to complete the PI to OCS Agent installation.
 
-    **Result:** The PI to OCS Agent setup kit advances to the Browser Login page. An OCS message opens in your web browser regarding the status of the user authentication process. 
+    **Result:** The PI to OCS Agent setup kit advances to the Browser Login page. An OCS message opens in your web browser regarding the status of the user authentication process.
+
 9. Close the browser window.
 
     **Result:** The Connection page opens.
