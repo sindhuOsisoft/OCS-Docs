@@ -41,7 +41,7 @@ This topic contains these sections:
 2. Click the **Download Agent** button.
 3. Download the agent to the desired location.
 4. Navigate to the downloaded PI to OCS agent installation file.
-2. Right-click the PI to OCS Agent installation file, then click **Run as administrator**.
+5. Right-click the PI to OCS Agent installation file, then click **Run as administrator**.
 6. Click **Yes**.
 
    **Result**: The Welcome page opens.
