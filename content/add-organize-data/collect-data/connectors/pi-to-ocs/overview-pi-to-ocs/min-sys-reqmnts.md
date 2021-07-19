@@ -12,7 +12,7 @@ This topic lists PI to OCS hardware, software, and other requirements:
 
 ## System requirements
 
-The following system requirements are needed to transfer data from your on-premises PI Server to OCS using the PI to OCS Agent:
+The following system requirements are needed to transfer data from an on-prem PI Server to OCS with the PI to OCS Agent.
 
 | System component | Requirement |
 | ------------- | ----------------- |
