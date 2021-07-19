@@ -8,7 +8,7 @@ Follow these guidelines to install the PI to OCS Agent:
 
 * Install the agent on a host computer separate from your PI Data Archive deployment.
 * Use an account that has been granted Administrator privileges.
-* Configure access to the PI Data Archive Security tables and PI point data to be transferred.
+* Enable read access to Data Archive security tables and the PI points and data to be transferred.
 
 You can download the PI to OCS Agent Installation kit and then transfer it to the computer that will host the agent.
 
@@ -16,7 +16,7 @@ You can download the PI to OCS Agent Installation kit and then transfer it to th
 
 ## Configure access to PI Data Archive Security tables and PI point data
 
-**IMPORTANT:** The account used to run the PI to OCS Service requires read permission to the following PI Data Archive tables and data:
+**IMPORTANT:** The PI to OCS Agent requires the Windows service account to "run as user". Read access to the following PI Data Archive data is required:
 
 * Archive data (the PIARCDATA Security table)
 * The PI points configuration table (PIPOINT Security table)

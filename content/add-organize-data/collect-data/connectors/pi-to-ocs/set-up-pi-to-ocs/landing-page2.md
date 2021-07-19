@@ -13,4 +13,4 @@ This section contains the following topics:
 * [Run the PI to OCS Agent Configuration Utility](xref:pi-to-ocs-utility)
 
 
-**IMPORTANT:** The account used to run the PI to OCS Service requires read permission to PI Data Archive security tables and PI point data. See [PI to OCS minimum system requirements](xref:min-sys-reqmnts) for more information.
+**IMPORTANT:** The PI to OCS Agent requires the Windows service to "run as user". You must have read access to PI Data Archive security tables and PI point data. See [PI to OCS minimum system requirements](xref:min-sys-reqmnts) for more information.

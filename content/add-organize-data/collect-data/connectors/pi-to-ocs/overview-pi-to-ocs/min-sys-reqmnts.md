@@ -34,7 +34,7 @@ During the PI to OCS Agent installation, you will be prompted to log on to the O
 
 ## Configure access to PI Data Archive Security tables and PI point data
 
-The account used to run the PI to OCS Service requires read permission to the following PI Data Archive tables and data:
+The PI to OCS Agent requires the Windows service to "run as user". You must have read access to the following PI Data Archive data:
 
 * Archive data (the PIARCDATA Security table)
 * The PI points configuration table (PIPOINT Security table)
