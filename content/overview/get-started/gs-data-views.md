@@ -86,13 +86,13 @@ In this step, you add the streams that you want to include in your data view.
 
 By changing the data view shape, you can create a consistent table format for your data views. This step describes how to display the minimum properties or the full set of properties.
 
-1. In the upper pane, find the **Data View Shape** field. Click **Narrow**<!-- and then click **Apply** in the lower right corner of the left pane-->. <!-- Need a new screen capture here. -->
+1. In the upper pane, find the **Data View Shape** field. Click **Narrow**.
 
    ![Data View Shape](images/data-view-shape.png)
 
    The **Narrow** option removes all other columns from the table and displays only the following columns: Timestamp, Name, Field, and Value. The narrow data shape may be useful in ensuring a consistent table format for any data view. 
 
-2. Click **Standard**<!--, and then click **Apply**--> before continuing to the next step. 
+2. Click **Standard** before continuing to the next step. 
 
    To edit the query or add additional streams with another query, click **Manage Queries.** <!-- This returns you to the `Manage Queries` page. -->
 
@@ -186,7 +186,6 @@ In this step, you remove the grouping field and decrease the total number of row
 
     ![Identifying Field](images/identifying-field.png)
 
-1. Click **Apply**.
 
 The column labels are prepended with the stream name. In the screen capture below, the *Name* column is prepended with the stream name *MyOCS.NorthAmerica.SLTC.PumpB*. 
 
@@ -200,7 +199,7 @@ In this step, you reorder the fields in the data view.
 
 1. In the **MyOCS** section, click the **IdentifyingValue City** field. 
 
-2. Click the ![Up arrow](images/up-arrow.png)in the **Field Management** toolbar until the field is moved to the top of the list.
+2. Click the ![Up arrow](images/up-arrow.png)in the toolbar until the field is moved to the top of the list.
 
     The Site column is moved to the left side of the table, following the Timestamp column.
 

@@ -4,9 +4,12 @@ uid: ccDataViews
 
 # Data views
 
-Use data views to specify the OSIsoft Cloud Services (OCS) data to use in external applications for visualization, data science, and analytics. Data views group related streams and retrieve tabular time-series data for those streams. The table of data includes data fields from the selected streams for a time period and an interpolation interval. 
+Use data views to specify the OSIsoft Cloud Services (OCS) data to use in external applications for visualization, data science, and analytics. Data views group related streams and retrieve tabular time-series data for those streams. The table of data includes one of the following:
 
-## <a name="data-views-pi-integrators"></a>PI Integrators counterpart
+- data fields from the selected streams for a time period and an interpolation interval
+- stored values for a time range 
+
+## <a name="data-views-pi-integrators"></a>PI Server counterpart
 
 Data views in OCS are comparable to asset, event, and streaming views in PI Integrators. Like PI Integrator views, data views shape complex data into a consistent tabular format so it can be used more easily with external tools.
 
