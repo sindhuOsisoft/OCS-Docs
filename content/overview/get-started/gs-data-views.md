@@ -36,7 +36,7 @@ In this step, you add the streams that you want to include in your data view.
 
 1. In the toolbar, click **Add Data View**.
 
-1. Enter the following in these fields:
+4. Enter the following in these fields:
 
    - `Name` &ndash; **MyOCS.DataView**
    - `Description` &ndash; (Optional) Enter a description for the data view
@@ -54,41 +54,33 @@ In this step, you add the streams that you want to include in your data view.
     **Note:** 
 
     - You can switch to searching for assets instead of streams by choosing **Assets** as the **Query Type**. 
-
     - It is possible to define additional queries to include other streams by clicking **Add Query**. For the purpose of this exercise, we will not add more streams.
 
     ![Add Data View](images/add-data-view.png)
 
+    
+
 6. Click **Save** to save the data view and open the <!--`Configure Data View` --> next page where you configure the data view.
 
-### <!--The Configure Data View page -->
-
-1. Click **Generate Preview**.
-
-   <!-- Retake screen capture. "Capture Data View" was removed. Generate Preview button added. -->
-
-   ![Configure Data View page](images/configure-data-view-page.png)
+    ![](images/configure-data-view-page.png)
 
     A preview of your data view results appears in a table in the right pane: 
 
-      - By default, the left most column is the property used to index your streams, in this example, Timestamp. 
-      - The next column is Name, the name of the stream that contains the data displayed in this row.
-      - The remaining columns are the value properties of the stream. The column name is the value property name, followed by the unit of measure, if applicable. In this example, the columns are named Pressure kg/m3, Status, and Temperature °C. 
-      - Each row displays data for either the MyOCS.NorthAmerica.SLTC.PumpA stream or the MyOCS.NorthAmerica.SLTC.PumpB stream.
-   
-2. Click **Auto Refresh**.
-
-   As you configure your data view in the left pane, the preview in the right pane automatically updates to reflect the choices you make.
+    - By default, the left most column is the property used to index your streams, in this example, Timestamp. 
+    - The next column is Name, the name of the stream that contains the data displayed in this row.
+    - The remaining columns are the value properties of the stream. The column name is the value property name, followed by the unit of measure, if applicable. In this example, the columns are named Pressure kg/m3, Status, and Temperature °C. 
+    - Each row displays data for either the MyOCS.NorthAmerica.SLTC.PumpA stream or the MyOCS.NorthAmerica.SLTC.PumpB stream.
 
 
+7. Click **Auto Refresh**.
+
+    As you configure your data view in the left pane, the preview in the right pane automatically updates to reflect the choices you make.
 
 ###  <a name="change-shape"></a>Step 2: Change the data view shape
 
 By changing the data view shape, you can create a consistent table format for your data views. This step describes how to display the minimum properties or the full set of properties.
 
 1. In the upper pane, find the **Data View Shape** field. Click **Narrow**.
-
-   ![Data View Shape](images/data-view-shape.png)
 
    The **Narrow** option removes all other columns from the table and displays only the following columns: Timestamp, Name, Field, and Value. The narrow data shape may be useful in ensuring a consistent table format for any data view. 
 
