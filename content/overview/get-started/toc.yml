@@ -1,4 +1,4 @@
-- name: Introduction to the portal interface
+- name: Introduction to the OCS portal
   topicHref: introduction-portal-interface.md
 - name: Get started with namespaces
   topicHref: gs-namespaces.md
@@ -24,3 +24,5 @@
   topicHref: gs-metadata-rules.md
 - name: Get started with data views
   topicHref: gs-data-views.md
+- name: Get started with stream views
+  topicHref: gs-stream-views.md
