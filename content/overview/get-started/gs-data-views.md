@@ -218,4 +218,8 @@ In this step, you set a default time range for the data view.
 1. Explore the different options to display your data. When you are satisfied with the data view preview, click **Save**. 
 
     This returns you to the Data Views page where you can execute your data view.
+    
+    ## Next step
+    
+    [Get started with stream views](xref:gsStreamviews)
 
