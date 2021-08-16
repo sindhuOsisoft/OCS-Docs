@@ -18,6 +18,8 @@ To transfer PI points into OCS, you must first define transfer settings and then
 
 You create a transfer to have a placeholder to store the PI point data you wish to transfer.
 
+**Note:** If you can't create a transfer or you're transfer isn't working, you can restart the agent as a last resort before contacting customer support. See [Troubleshoot failed AF indexing](xref:troubleshoot-failed-af-indexing) for more information.
+
 ### Before you start
 
 Download and install the PI to OCS agent. Register your PI Data Archive with the PI to OCS Agent Configuration Utility.
