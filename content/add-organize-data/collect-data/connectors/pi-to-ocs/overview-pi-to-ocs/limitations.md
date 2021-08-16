@@ -16,3 +16,5 @@ The following table lists the known limitations for PI to OCS.
 | PI Data Archive | <ul><li>PI to OCS does not write events back to PI Data Archive from OCS.</li><li>PI to OCS does not handle scenarios where PI Data Archives have been taken offline.</li></ul> |
 | SDS streams indexes | <ul><li>Does not support multiple values at a given index.</li><li>If a PI Data Archive tag has multiple values at a given timestamp, OCS will only store one of those values.</li></ul> |
 | Service account used for PI to OCS Agent | <ul><li>Once installed, the service account cannot be changed to another account.</li><li>To change a service account, perform the following tasks:<ol><li>Uninstall the PI to OCS Agent.</li><li>Delete the old connection.</li><li>Create a new connection.</li><li>Reinstall the PI to OCS Agent.</li></ol></li></ul> |
+| Legacy Analytics | <ul><li>PI to OCS does not support configurations that use older, legacy versions of the PI Analysis service. </li></ul>
+
