@@ -1,5 +1,9 @@
-- name: Troubleshoot missing PI Data Archive configuration
+- name: Troubleshoot missing Data Archive configuration
   href: troubleshoot-missing-pida.md
+- name: Troubleshoot common PI point errors
+  href: troubleshoot-pi-point-errors.md
+- name: Troubleshoot failed AF indexing
+  href: troubleshoot-failed-af-indexing.md  
 - name: Tenant log messages
   href: download-tenant-log.md
 - name: View PI to OCS Agent logs
