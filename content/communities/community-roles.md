@@ -48,3 +48,13 @@ A tenant-level role that allows users to administer their own tenant. The Tenant
 ### Community owner
 
 The community owner refers to the tenant that created a community. A community owner is not a role and is not granted any privileges. By default, Tenant Administrators have the privilege needed to create communities.
+
+
+## Permissions Matrix 
+
+| Permission | Member | Moderator | Administrator |
+|------------|:------:|:---------:|:-------------:|
+| Read any data shared in the community. | &check; | &check; | &check; |
+| Add users from their tenant to the community. |  | &check; | &check; |
+| Remove their tenant's users from the community. |  | &check; | &check; |
+| Remove their tenant from the community. |  | &check; | &check; |
