@@ -3,7 +3,9 @@
 - name: Troubleshoot common PI point errors
   href: troubleshoot-pi-point-errors.md
 - name: Troubleshoot failed AF indexing
-  href: troubleshoot-failed-af-indexing.md  
+  href: troubleshoot-failed-af-indexing.md
+- name: Troubleshoot failed PI mapping
+  href: troubleshoot-failed-pi-mapping.md    
 - name: Tenant log messages
   href: download-tenant-log.md
 - name: View PI to OCS Agent logs

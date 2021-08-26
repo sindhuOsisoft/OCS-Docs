@@ -8,8 +8,9 @@ uid: landing-page5
 This section contains the following topics:
 <br>
 * [Troubleshoot missing PI Data Archive configuration](xref:troubleshoot-missing-pida)
-* [Troubleshoot common PI point errors)[xref:troubleshoot-pi-pt-errors]
+* [Troubleshoot common PI point errors](xref:troubleshoot-pi-pt-errors]
 * [Troubleshoot failed AF indexing](xref:troubleshoot-failed-af-indexing)
+* [Troubleshoot failed PI mapping](xref:troubleshoot-failed-mapping)
 * [Tenant log messages](xref:download-tenant-log)
 * [View PI to OCS Agent logs](xref:view-logs)
 * [Common Event Viewer log messages](xref:log-messages)
