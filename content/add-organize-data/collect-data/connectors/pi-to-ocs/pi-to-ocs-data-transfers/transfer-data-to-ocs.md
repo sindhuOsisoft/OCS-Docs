@@ -25,7 +25,7 @@ Download and install the PI to OCS Agent. Register your PI Data Archive and AF d
 The transfer creation process consists of these steps:
 
 1. Assign a name, description, and optional historical start and end time for data retrieval.
-2. Set the level of data privacy protection to control how much identifying information about an asset is sent with PI point data.
+2. Select a level of data privacy to control how much identifying information about an asset is sent with PI point data.
 3. Set query criteria and retrieve and add desired AF elements and PI point data to your transfer list.
 4. Save your transfer.
 5. Optional: Export a file(s) that contains transfer detail information.
@@ -76,9 +76,9 @@ You build an AF elements transfer by setting query criteria and then selecting A
 
    
 
-2. Click the **AF Database** down arrow, then select the source AF database for your query.
+2. Click the **AF Database** down arrow, then select a source AF database.
 
-3. Optional: Click the **Root Asset** button, then select a root asset to narrow your search by a specific asset group.
+3. Optional: Click the **Root Asset** button, then select a root asset to narrow your search by specific asset group.
 
 #### To filter by element name
 
@@ -91,6 +91,8 @@ You build an AF elements transfer by setting query criteria and then selecting A
       * In the first text box, enter an attribute name.
       * Click the operator down arrow, then select an operator (=, <>, <, >, =<, =>, In).
       * In the last text box, enter an attribute value.
+
+**Note:** Attribute data that contains custom Unit of Measurement (UOM) values is not supported or transferred.
 
 #### To filter by AF template or category
 

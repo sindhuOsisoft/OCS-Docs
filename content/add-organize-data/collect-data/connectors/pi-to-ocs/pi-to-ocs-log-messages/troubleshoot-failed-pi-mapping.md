@@ -12,5 +12,5 @@ If you encounter an error message and the PI to OCS Configuration Utility crashe
 1. Relaunch the PI to OCS Configuration Utility: Click the Windows start button, then **OSIsoft** > **PI to OCS Configuration Utility**.
 1. Succesfully connect and authenticate to OCS.
 1. In the PI to OCS Configuration utility, click the pencil icon to the right of the **PI Mapping** field.
-1. Follow the steps in the [Create a PI mapping section](#pi-to-ocs-utility) to finish adding a PI mapping.
-1. After adding a PI mapping, save your changes. 
+1. Follow the steps in [Create a PI mapping section](#pi-to-ocs-utility) to add a PI mapping.
+1. After adding the PI mapping, save your changes. 
