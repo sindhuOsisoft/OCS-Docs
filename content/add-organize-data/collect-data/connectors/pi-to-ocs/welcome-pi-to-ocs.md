@@ -4,7 +4,7 @@ uid: welcome-pi-to-ocs
 
 # PI to OCS
 
-PI to OCS lighthouse release enables you to transfer your on-prem PI and AF data to OCS and contains the following sections:
+The PI to OCS lighthouse release enables you to transfer both on-prem PI data and AF data to OCS. This guide is divided into the following sections:
 
 * [Overview of PI to OCS](xref:pi-to-ocs-overview)
 * [Set up PI to OCS](xref:install-agent)
