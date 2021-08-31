@@ -1,8 +1,8 @@
 ---
-uid: welcome-pi-to-ocs
+uid: main-ldg-page
 ---
 
-# PI to OCS
+# Welcome to PI to OCS
 
 The PI to OCS lighthouse release enables you to transfer both on-prem PI data and AF data to OCS. This guide is divided into the following sections:
 
