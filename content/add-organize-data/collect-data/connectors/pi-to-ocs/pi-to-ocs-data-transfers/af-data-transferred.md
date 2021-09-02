@@ -21,6 +21,7 @@ This table lists what AF objects can and cannot be included in a PI to OCS data 
 | Constant values/string                                       | Yes                                    |
 | Excluded attributes                                          | Yes                                    |
 | Hidden attributes                                            | No                                     |
+| Custom unit of measurements (UOMs)                           | No                                     |
 | Formulas                                                     | No                                     |
 | Event frames                                                 | No                                     |
 | PI point arrays                                              | No                                     |

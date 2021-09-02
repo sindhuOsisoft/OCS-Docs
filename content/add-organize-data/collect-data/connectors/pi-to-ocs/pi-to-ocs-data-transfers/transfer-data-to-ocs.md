@@ -92,7 +92,7 @@ You build an AF elements transfer by setting query criteria and then selecting A
       * Click the operator down arrow, then select an operator (=, <>, <, >, =<, =>, In).
       * In the last text box, enter an attribute value.
 
-**Note:** Attribute data that contains custom Unit of Measurement (UOM) values is not supported or transferred.
+**Note:** Custom unit of measurements (UOMs) are not supported in OCS. During the transfer of AF element data, AF elements with custom UOMs will not have their corresponding asset’s UOM property set.
 
 #### To filter by AF template or category
 
@@ -123,7 +123,7 @@ You build an AF elements transfer by setting query criteria and then selecting A
 
 ## View AF element details
 
-You can view details about individual AF element such as related attributes and its source path in AF. To gain deeper insights about where an asset is located and help search for AF elements, you can see where an AF element resides in the AF element hierarchy by viewing details about its parent, parent ID, template, and additional places where an element is referenced.
+You can view details about an individual AF element such as related attributes and its source path in AF. To gain deeper insights about where an asset is located and to help search for AF elements, you can view where AF elements reside in the AF element hierarchy by viewing details about the parent, parent ID, template, and additional places where an element is referenced.
 
 1. In the `Transfer` pane, click the **AF Elements** tab.
 
