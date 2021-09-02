@@ -72,19 +72,13 @@ You build an AF elements transfer by setting query criteria and then selecting A
 
    **Result:** The `AF Element Search` pane opens.
 
-   ![](..\..\images\af-element-search-tab.png)
-
-   
+   ![](../../images/af-element-search-tab.png)
 
 2. Click the **AF Database** down arrow, then select a source AF database.
 
 3. Optional: Click the **Root Asset** button, then select a root asset to narrow your search by specific asset group.
 
-#### To filter by element name
-
 4. Optional: In the **Element Name** text box, enter search criteria to filter by part or all of an AF element name.
-
-#### To filter by attribute name and/or value
 
 5. Optional: In the **Attribute Name** text box, enter the attribute name.
 6. Optional: In the **Attribute Value** fields, filter by attribute value by specifying the following information:
@@ -94,13 +88,9 @@ You build an AF elements transfer by setting query criteria and then selecting A
 
 **Note:** Custom unit of measurements (UOMs) are not supported in OCS. During the transfer of AF element data, AF elements with custom UOMs will not have their corresponding asset’s UOM property set.
 
-#### To filter by AF template or category
-
 7. Optional: Click the **Template** down arrow to narrow your search by template name.
 
 8. Optional: Click the **Category** down arrow to narrow the search by a specific category.
-
-#### To retrieve and select query results
 
 9. Click **Search** to execute the query and retrieve matching results.
    **Result:** Query results are displayed in the **Search Results** list.
@@ -127,20 +117,21 @@ You can view details about an individual AF element such as related attributes a
 
 1. In the `Transfer` pane, click the **AF Elements** tab.
 
-2. In the transfer list, select an AF element.
+1. In the transfer list, select an AF element.
 
-3. Click the **View Details** button.
+1. Click the **View Details** button.
+ 
    **Result:** The **AF Element Information** pane opens. 
    
-4. Click the **Reference AF Elements** tab.
+1. Click the **Reference AF Elements** tab.
 
    **Result:** If defined, the path(s) of any referenced AF element is listed. 
 
-5. To view details for another AF element, click to deselect the currently selected element, then select a different element in the transfer list.
+1. To view details for another AF element, click to deselect the currently selected element, then select a different element in the transfer list.
 
-6. Repeat step 3-5 as needed.
+1. Repeat step 3-5 as needed.
 
-7. Click the **View Details** button or **x** to close the **AF Element Information** pane.
+1. Click the **View Details** button or **x** to close the **AF Element Information** pane.
 
 ## Build a PI points transfer list
 
@@ -148,12 +139,10 @@ You build a PI points transfer list by setting query criteria and then adding th
 
 1. Click the **PI Point** **Search** tab.
 
-   ![](..\..\images\pi-pt-search-tab.png)
-
-2. Click the **Add** button.
+1. Click the **Add** button.
    **Result:** The `Search` pane opens.
 
-3. Define your search query:
+1. Define your search query:
 
    | Type Of Search Criteria    | Action To Take                                               |
    | -------------------------- | ------------------------------------------------------------ |
@@ -163,23 +152,22 @@ You build a PI points transfer list by setting query criteria and then adding th
    | A PI point type            | Select one of the following point types from the **Point Type** drop-down list:<br /><ul><li>**Float32** </li><li>**Float64**</li><li>**Int16**</li><li>**Int32**</li><li>**Digital**</li><li>**Timestamp**</li><li>**String**</li></ul> |
    | Specific location code(s)  | Enter up to five location code values (1-9) in the **Location Codes** field. |
 
-4. Optional: Click the **Search Criteria** bar to collapse or expand the criteria section.
+1. Optional: Click the **Search Criteria** bar to collapse or expand the criteria section.
 
-5. Click **Search** to execute the query and retrieve matching results.
+1. Click **Search** to execute the query and retrieve matching results.
 
-6. Scroll through the **Search Results** list box and click each PI point you want added to the data transfer.
+1. Scroll through the **Search Results** list box and click each PI point you want added to the data transfer.
 
    **Result:** A checkmark appears next to each selected PI point.
 
    **Tip:** To select a range of PI points, click a PI point and then scroll to and [SHIFT+Click] a non-adjacent PI point. 
 
-7. To advance through multiple-paged query results, click the back and forward arrows OR enter a page number in the **Page** text box.
+1. To advance through multiple-paged query results, click the back and forward arrows OR enter a page number in the **Page** text box.
 
-8. Repeat step 6 until you have finished selecting PI points.
+1. Repeat step 6 until you have finished selecting PI points.
 
-9. When you are done selecting PI points, click the **Add PI Points to Transfer** button.
+1. When you are done selecting PI points, click the **Add PI Points to Transfer** button.
    **Result:**  The points are added to the transfer and appear on the `PI Points` tab.
-
 
 ## Overview of explicit vs. implicit PI points
 
@@ -209,32 +197,33 @@ You can view attribute details for selected PI points in a transfer, and also hi
 1. Optional: In the `Transfer` pane, click the **PI Points** tab.
 2. Select a PI point.
 3. At the top right of the `Transfer` window, click the **View Details** button.
+ 
    **Result:** The **PI Point Information** pane opens.
-4. Click the **Source AF Elements** tab to view any AF elements that reference the PI point. 
-5. To view another PI point's details, click to deselect the currently selected PI point, then select a different PI point in the transfer list.
-6. Repeat steps 4-5 as needed.
-7. Click the **View Details** button or **x** to close the **PI Point Information** pane.
+1. Click the **Source AF Elements** tab to view any AF elements that reference the PI point. 
+1. To view another PI point's details, click to deselect the currently selected PI point, then select a different PI point in the transfer list.
+1. Repeat steps 4-5 as needed.
+1. Click the **View Details** button or **x** to close the **PI Point Information** pane.
 
 ## Save a transfer
 
 Before you can transfer data to OCS, you must save the transfer to retain your PI point and/or AF element selections.
 
 1. In the `Transfer` pane, click **Save**.
+
    **Result:** The transfer is saved and you are returned to the `PI to OCS Agents` window.
 
 ## Overview of the Details pane
 
-The `Details` pane provides information about the agent associated with the transfer, the saved transfer, and a transfer's data sources.  As shown in the screen capture below, the sections in the `Details` pane can be expanded and collapsed using the chevron arrows (![](../../images/chevrons.png)):  
+The `Details` pane provides information about the agent associated with the transfer, the transfer progress, the data sources, and details about the PI points and AF elements transferred.  As shown in the screen capture below, the sections in the `Details` pane can be expanded and collapsed using the chevron arrows ( ![](../../images/chevrons.png) ):  
 
-
-
-![](../../images/details-pane2.png)
+![](../../images/details-pane2.png) <!--VTT: Need to update this ss for LH.>
 
 | Numbered section | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
 | **1**            | `Agent Overview:` Lists the agent description (if any), namespace, status, version, and date and time of last connection. |
 | **2**            | `Transfer Overview:` Displays transfer details and progress. Also contains buttons to view, remove or stop a transfer. |
-| **3**            | `Data Source:` Displays details about the data source server(s) and version(s), as well as the streaming status of a data transfer. It also lists how much historical data has been transferred for a given time period.  If an AF server has been added, details about the AF server and transferred elements is shown under the listed  AF server data source (![](C:\Users\Vtouati\Documents\_Allograft\Doc Work Items\Lighthouse Release\images\af-data-icon.png)). <br /><br />Under the PI Data Archive data source (![](C:\Users\Vtouati\Documents\_Allograft\Doc Work Items\Lighthouse Release\images\pda-source-icon.png)), both the Streaming and Historical Events Per Second fields list the number of events successfully transferred over to OCS.  Historical data is the number of incoming events per second that come from a backlog of events for the PI points associated with the transfer, and are not able to be transferred as “real-time” events. Streaming events represent the number of current, real-time events transferred into OCS. |
+| **3a**            | `Data Sources:` Displays details about the data source server(s) and version(s), as well as the streaming status of a data transfer. It also lists how much historical data has been transferred for a given time period.  If an AF server has been added, details about the AF server and transferred elements are shown under the listed  AF server data source ( ![](../../images/af-data-icon.png) ). The AF status counter fields provide information about the number of assets succesfully transferred and created:  <ul><li>**Total Elements in Transfer**: The total number of AF elements in transfer to OCS. </li><li>**Total Assets Created**: The number of assets created in OCS.</li><li>**Assets Updated**: The number of assets updated during the transfer process.</li>**Asset Create/Update Errors:** The number of errors generated while creating or updating assets in OCS.</li> |
+|**3b**            |Under the registered Data Archive ( ![](../../images/pda-source-icon.png) ), the Streaming and Historical Events Per Second fields list the number of events successfully transferred to OCS. Historical events represent the number of incoming events per second that come from a backlog of events for the PI points associated with the transfer, which are not transferred as “real-time” events. Streaming events represent the number of current, real-time events transferred into OCS. |
 
 ## Transfer data to OCS
 
@@ -269,4 +258,3 @@ In the `PI to OCS Agents` window, select the PI to OCS Agent that contains the d
 4. Optional: To stop a transfer, click **Stop Transfer**, then click **Stop**.
 
 5. Optional: To remove a transfer, click **Remove Transfer**, then click **Remove**.
-
