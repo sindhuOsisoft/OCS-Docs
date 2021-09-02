@@ -216,7 +216,7 @@ Before you can transfer data to OCS, you must save the transfer to retain your P
 
 The `Details` pane provides information about the agent associated with the transfer, the transfer progress, the data sources, and details about the PI points and AF elements transferred.  As shown in the screen capture below, the sections in the `Details` pane can be expanded and collapsed using the chevron arrows ( ![](../../images/chevrons.png) ):  
 
-![](../../images/details-pane2.png) <!--VTT: Need to update this ss for LH.>
+![](../../images/details-pane2.png) 
 
 | Numbered section | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
