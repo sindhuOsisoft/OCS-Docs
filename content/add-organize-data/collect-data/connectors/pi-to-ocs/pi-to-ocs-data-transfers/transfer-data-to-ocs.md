@@ -4,7 +4,7 @@ uid: transfer-data
 
 # Transfer data to OCS
 
-You initiate a data transfer from the `PI to OCS Agents` window. A transfer can contain a combination of PI points and AF elements or just PI points or AF elements. The transfer of PI System data to OCS consists of the following procedures:
+You initiate a data transfer from the `PI to OCS Agents` window. A transfer can contain a combination of PI points and AF elements or just PI points or AF elements. This topic contains these sections:
 
 1. [Create a transfer](#create-a-transfer)
 2. [Build an AF elements transfer list](#build-an-af-elements-transfer-list)
@@ -22,16 +22,17 @@ Download and install the PI to OCS Agent. Register your PI Data Archive and AF d
 
 ### Create a transfer
 
-The transfer creation process consists of these steps:
+During transfer creation, you will need to perform the following tasks:
 
 1. Assign a name, description, and optional historical start and end time for data retrieval.
-2. Select a level of data privacy to control how much identifying information about an asset is sent with PI point data.
-3. Set query criteria and retrieve and add desired AF elements and PI point data to your transfer list.
-4. Save your transfer.
-5. Optional: Export a file(s) that contains transfer detail information.
-6. Initiate and monitor the transfer of data from PI to OCS. 
+1. Select a level of data privacy to control how much identifying information about an asset is sent with PI point data.
+1. Set query criteria and retrieve and add optional AF elements and/or PI point data to your transfer lists.
+1. View transfer details
+1. Save your transfer.
+1. Optional: Export a file(s) that contains transfer detail information.
+1. Initiate and monitor the transfer of data from PI to OCS. 
 
-### Procedure 
+### Name the transfer and set data privacy settings 
 
 1. Sign in to the [OCS portal](https://cloud.osisoft.com).
 

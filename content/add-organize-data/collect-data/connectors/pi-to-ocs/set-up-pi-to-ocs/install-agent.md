@@ -48,9 +48,11 @@ This topic contains these sections:
 5. Right-click the PI to OCS Agent installation file, then click **Run as administrator**.
 
 6. Click **Yes**.
+
    **Result**: The **Welcome** page opens.
 
 7. Click **Next**.
+
    **Result:** The **Company Information** page opens.
 
    ![](../../images/agent-co-info.png)
@@ -84,6 +86,7 @@ This topic contains these sections:
 12. Click the **Install** button.
 
     **Result:** The PI to OCS Agent is installed.
+
     **Note:** Installation may take a few moments.
 
 13. After the agent has been successfully installed, click **Close** to close the PI to OCS Agent wizard.
@@ -94,7 +97,7 @@ This topic contains these sections:
 
 ## Verify the PI to OCS Agent is running and registered
 
-After installation, check that the PI to OCS Agent Windows service is running on the machine where the agent is installed. You also should confirm the agent has been registered in OCS.
+After installation, check that the PI to OCS Agent Windows service is running on the machine where the agent is installed. You also should confirm the agent is registered in OCS.
 
 ### Procedure
 
