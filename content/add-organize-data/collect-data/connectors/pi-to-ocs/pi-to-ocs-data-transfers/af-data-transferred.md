@@ -20,12 +20,12 @@ This table lists what AF objects can and cannot be included in a PI to OCS data 
 | PI point references                                          | Yes                                    |
 | Constant values/string                                       | Yes                                    |
 | Excluded attributes                                          | Yes                                    |
+| Hidden attributes                                            | No                                     |
 | Formulas                                                     | No                                     |
 | Event frames                                                 | No                                     |
 | PI point arrays                                              | No                                     |
-| Hidden attributes                                            | No                                     |
 | Implicit PI points with multiple attributes on an AF element | Only one attribute will be transferred |
-| Implicit PI points with attributes that reference other attributes | No                                     |
+| Implicit PI points with attributes that reference other attributes | No                               |
 
 ## Performance metrics: AF data transfer
 

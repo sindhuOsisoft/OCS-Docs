@@ -16,5 +16,5 @@
 - name: Troubleshoot PI to OCS 
   href: troubleshoot-pi-to-ocs/toc.yml
   topicHref: troubleshoot-pi-to-ocs/troubleshoot-pi-point-errors.md
-- name: PI to OCS release notes
+- name: PI to OCS Release Summary
   href: pi2ocs-rel-notes.md

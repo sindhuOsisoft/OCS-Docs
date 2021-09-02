@@ -4,16 +4,18 @@ uid: export-missing-points
 
 # Export a list of missing PI points
 
-Sometimes, PI points cannot be transferred to OCS because they have been removed on the source PI Server. When this occurs, PI to OCS flags the points as missing and displays a message.  You can export a file that contains a list of these missing PI points for your records. The .CSV file contains the following information:
+Sometimes, PI points cannot be transferred because they have been removed on the source PI Server. When this occurs, the points are flagged as missing and a message is displayed.  You can export a file that contains a list of these missing PI points for your records. The .CSV file contains the following information:
 
 - Transfer name
-- PI point IDs
+- The missing PI point ID(s)
 - The name of the source PI Server
 
 ### Procedure
 
 1. In the **PI to OCS Agents** window, select the transfer that contains the unresolved PI points.
-2. Click the **View Transfer** button on the `Details` pane.
+1. Click the **View Transfer** button on the `Details` pane.
    **Result:** The `Transfer` window opens.
-3. Click the **Export Missing PI Point Ids** button.
+1. Click the **Export Missing PI Point Ids** link.
+   **Result:** The **Save As** dialog box opens.
+1. Enter a file name and select where to save the file, then click **Save**. 
    **Result:** A .CSV file that contains a list of missing PI points is saved.
