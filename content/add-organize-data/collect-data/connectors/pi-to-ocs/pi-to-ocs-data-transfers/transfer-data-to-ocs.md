@@ -123,7 +123,7 @@ You build an AF elements transfer by setting query criteria and then selecting A
 
 ## View AF element details
 
-You can view details about individual AF element such as related attributes and the element path. You can also view the path of any referenced AF elements.
+You can view details about individual AF element such as related attributes and its source path in AF. To gain deeper insights about where an asset is located and help search for AF elements, you can see where an AF element resides in the AF element hierarchy by viewing details about its parent, parent ID, template, and additional places where an element is referenced.
 
 1. In the `Transfer` pane, click the **AF Elements** tab.
 
