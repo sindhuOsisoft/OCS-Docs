@@ -241,8 +241,6 @@ Data is ready for transfer to OCS after the desired PI points and/or AF elements
 
 In the `PI to OCS Agents` window, select the PI to OCS Agent that contains the data you want to transfer. 
 
-###  Procedure
-
 1. Optional: In the `Details` pane, click the `Transfer Overview` down area to expand this section.
 
    **Result:** The `Transfer Overview` section expands.
@@ -253,7 +251,7 @@ In the `PI to OCS Agents` window, select the PI to OCS Agent that contains the d
 
 3. In the `Details` pane, expand the `Data Source` section to view the status of a transfer as data is sent to OCS.
 
-   **Note:** The rate at which data is transferred varies and depends on the density of data in the source PI Data Archive and/or AF server. See [Data transfer statuses](xref:data-transfer-statuses) for a list of transfer statuses and descriptions. 
+   **Note:** The rate at which data is transferred varies and depends on the density of data in the source PI Data Archive and/or AF server. See [Data transfer statuses](xref:data-transfer-statuses) for a list of transfer statuses and descriptions. To find out more information about an asset error or agent status, click the **Logs** button. 
    
 4. Optional: To stop a transfer, click **Stop Transfer**, then click **Stop**.
 
