@@ -11,7 +11,7 @@ You use the PI to OCS Agent Configuration Utility to set up and configure AF ser
 * [Access the PI to OCS Agent Configuration Utility](#access-the-pi-to-ocs-agent-configuration-utility)
 * [Overview of the PI to OCS Agent Configuration Utility](#overview-of-the-pi-to-ocs-agent-configuration-utility)
 * [Add an AF server](#add-an-af-server)
-* [Select a default Data Archive in PI System Explorer](#set-a-default-data-archive-in-PI-System-Explorer)
+* [Select the default Data Archive in PI System Explorer](#set-the-default-data-archive-in-PI-System-Explorer)
 * [Create an AF mapping](#create-an-af-mapping)
 * [Add a PI Data Archive](#add-a-pi-data-archive)
 * [Create a PI mapping](#create-a-pi-mapping)
@@ -93,7 +93,7 @@ The utility validates an AF server connection to ensure certain criteria is met:
 
    **Note:** After you click Save to add an AF server and restart and register the agent, you will need to select a default Data Archive in PI System Explorer to resolve substitution references for AF element attributes.
 
-## Select a default Data Archive in PI System Explorer
+## Select the default Data Archive in PI System Explorer
 
 You need to specify the default Data Archive, also referred to as the default data server, for the PI system and PI AF database after setting an AF server. By default, PI AF databases inherit the PI AF Server's local default data server. See [Find the default PI Data Archive server](https://docs.osisoft.com/bundle/pi-server/page/find-the-default-pi-data-archive-server.html) for more information.
 
