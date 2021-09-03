@@ -9,8 +9,9 @@ You use the PI to OCS Agent Configuration Utility to set up and configure AF ser
 ### Topics in this section
 
 * [Access the PI to OCS Agent Configuration Utility](#access-the-pi-to-ocs-agent-configuration-utility)
-* [Quick tour of the PI to OCS Agent Configuration Utility](#quick-tour-of the-pi-to-ocs-agent-configuration-utility)
+* [Overview of the PI to OCS Agent Configuration Utility](#overview-of-the-pi-to-ocs-agent-configuration-utility)
 * [Add an AF server](#add-an-af-server)
+* [Select a default Data Archive in PI System Explorer](#set-a-default-data-archive-in-PI-System-Explorer)
 * [Create an AF mapping](#create-an-af-mapping)
 * [Add a PI Data Archive](#add-a-pi-data-archive)
 * [Create a PI mapping](#create-a-pi-mapping)
@@ -23,8 +24,6 @@ You can open the PI to OCS Agent Configuration Utility to change server connecti
 
 **Note:** If you're not the original user who installed the agent, the new user account will need to be authenticated in OCS before access is granted to the utility. 
 
-### Procedure
-
 1. Click the Windows menu button.
 
 2. On the Windows menu, scroll down and click **OSIsoft**, then click **PI to OCS Agent Configuration Utility**.
@@ -33,21 +32,22 @@ You can open the PI to OCS Agent Configuration Utility to change server connecti
    
    **Note:** If you have not yet added an AF server or PI Data Archive server, see [Add an AF server](#add-an-af-server) or [Add a PI Data Archive](#add-a-pi-data-archive) for instructions.
 
-### Quick tour of the PI to OCS Agent Configuration Utility
+### Overview of the PI to OCS Agent Configuration Utility
+
+The table below provides descriptions of the numbered fields in the screen capture of the utility.  
 
    ![AF server details](..\..\images\utility-callouts.png)
-
 
 | Number  | Description                                                  |
 | :-----: | ------------------------------------------------------------ |
 | **1. ** | Name of the host computer where the agent is installed       |
 | **2.**  | An optional name for an agent                                |
 | **3.**  | Displays the PI to OCS Agent's status                        |
-| **4. ** | Provides details about the agent's registration state        |
+| **4.**  | Provides details about the agent's registration state        |
 | **5.**  | Currently running PI to OCS Agent version                    |
 | **6.**  | Type of agent service account.                               |
 | **7.**  | Set data privacy options and assign an agent description.    |
-|         | View information about the server connection and its configuration. |
+| **8.**  | View information about the server connection and its configuration. |
 | **9.**  | Source AF server name                                        |
 | **10.** | The version of PI AF installed on the connected AF server    |
 | **11.** | The ID number of the connected AF server                     |
@@ -60,111 +60,111 @@ You can open the PI to OCS Agent Configuration Utility to change server connecti
 
    **Note:** After a PI Data Archive server is added, similar information in the table above is displayed in the utility.
 
-   
-
 ## Add an AF server
 
-The PI to OCS Agent Configuration Utility opens after you install or upgrade a PI to OCS Agent. If you are installing an agent for the first time, the utility prompts you to add an AF server and/or a PI Data Archive server after agent installation. If you are upgrading an agent, you can add a server after completing the upgrade. 
+The PI to OCS Agent Configuration Utility opens after you install or upgrade a PI to OCS Agent. If you are installing an agent for the first time, the utility opens after agent installation. If you are upgrading an agent, you can add an AF server after completing the upgrade. 
 
 The utility validates an AF server connection to ensure certain criteria is met:
 
 * That the AF server is not currently registered to any other agents under the same namespace as the current agent
-
 * That the version of PI Asset Framework (AF) installed on the AF server supports the features required for transfers
 
-  ### Procedure
+1. In the `PI to OCS Agent Configuration Utility` window, click the **AF** button.
 
-  1. In the `PI to OCS Agent Configuration Utility` window, click the **AF** button.
-
-
-![The PI to OCS Agent Configuration Utility](..\..\images\utility-01.png)
-
-2. Enter the name of your AF server in the **AF Server Name** text box, then click **Add Server**.
+1. In the **AF Server Name** text box, enter the name of your AF server, then click **Add Server**.
+ 
    **Result:** After successful detection, you are advanced to a page that displays details about the data source connection(s) and agent.
 
-![Agent status and state after refresh](..\..\images\af-details-refreshed.png)
+   ![Agent status and state after refresh](..\..\images\af-details-refreshed.png)
 
 ​	**Note:** Once an AF Server has been added, the utility searches for PI Data Archives that are referenced by the AF Server. 
 
-3. Review the AF source server details to ensure they are correct:
+1. Review the AF source server details to ensure they are correct:
    * AF server name, version & ID
    * IP address
    * Connection status and timeout
 
-4. **Optional:** Click the pencil icon next to the **Connection Timeout** field to change the time the agent checks for a server connection before timing out.
+1. **Optional:** Click the pencil icon next to the **Connection Timeout** field to change the time the agent checks for a server connection before timing out.
 
-5. Click **Save** to keep the current AF server configuration settings and restart the agent.    																								
+1. Click **Save** to keep the current AF server configuration settings and restart the agent.    																								
+1. **Optional**: Click **Test Connection** to check that the connection to the AF server is working.
 
-6. **Optional**: Click **Test Connection** to check that the connection to the AF server is working.
+1. **Optional**: To delete a server connection, click the **Remove Server** button, then click **Yes**. 
 
-7. **Optional**: To delete a server connection, click the **Remove Server** button, then click **Yes**. 
+   **Note:** After you click Save to add an AF server and restart and register the agent, you will need to select a default Data Archive in PI System Explorer to resolve substitution references for AF element attributes.
 
+## Select a default Data Archive in PI System Explorer
+
+You need to specify the default Data Archive, also referred to as the default data server, for the PI system and PI AF database after setting an AF server. By default, PI AF databases inherit the PI AF Server's local default data server. See [Find the default PI Data Archive server](https://docs.osisoft.com/bundle/pi-server/page/find-the-default-pi-data-archive-server.html) for more information.
+
+1. Open PI System Explorer on the client machine.
+
+1. Click **File** > **Server Properties**.
+
+   **Result:** The **PI AF Server Properties** dialog box opens.
+
+1. Click the **Default Data Server down arrow**, then select the desired default data server.
+
+1. Click **Apply**, then click **Ok** to save your selection.
+ 
+1. Exit PI System Explorer and return to the utility.  
+ 
 ## Create an AF Mapping
 
-You can assign an AF mapping to an AF identity. AF mappings enable a specific service account assigned to an AF identity in PI System Explorer to read and transfer AF element and attribute data.  The following applies to AF mappings:
+You can assign an AF mapping to an AF identity. AF mappings enable a specific service account assigned to an AF identity in PI System Explorer to read and transfer AF element and attribute data.  The following apply to AF mappings:
 
 * The user account used to launch the utility must have permission to create mappings.
 * You can edit mappings.
 
-### Procedure
-
 1. Optional: Open the `PI to OCS Agent Configuration Utility` window.
 
-2. Click the pencil icon next to the **AF Mapping** field.
+1. Click the pencil icon next to the **AF Mapping** field.
+
    **Result:** The **Configure AF Mapping** dialog box opens.
    
-   ![](..\..\images\af-mapping-db.png)
-														
-   
-3. Select an identity for the AF mapping.
+1. Select an identity for the AF mapping.
 
-4. Click **Save**. 
+1. Click **Save**.
+  
    **Result:** If successful, the AF mapping is created for the selected identity.
-
-   ![](..\..\images\success-af-map.png)
-   											
-   
+  											
 	**Note:** If an AF mapping has been created with another tool, a warning is displayed.  
    
 5. Click **Close** to exit.
 
-   
-
 ## Add a PI Data Archive
 
-After adding an AF server, you can select the source PI Data Archive you want to use to search for PI point data. The list of available PI Data Archive servers is based on what servers are referenced by AF elements on the AF server you selected. If you are upgrading an agent, the PI to OCS Agent Configuration Utility maintains the previously selected PI Data Archive configuration.  
+After adding an AF server, you can select the source PI Data Archive that contains the PI points you want to transfer. The list of available PI Data Archive servers is based on what servers are referenced by AF elements on the AF server you selected. If you are upgrading an agent, the PI to OCS Agent Configuration Utility maintains the previously selected PI Data Archive configuration.  
 
 **Note:** If you are not adding an AF server, you can select a PI Data Archive server on the first screen of the PI to OCS Agent Configuration Utility.
 
-#### Procedure
-
 1. Click the **Add Data Archive** **Server** button in the PI to OCS Agent Configuration Utility.
+ 
    **Result**:  The first screen of the **PI to OCS Agent Configuration Utility** opens.
-   ![](..\..\images\utility-03.png)
    
-   ​																	
-   
-2. In the **Data Archive Server Name** text box, enter the name of the PI Data Archive server you want to add, then click **Add Server**.
+1. In the **Data Archive Server Name** text box, enter the name of the PI Data Archive server you want to add, then click **Add Server**.
    
    **Result:** The PI Data Archive connection is added and details about the newly added PI Data Archive are displayed.
+
    ![PI Data Archive connection details](..\..\images\utility-pda-details.png)
    
-4. Review the following details for your PI Data Archive:
+1. Review the following details for your PI Data Archive:
+ 
    * Server name, version, and server ID
    * IP address
    * Connection status and timeout
    
-5. **Optional:** Click the pencil icon next to the **Connection Timeout (sec)** text box to change the length of time the agent checks for a server connection before timing out.
+1. **Optional:** Click the pencil icon next to the **Connection Timeout (sec)** text box to change the length of time the agent checks for a server connection before timing out.
 
-6. **Optional**: Click the **Test Connection** button to confirm that the connection to the Data Archive is working.
+1. **Optional**: Click the **Test Connection** button to confirm that the connection to the Data Archive is working.
 
-7. **Optional**: Click the **Remove Server** button to remove the configured PI Data Archive from the PI to OCS connection.
+1. **Optional**: Click the **Remove Server** button to remove the configured PI Data Archive.
 
-7. Click **Save** to retain the current PI Data Archive configuration.
+1. Click **Save** to retain the current PI Data Archive configuration.
 
    **Note:** You must click the **Save** button to retain all PI Data Archive settings. 
 
-8. Optional: Click **Exit** to close the utility.
+1. Optional: Click **Exit** to close the utility.
 
 ## Create a PI mapping 
 
@@ -173,17 +173,18 @@ PI mappings enable access to data stored on a PI Data Archive by service account
 * The user account used to launch the utility must have permissions to create mappings.
 * You can edit mappings.
 
-#### Procedure
-
 1. Navigate to the PI Data Archive details page in the `PI to OCS Agent Configuration Utility` window.
 
 2. Click the pencil icon next to the **PI Mapping** field.
+ 
    **Result:** The **Configure Mapping** dialog box opens.
 
 ![Configure Mapping dialog box](..\..\images\configure-mapping-window.png)
 
-3. Select one of the identities for the PI mapping, then click **Save**.
+3. Select one of the identities for the PI mapping, then click **Create**.
+
    **Result:** The PI mapping is created for the selected identity, group or user.
+
    **Note:** If a PI mapping has already been created with another tool, a warning is displayed. 
 
 4. Click **Close** to return to the utility.
@@ -196,20 +197,17 @@ You can set data privacy settings and assign a descriptive name to an agent. Dat
 
 This description appears where the agent is referenced and allows you to search by agent description.
 
-#### Procedure
-
 1. In the `PI to OCS Agent Configuration Utility` window, click the pencil icon to the right of **Agent Service Account**.
+ 
    **Result:** The **PI to OCS Agent Settings** dialog box opens.
 
-   ![PI to OCS Agent Settings dialog box](..\..\images\pi-2-ocs-agent-settings-dialog.png)
+1. Under **Data Privacy**, select the **Opt-in to publishing PI to OCS Agent Hostname in OCS?** option.
 
-2. Under **Data Privacy**, select the **Opt-in to publishing PI to OCS Agent Hostname in OCS** option.
+1. Optional: In the **PI to OCS Agent Description** text box, enter a name for the agent.
 
-3. Optional: In the **PI to OCS Agent Description** text box, enter a new name for the agent.
+1. Click **Ok** to save your selections, then click **Save** in the utility.
 
-4. Click **Ok** to save your selections, then click **Save** in the utility.
-
-5. Optional: Click **Exit** to close the utility.
+1. Optional: Click **Exit** to close the utility.
 
 ## List of agent status states
 
