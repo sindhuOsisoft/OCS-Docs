@@ -2,8 +2,8 @@
 uid: known-issues
 ---
 
-# Known issues
+# PI to OCS known issues
 
-The following list contains existing, known issues in PI to OCS:
+The following are known issues in PI to OCS:
 
-* Queries that contain a very large number of PI points (> 1 million) in the search results will generate an exception error and not be processed.  
+* Query search results that contain a very large number of PI points (> 1 million) will generate an exception error and not be processed.  

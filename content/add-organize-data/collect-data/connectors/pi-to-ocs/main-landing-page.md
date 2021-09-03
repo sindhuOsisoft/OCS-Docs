@@ -12,6 +12,7 @@ The PI to OCS lighthouse release enables you to transfer both on-prem PI data an
 * [PI to OCS Agent maintenance](xref:remove-agent)
 * [PI to OCS log messages](xref:view-logs)
 * [Troubleshoot PI to OCS](xref:troubleshoot-pi-pt-errors)
+* [PI to OCS known issues](xref:known-issues)
 * [PI to OCS release notes](xref:pi2ocs-rel-notes)
 
 If you are interested in participating in the PI to OCS Lighthouse program, send an email to lighthouse@osisoft.com. 
