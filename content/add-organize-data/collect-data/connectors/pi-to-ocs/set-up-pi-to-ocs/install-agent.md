@@ -81,7 +81,7 @@ This topic contains these sections:
 
     * **This account**: Specify a user name and password (domain\account) to connect to PI Data Archive.
 
-    **Note:** The service account must have Administrator privileges and read access to certain data on PI Data Archive.
+    **Note:** The service account used to run the PI to OCS Service requires Administrator privileges. Read access to the PIARCDATA Security table, PIPOINT Security table, and the PI points and data to be transferred is also required.
 
 12. Click the **Install** button.
 
