@@ -4,7 +4,7 @@ uid: overview-data-transfers
 
 # Overview of data transfers
 
-To transfer AF elements and PI System data to OCS, you must first set filter criteria and select AF elements and PI points for the transfer. Then, you can stream the selected AF elements and PI points from your on-premises PI System to OCS.
+To transfer AF elements and PI System data to OCS, you must set filter criteria and select the data for the transfer. Then, you can stream the selected AF elements and PI points from your on-premises PI System to OCS.
 
 The following tasks must be performed before you can complete a data transfer:
 

@@ -18,11 +18,10 @@ You can export a list of all the PI points added to a transfer for your records.
    
    **Result:** The **Export Transfer** dialog box opens.
 
-1. Select the transfer details you wish to include in the .csv file (**All**, **AF elements**, **PI points** (**Implicit/Explicit**)), then click **Export**.
+1. Select the transfer details you wish to include in the .csv file (**All**, **AF elements**, **PI points (Implicit)**, **PI points (Explicit)**, then click **Export**.
  
   **Result:** The **Save As** dialog box opens. 
    
 1. Navigate to the location where you want to save the file, enter a name for the .csv file, then click **Save**.
 
    **Result:** A .csv file containing the selected transfer details is saved.
-

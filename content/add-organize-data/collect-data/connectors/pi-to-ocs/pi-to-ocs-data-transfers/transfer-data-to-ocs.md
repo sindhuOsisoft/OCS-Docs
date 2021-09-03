@@ -36,7 +36,7 @@ During transfer creation, you will need to perform the following tasks:
 
 1. Sign in to the [OCS portal](https://cloud.osisoft.com).
 
-1. Click the menu ![](..\..\images\waffle-button.png) icon, then click **Data Collection > PI to OCS Agents**.
+1. Click the menu ![](../../images/waffle-button.png) icon, then click **Data Collection > PI to OCS Agents**.
 
 1. In the `PI to OCS Agents` window, select the agent for the data transfer.
 
@@ -44,7 +44,7 @@ During transfer creation, you will need to perform the following tasks:
  
    **Result:** The **Transfer Setting** dialog box opens.
 
-   ![](..\..\images\transfer-settings.png)
+   ![](../../images/transfer-settings.png)
    
 1. Enter a name and description for the transfer.
 
@@ -63,7 +63,7 @@ During transfer creation, you will need to perform the following tasks:
  
    **Result:** The transfer is created and the `Transfer` page opens.
 
-   ![](..\..\images\transfer-win.png)
+   ![](../../images/transfer-win.png)
 
 **Note:** You can click the **Settings** button to access the **Transfer Setting** dialog box and modify transfer settings (name, description, historical start and end times, and data privacy settings).
 
@@ -152,7 +152,7 @@ You build a PI points transfer list by setting query criteria and then adding th
 
 1. Define your search query:
 
-   | PI Point Data Search Criteria    | Action To Take                                               |
+   | To Filter Results By Certain Criteria    | Action To Take                                               |
    | -------------------------- | ------------------------------------------------------------ |
    | Common PI point attributes | Enter criteria in any of the following fields:<br /><ul><li>**Name** (alias for tag attribute)</li><li>**Point Source**</li></ul><br /><br />**Note:** Enter * to retrieve all PI points. |
    | Point descriptions         | Enter criteria in the following fields:<br /><ul><li>**Descriptor** </li><li>**Extended Descriptor**</li></ul> |
@@ -237,7 +237,7 @@ The `Details` pane provides information about the agent associated with the tran
 | ---------------- | ------------------------------------------------------------ |
 | **1**            | `Agent Overview:` Lists the agent description (if any), namespace, status, version, and date and time of last connection. |
 | **2**            | `Transfer Overview:` Displays transfer details and progress. Also contains buttons to view, remove or stop a transfer. |
-| **3a**            | `Data Sources:` Displays details about the data source server(s) and version(s), as well as the streaming status of a data transfer. It also lists how much historical data has been transferred for a given time period.  If an AF server has been added, details about the AF server and transferred elements are shown under the listed  AF server data source ( ![](../../images/af-data-icon.png) ). The AF status fields provide information about the number of AF elements and assets succesfully transferred and created:  <ul><li>**Total Elements in Transfer**: The total number of AF elements in transfer to OCS. </li><li>**Total Elements Transferred**: The number of elements transferred to OCS.</li><li>**Total Assets Created**: The number of assets created in OCS.</li><li>**Assets Updated**: The number of assets updated during the transfer process.</li>**Asset Create/Update Errors:** The number of errors generated while creating or updating assets in OCS.</li> |
+| **3a**            | `Data Sources:` Displays details about the data source server(s) and version(s), as well as the streaming status of a data transfer. It also lists how much historical data has been transferred for a given time period.  If an AF server has been added, details about the AF server and transferred elements are shown under the listed  AF server data source ( ![](../../images/af-data-icon.png) ). The AF status fields provide information about the number of AF elements and assets succesfully transferred and created:  <ul><li>**Total Elements in Transfer**: The total number of AF elements in transfer to OCS. </li><li>**Total Elements Transferred**: The number of elements transferred to OCS.</li><li>**Total Assets Created**: The number of assets created in OCS.</li><li>**Assets Updated**: The number of assets updated during the transfer process.</li><li>**Asset Create/Update Errors:** The number of errors generated while creating or updating assets in OCS.</li> |
 |**3b**            |Under the registered Data Archive ( ![](../../images/pda-source-icon.png) ), the Streaming and Historical Events Per Second fields list the number of events successfully transferred to OCS. Historical events represent the number of incoming events per second that come from a backlog of events for the PI points associated with the transfer, which are not transferred as “real-time” events. Streaming events represent the number of current, real-time events transferred into OCS. |
 
 ## Transfer data to OCS
@@ -266,7 +266,7 @@ Data is ready for transfer to OCS after the desired PI points and/or AF elements
 
 3. In the `Details` pane, expand the `Data Source` section to view the status of a transfer as data is sent to OCS.
 
-   **Note:** The rate at which data is transferred varies and depends on the density of data in the source PI Data Archive and/or AF server. See [Data transfer statuses](xref:data-transfer-statuses) for a list of transfer statuses and descriptions. To find out more information about an asset error or agent status, click the **Logs** button above the list of agents. 
+   **Note:** The rate at which data is transferred varies and depends on the density of data in the source PI Data Archive and/or AF server. See [Data transfer statuses](xref:data-transfer-statuses) for a list of transfer statuses and descriptions. To find out more information about an asset error or agent status, click the **Logs** button above the agent list. 
    
 4. Optional: To stop a transfer, click **Stop Transfer**, then click **Stop**.
 

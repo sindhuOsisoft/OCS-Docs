@@ -9,7 +9,7 @@
 - name: Export transfer details
   href: export-transfer-details.md
 - name: Export a list of missing PI points
-  href: export-missing-points.md    
+  href: export-missing-pi-points.md    
 - name: Point type change
   href: pi-point-change.md
 - name: Confirm data retrieval
