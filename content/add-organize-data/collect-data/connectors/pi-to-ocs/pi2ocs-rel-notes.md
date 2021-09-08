@@ -12,7 +12,6 @@ Describe the major improvements and bug fixes as necessary
 
 ### Security
 
-Security fixes, as described in in the architectural SDL guidelines detailed [here](https://dev.azure.com/osieng/engineering/_wiki/wikis/Architecture.wiki/1216/SDL-practice-described-in-release-notes?anchor=release-notes). Format details are in the "Security Information and Guidance" section of the QT06 Release Notes Template.docx located in GG Shared Documents > QS Templates . If non-applicable, state so.
 
 ### Platform Requirements
 

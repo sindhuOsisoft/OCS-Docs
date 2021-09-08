@@ -12,9 +12,11 @@ The following tasks must be performed before you can complete a data transfer:
 2. Configure your PI System data source connections by adding the desired Data Archive and optional AF server.
 3. Create a data transfer by adding the desired AF elements and/or PI points.
 
-**Note:** If you have PI points that do not update often, you might want the data in OCS before it is archived on the source Data Archive. To accomplish this task, turn off compression for these PI points to ensure snapshot data is collected.  
+## Slow moving data
 
-OSIsoft recommends turning off compression only for PI points that do not update often. In general, this practice is not required for most tags and can cause unnecessary overhead and data collection.
+If you have PI points that do not update often, you might want the data in OCS before it is archived on the source Data Archive. To accomplish this task, turn off compression for these PI points to ensure snapshot data is collected.  
+
+It is recommended that compression gets turned off only for PI points that do not update often. In general, this practice is not required for most tags and can cause unnecessary overhead and data collection.
 
 ## Historical transfer
 

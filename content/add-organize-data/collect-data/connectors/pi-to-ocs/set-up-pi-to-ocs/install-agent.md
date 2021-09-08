@@ -6,21 +6,23 @@ uid: install-agent
 
 When you install the PI to OCS Agent, make sure to follow these guidelines:
 
-* Install the agent on a host computer separate from your PI Data Archive deployment.
+* Install the agent on a host computer separate from your PI Server deployment.
 * Use a domain account that has been granted Administrator privileges on a computer registered to the same domain.
 * Enable read access to Data Archive security tables and the PI points and data to be transferred.
+* Enable read access to the AF server elements and attributes to be transferred.
 
-You can download the PI to OCS Agent Installation kit and then transfer it to the computer that will host the agent.
+You can download the PI to OCS Agent from the PI to OCS Agents page on the OCS portal and then transfer it to the computer that will host the agent.
 
 **NOTE:** The PI to OCS Agent installation cannot be completed if the system time is not correct. Additionally, you will not be able to complete the PI to OCS Agent installation if Internet Explorer Enhanced Security configuration is enabled. See [Disable Internet Explorer Enhanced Security Configuration](xref:disable-ie-security) for details. 
 
-## Configure access to PI Data Archive Security tables and PI point data
+## Configure access to PI Data Archive Security tables, PI point data, and optional AF server
 
-**IMPORTANT:** The PI to OCS Agent requires the Windows service account to "run as user". Read access to the following PI Data Archive data is required:
+**IMPORTANT:** The PI to OCS Agent requires the Windows service account to "run as user". Enable read access to the following PI Server data:
 
 * Archive data (the PIARCDATA Security table)
 * The PI points configuration table (PIPOINT Security table)
 * The PI points and data to be transferred
+* The AF server elements and attributes to be transferred 
 
 ## Topics in this section
 
@@ -93,7 +95,7 @@ This topic contains these sections:
 
     **Result**: The PI to OCS Configuration Utility opens. See [Run the PI to OCS Agent Configuration Utility](xref:pi-to-ocs-utility) for instructions.
 
-    **Note:** An agent cannot be registered until a PI Data Archive server has been added and configured.
+    **Note:** An agent cannot be registered until a PI Data Archive server has been added and configured in the PI to OCS Configuration Utility.
 
 ## Verify the PI to OCS Agent is running and registered
 

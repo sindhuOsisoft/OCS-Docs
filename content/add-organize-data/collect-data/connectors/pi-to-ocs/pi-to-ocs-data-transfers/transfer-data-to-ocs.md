@@ -4,7 +4,7 @@ uid: transfer-data
 
 # Transfer data to OCS
 
-You initiate a data transfer from the `PI to OCS Agents` window. A transfer can contain a combination of PI points and AF elements or just PI points or AF elements. This topic contains these sections:
+You initiate a data transfer from the `PI to OCS Agents` window. A transfer can consist of PI points and AF elements or AF elements that reference at least one PI point. This topic contains these sections:
 
 1. [Create a transfer](#create-a-transfer)
 2. [Build an AF elements transfer list](#build-an-af-elements-transfer-list)
@@ -14,7 +14,7 @@ You initiate a data transfer from the `PI to OCS Agents` window. A transfer can 
 6. [Save a transfer](#save-a-transfer)
 7. [Transfer data to OCS](#transfer-data-to-ocs)
 
-To learn more about the two types of PI points you can add to a transfer, see [Overview of explicit vs. implicit PI points](#overview-of-explicit-vs.-implicit-pi-points).
+PI points can be added to a transfer explicitly (via a tag search) or implicitly (via AF element references). To learn more about the difference between implicit and explicit references, see [Overview of explicit vs. implicit PI points](#overview-of-explicit-vs.-implicit-pi-points).
 
 #### Before you start
 
@@ -26,11 +26,15 @@ During transfer creation, you will need to perform the following tasks:
 
 1. Assign a name, description, and optional historical start and end time for data retrieval.
 1. Select a level of data privacy to control how much identifying information about an asset is sent with PI point data.
-1. Set query criteria and retrieve and add optional AF elements and/or PI point data to your transfer lists.
+1. Set query criteria and retrieve and add optional AF elements, which reference at least one implicit or explicit PI point, and/or PI point data to your transfer lists.
 1. View transfer details
 1. Save your transfer.
 1. Optional: Export a file(s) that contains transfer detail information.
 1. Initiate and monitor the transfer of data from PI to OCS. 
+
+**Note:** If you have configured an AF server, you will not be able to create a transfer until AF indexing is complete. AF indexing status is reflected on the Details pane in the PI to OCS Agents page.
+
+![](../../images/af-indexing.png)
 
 ### Name the transfer and set data privacy settings 
 
@@ -54,10 +58,10 @@ During transfer creation, you will need to perform the following tasks:
 
 1. Set the data privacy level for the transfer by selecting one of the following **Stream Metadata Replication Policy** settings: 
 
-   * **High**: Send all identifying information about an asset with the PI point.
+   * **High**: Sends all intended metadata.
    * **Medium (default)**: Send metadata without logical addresses from the data source.
-   * **Low**: Does not send any metadata. Locally configured metadata such as point source and local aliases can be sent in the transfer.
-   * **None**: No sensitive data is included in the transfer.
+   * **Low**: Sends no metadata from the data source namespace. Locally configured metadata such as point source and local aliases is allowed (point name, point ID and point source only).
+   * **None**: Only the point ID and point name is sent; no metadata is included in the transfer.
 
 1. Click **Ok**.
  
@@ -116,11 +120,12 @@ You build an AF elements transfer by setting query criteria and then selecting A
 
 1. Click **Save** to add the selected AF elements to the transfer.
 
-**Note:** You can continue adding AF elements after adding and saving a selection. AF Indexing needs to complete before you can view implicit PI points and start the transfer process.
+**Note:** AF indexing needs to complete before you can view implicit PI points and start the transfer process.
 
 ## View AF element details
 
-You can view details about an individual AF element such as related attributes and its source path in AF. To gain deeper insights about where an asset is located and to help search for AF elements, you can view where AF elements reside in the AF element hierarchy by viewing details about the parent, parent ID, template, and additional places where an element is referenced.
+You can view details about an individual AF element such as related attributes and its source path in AF. To gain deeper insights about where an asset is located and to help search for AF elements. you can view where AF elements reside in the AF element hierarchy by viewing details about the element template, and additional places 
+where an element is referenced. AF element templates are propagated to OCS as asset types.
 
 1. In the `Transfer` pane, click the **AF Elements** tab.
 
@@ -226,6 +231,8 @@ Before you can transfer data to OCS, you must save the transfer to retain your P
 1. In the `Transfer` pane, click **Save**.
 
    **Result:** The transfer is saved and you are returned to the `PI to OCS Agents` window.
+
+**Note:** To make changes to a transfer, you will have to remove and rebuild a new transfer.
 
 ## Overview of the Details pane
 

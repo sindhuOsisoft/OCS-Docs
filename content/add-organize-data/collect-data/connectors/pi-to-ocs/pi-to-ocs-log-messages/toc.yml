@@ -3,5 +3,7 @@
   href: download-tenant-log.md
 - name: View PI to OCS Agent logs
   href: view-logs.md
+- name: View PI to OCS Configuration Utility logs
+  href: config-utility-logs.md  
 - name: Common Event Viewer log messages
   href: log-messages.md

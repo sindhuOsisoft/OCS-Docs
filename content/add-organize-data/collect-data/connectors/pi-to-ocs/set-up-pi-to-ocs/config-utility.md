@@ -136,9 +136,9 @@ You can assign an AF mapping to an AF identity. AF mappings enable a specific se
 
 After adding an AF server, you can select the source PI Data Archive that contains the PI points you want to transfer. The list of available PI Data Archive servers is based on what servers are referenced by AF elements on the AF server you selected. If you are upgrading an agent, the PI to OCS Agent Configuration Utility maintains the previously selected PI Data Archive configuration.  
 
-**Note:** If you are not adding an AF server, you can select a PI Data Archive server on the first screen of the PI to OCS Agent Configuration Utility.
+**Note:** If you are not adding an AF server, click the PI Data Archive icon on the first screen of the PI to OCS Agent Configuration Utility.
 
-1. Click the **Add Data Archive** **Server** button in the PI to OCS Agent Configuration Utility.
+1. Click the ![](../../images/add-da-button.png) button or select one of the Data Archives listed under **Select a Data Archive**.
  
    **Result**:  The first screen of the **PI to OCS Agent Configuration Utility** opens.
    
