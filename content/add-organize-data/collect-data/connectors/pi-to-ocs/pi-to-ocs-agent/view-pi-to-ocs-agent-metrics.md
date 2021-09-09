@@ -18,5 +18,5 @@ You can quickly view key performance indicator (KPI) metrics for installed PI to
 
 1.  View the information in the PI to OCS Agents tile to see the current state of your agent(s) (**Good**, **Warning**, **Bad**, **Stopped**).
 
-1. Click an agent state (**Good**, **Warning**, **Bad**, **Stopped**) to view more details about the agent status in the `PI to OCS Agent` page.
+1. Click an agent state (**Good**, **Warning**, **Bad**, **Stopped**) to display agents by filter state on the `PI to OCS Agent` page.
   
