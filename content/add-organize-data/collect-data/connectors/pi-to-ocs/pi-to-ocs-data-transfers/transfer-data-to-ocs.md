@@ -7,12 +7,13 @@ uid: transfer-data
 You initiate a data transfer from the `PI to OCS Agents` window. A transfer can consist of PI points and AF elements or AF elements that reference at least one PI point. This topic contains these sections:
 
 1. [Create a transfer](#create-a-transfer)
-2. [Build an AF elements transfer list](#build-an-af-elements-transfer-list)
-3. [View AF element details](#view-af-element-details)
-4. [Build a PI points transfer list](#build-a-pi-points-transfer-list)
-5. [View PI point details](#view-pi-point-details)
-6. [Save a transfer](#save-a-transfer)
-7. [Transfer data to OCS](#transfer-data-to-ocs)
+1. [Name the transfer and set data privacy settings](#name-the-transfer-and-set-data-privacy-settings)
+1. [Build an AF elements transfer list](#build-an-af-elements-transfer-list)
+1. [View AF element details](#view-af-element-details)
+1. [Build a PI points transfer list](#build-a-pi-points-transfer-list)
+1. [View PI point details](#view-pi-point-details)
+1. [Save a transfer](#save-a-transfer)
+1. [Transfer data to OCS](#transfer-data-to-ocs)
 
 PI points can be added to a transfer explicitly (via a tag search) or implicitly (via AF element references). To learn more about the difference between implicit and explicit references, see [Overview of explicit vs. implicit PI points](#overview-of-explicit-vs.-implicit-pi-points).
 
