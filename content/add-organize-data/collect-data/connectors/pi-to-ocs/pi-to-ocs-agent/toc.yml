@@ -3,6 +3,6 @@
 - name: Repair an agent 
   href: repair-agent.md
 - name: Search for an agent
-  href: search-agent.md
+  href: search-agents.md
 - name: Remove an agent
   href: remove-agent-portal.md

@@ -2,9 +2,9 @@
 uid: repair-agent 
 --
 
-## Repair an agent
+# Repair an agent
 
-An agent may need to be repaired from time to time.
+An agent may need to be repaired from time to time to fix and update files.
 
 1. Click the Windows Start button, then click **Settings**.
 
