@@ -1,5 +1,7 @@
 - name: Overview of data transfers
   href: overview-data-transfers.md
+- name: Support for slow moving data
+  href: slow-moving-data.md
 - name: What AF data is transferred to OCS?
   href: af-data-transferred.md  
 - name: Transfer PI System data to OCS
