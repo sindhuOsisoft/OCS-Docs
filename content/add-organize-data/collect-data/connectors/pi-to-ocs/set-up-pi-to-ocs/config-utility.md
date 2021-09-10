@@ -71,7 +71,7 @@ The utility validates an AF server connection to ensure certain criteria is met:
 
 1. In the `PI to OCS Agent Configuration Utility` window, click the **AF** button.
 
-1. In the **AF Server Name** text box, enter the name of your AF server, then click **Add Server**.
+1. In the **AF Server Name** text box, enter the name of your AF server, then press Enter or click **Add Server**.
  
    **Result:** After successful detection, you are advanced to a page that displays details about the data source connection(s) and agent.
 
@@ -217,7 +217,7 @@ It may take a few minutes for a PI System to register with OCS. The table below 
 | ----------------------------- | ------------------------------------------------------------ |
 | Data  Source Connection Issue | Indicates  the PI To OCS Agent isn’t able to connect to the PI Data Archive. Some  reasons for this status include the PI Data Archive is turned off, a firewall  issue is preventing connections or an incorrect name is configured for the  Data Archive (for example, trying to connect to a machine that doesn’t  exist/was renamed). There may be additional reasons for this status. |
 | Data  Source Security Issue   | Indicates  the PI Data Archive connection is unsecure and security settings need to be  addressed. |
-| Missing Configuration         | The PI Data Archive server or AF server has not been configured in the PI to OCS Agent. |
+| Missing Configuration         | The PI Data Archive server has not been configured in the PI to OCS Agent. |
 | Registration Failed           | Contact OSIsoft Customer support for assistance.             |
 | Registering                   | The PI to OCS Cloud portion is creating the necessary resources for your PI to OCS Agent. |
 | Shutdown                      | The last communication that the PI to OCS Cloud had with the agent was a shutdown message. |
