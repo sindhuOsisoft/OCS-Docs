@@ -17,9 +17,7 @@ You initiate a data transfer from the `PI to OCS Agents` window. A transfer can 
 
 PI points can be added to a transfer explicitly (via a tag search) or implicitly (via AF element references). To learn more about the difference between implicit and explicit references, see [Overview of explicit vs. implicit PI points](#overview-of-explicit-vs.-implicit-pi-points).
 
-#### Before you start
-
-Download and install the PI to OCS Agent. Register your PI Data Archive and AF data sources using the PI to OCS Agent Configuration Utility. 
+**Before you begin:** Download and install the PI to OCS Agent. Register your PI Data Archive and AF data sources using the PI to OCS Agent Configuration Utility. 
 
 ### Create a transfer
 
@@ -33,7 +31,7 @@ During transfer creation, you will need to perform the following tasks:
 1. Optional: Export a file(s) that contains transfer detail information.
 1. Initiate your data transfer and monitor its progress. 
 
-**Note:** If you have configured an AF server, you will not be able to create a transfer until AF indexing is complete. AF indexing status is reflected on the Details pane in the PI to OCS Agents page.
+**Note:** If you have configured an AF server, you will not be able to create a transfer until AF indexing is complete. AF indexing status is listed on the Details pane in the PI to OCS Agents page.
 
 ![](../../images/af-indexing.png)
 

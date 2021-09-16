@@ -8,6 +8,7 @@ These are the requirements to transfer data from an on-prem PI Server to OCS:
 
 * [System requirements](#system-requirements)
 * [Administrator privileges](#administrator-privileges)
+* [Ensure write access to stream and asset collections](#ensure-write-access-to-stream-and-asset-collections)
 * [Configure access to PI Data Archive Security tables and PI point data](#configure-access-to-pi-data-archive-security-tables-and-pi-point-data)
 
 ## System requirements
@@ -29,7 +30,13 @@ The PI to OCS Agent must be installed on a local machine by a user account with 
 2. Assigned to the OCS Tenant Administrator role
 3. A domain account and a machine registered to the domain when using PI to OCS. The computer must be a member of a domain; workgroups are not supported at this time.
 
-During the PI to OCS Agent installation, you need to log on to the OCS portal with the Tenant Administrator credentials. 
+## Ensure write access to stream and asset collections 
+
+The PI to OCS Agent has write permission to the streams collection in OCS. Write permission is provided by default through the Tenant Contributor role on the automatically generated PIToOcs Agent Client User. Write permission to this collection is required to enable stream creation.
+
+**Note:** If write access is removed, stream creation will fail.
+
+Write permission on the assets collection is also required for creation.
 
 ## Configure access to PI Data Archive Security tables and PI point data
 
