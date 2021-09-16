@@ -17,7 +17,7 @@ You can download the PI to OCS Agent from the PI to OCS Agents page on the OCS p
 
 ## Configure access to PI Data Archive Security tables, PI point data, and optional AF server
 
-**IMPORTANT:** The PI to OCS Agent requires the Windows service account to "run as user". Enable read access to the following PI Server data:
+**Important:** The PI to OCS Agent requires the Windows service account to "run as user". Enable read access to the following PI Server data:
 
 * Archive data (the PIARCDATA Security table)
 * The PI points configuration table (PIPOINT Security table)
@@ -59,7 +59,7 @@ This topic contains these sections:
 
    ![](../../images/agent-co-info.png)
 
-8. Enter your OCS tenant ID or company alias in the **Tenant ID or Company Alias** text box, then click **Next**.
+8. Enter your OCS tenant ID or company alias in the **Tenant Id or Company Alias** text box, then click **Next**.
 
    **Note:** You are logged on to your tenant account in OCS.  The account used to log on must be assigned to the OCS Tenant Administrator role to complete the PI to OCS Agent installation.
 
@@ -69,7 +69,7 @@ This topic contains these sections:
 
    **Result:** The **Namespace** page opens.
 
-10. Select or enter the following information for your PI to OCS connection, then click **Next**:
+10. Enter the following information, then click **Next**:
 
     * **Namespace**: Select the location where your transferred data will be stored. The region indicates where the namespace resides. Streaming data sent by the PI to OCS Agent only goes to the selected namespace's region.
 
@@ -83,15 +83,15 @@ This topic contains these sections:
 
     * **This account**: Specify a user name and password (domain\account) to connect to PI Data Archive.
 
-    **Note:** The service account used to run the PI to OCS Service requires Administrator privileges. Read access to the PIARCDATA Security table, PIPOINT Security table, and the PI points and data to be transferred is also required.
+    **Note:** The service account used to run the PI to OCS Service requires Administrator privileges. Read access to the PIARCDATA Security and PIPOINT Security tables, the PI points and data to be transferred, and the AF server, elements, and attribute data is required.
 
 12. Click the **Install** button.
 
     **Result:** The PI to OCS Agent is installed.
 
-    **Note:** Installation may take a few moments.
+    **Note:** Installation takes a few moments.
 
-13. After the agent has been successfully installed, click **Close** to close the PI to OCS Agent wizard.
+13. After the agent has been successfully installed, click **Close** to exit the wizard.
 
     **Result**: The PI to OCS Configuration Utility opens. See [Run the PI to OCS Agent Configuration Utility](xref:pi-to-ocs-utility) for instructions.
 
@@ -105,7 +105,7 @@ After installation, check that the PI to OCS Agent Windows service is running on
 
 1. On the host machine where you installed the agent, type *services.msc* in the text box next to the Windows menu button, then press ENTER.
 
-2. In the `Services` window, scroll to and verify that that the PI to OCS Agent’s status is running.
+2. In the `Services` window, scroll to and verify that that the PI to OCS Agent’s status is running, then close the window.
 
    ![](../../images/services-window.png)
 

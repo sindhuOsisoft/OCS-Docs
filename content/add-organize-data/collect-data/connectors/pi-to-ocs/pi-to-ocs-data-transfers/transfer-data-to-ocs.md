@@ -31,7 +31,7 @@ During transfer creation, you will need to perform the following tasks:
 1. View transfer details
 1. Save your transfer.
 1. Optional: Export a file(s) that contains transfer detail information.
-1. Initiate and monitor the transfer of data from PI to OCS. 
+1. Initiate your data transfer and monitor its progress. 
 
 **Note:** If you have configured an AF server, you will not be able to create a transfer until AF indexing is complete. AF indexing status is reflected on the Details pane in the PI to OCS Agents page.
 
@@ -46,7 +46,7 @@ During transfer creation, you will need to perform the following tasks:
 1. In the `PI to OCS Agents` window, select the agent for the data transfer.
 
 1. In the `Details` pane, click **Create Transfer**.
- 
+
    **Result:** The **Transfer Setting** dialog box opens.
 
    ![](../../images/transfer-settings.png)
@@ -65,7 +65,7 @@ During transfer creation, you will need to perform the following tasks:
    * **None**: Only the point ID and point name is sent; no metadata is included in the transfer.
 
 1. Click **Ok**.
- 
+
    **Result:** The transfer is created and the `Transfer` page opens.
 
    ![](../../images/transfer-win.png)
@@ -89,9 +89,9 @@ You build an AF elements transfer by setting query criteria and then selecting A
 1. Optional: In the **Element Name** text box, enter search criteria to filter by part or all of an AF element name.
 
 1. Optional: In the **Attribute Name** text box, enter the attribute name.
- 
+
 1. Optional: In the **Attribute Value** fields, filter by attribute value by specifying the following information:
- 
+
       * In the first text box, enter an attribute name.
       * Click the operator down arrow, then select an operator (=, <>, <, >, =<, =>, In).
       * In the last text box, enter an attribute value.
@@ -103,7 +103,7 @@ You build an AF elements transfer by setting query criteria and then selecting A
 1. Optional: Click the **Category** down arrow to narrow the search by a specific category.
 
 1. Click **Search** to execute the query and retrieve matching results.
- 
+
    **Result:** Query results are displayed in the **Search Results** list.
 
 1. Scroll through the query results and click on each AF elements you want added to the transfer.
@@ -133,7 +133,7 @@ where an element is referenced. AF element templates are propagated to OCS 
 1. Select an AF element in the transfer list.
 
 1. Click the **View Details** button.
- 
+
    **Result:** The **AF Element Information** pane opens and displays details about AF element attributes (name, value, and data reference source path). 
    
 1. Click the **Reference AF Elements** tab.
@@ -153,7 +153,7 @@ You build a PI points transfer list by setting query criteria and then adding th
 1. Click the **PI Point** **Search** tab.
 
 1. Click the **Add** button.
- 
+
    **Result:** The `Search` pane opens.
 
 1. Define your search query:
@@ -212,9 +212,9 @@ You can view attribute details for selected PI points in a transfer, and also hi
 1. Optional: In the `Transfer` pane, click the **PI Points** tab.
 
 1. Select a PI point on the PI Points tab.
- 
+
 1. At the top right of the `Transfer` window, click the **View Details** button.
- 
+
    **Result:** The **PI Point Information** pane opens.
 
 1. Click the **Source AF Elements** tab to view the path of any AF elements that reference the PI point. 
