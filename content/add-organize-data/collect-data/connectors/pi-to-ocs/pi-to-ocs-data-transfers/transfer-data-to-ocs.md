@@ -72,23 +72,23 @@ During transfer creation, you will need to perform the following tasks:
 
 ## Build an AF elements transfer list
 
-You build an AF elements transfer by setting query criteria and then selecting AF elements.  You can narrow your search by filtering by element name, asset group, attribute name/value, template, and category. 
+You build an AF elements transfer by setting query criteria and then selecting AF elements after naming the transfer.  You can narrow your search by filtering by element name, asset group, attribute name/value, template, and category. 
 
-1. Select your agent in the **PI to OCS Agents** list, then click the **Add** button.
+1. Click the **AF Database** down arrow, then select the source AF database you want to search.
 
-   **Result:** The `AF Element Search` pane opens.
+1. Optional: Click the **Root Asset** button.
+   
+   **Result:** The `Select Root Element` dialog box opens.
 
-   ![](../../images/af-element-search-tab.png)
-
-1. Click the **AF Database** down arrow, then select a source AF database.
-
-1. Optional: Click the **Root Asset** button, then select a root asset to narrow your search by specific asset group.
+1. Optional: In the `Select Root Element` dialog box, click the plus buttons to drill down to the desired root asset in the AF database hierarchy, select a root asset, then click **Select**. 
 
 1. Optional: In the **Element Name** text box, enter search criteria to filter by part or all of an AF element name.
 
+   **Note:** If you don't enter filter criteria, the search defaults to "*" or all.  
+
 1. Optional: In the **Attribute Name** text box, enter the attribute name.
 
-1. Optional: In the **Attribute Value** fields, filter by attribute value by specifying the following information:
+1. Optional: In the **Attribute Value** fields, filter attribute values by specifying the following information:
 
       * In the first text box, enter an attribute name.
       * Click the operator down arrow, then select an operator (=, <>, <, >, =<, =>, In).
@@ -96,15 +96,15 @@ You build an AF elements transfer by setting query criteria and then selecting A
 
    **Note:** Custom unit of measurements (UOMs) are not supported in OCS. During the transfer of AF element data, AF elements with custom UOMs will not have their corresponding asset’s UOM property set.
 
-1. Optional: Click the **Template** down arrow to narrow your search by template name.
+1. Optional: Click the **Template** down arrow, then select a template to narrow your search by template name.
 
-1. Optional: Click the **Category** down arrow to narrow the search by a specific category.
+1. Optional: Click the **Category** down arrow, then select a category to narrow the search by a specific AF category.
 
 1. Click **Search** to execute the query and retrieve matching results.
 
    **Result:** Query results are displayed in the **Search Results** list.
 
-1. Scroll through the query results and click on each AF elements you want added to the transfer.
+1. Scroll through the query results and click each AF element you want added to the transfer.
 
    **Result:** A checkmark appears next to each selected AF element.
 
@@ -112,10 +112,12 @@ You build an AF elements transfer by setting query criteria and then selecting A
 
 1. To advance through multiple-paged query results, click the back and forward arrows OR enter a page number in the **Page** text box.
 
-1. Repeat step 10 until you have finished selecting elements.
+1. Repeat step 11 until you have finished selecting elements.
 
 1. When you are done selecting elements, click **Add AF Elements To Transfer**.
-    **Result:**  The elements are added to the transfer in the `AF Elements` tab.
+    **Result:**  The elements are added to the transfer and listed on the `AF Elements` tab.
+
+1. Repeat steps 1-13 to query other AF databases and add additional elements. 
 
 1. Click **Save** to add the selected AF elements to the transfer.
 
@@ -126,13 +128,11 @@ You build an AF elements transfer by setting query criteria and then selecting A
 You can view details about an individual AF element such as related attributes and its source path in AF. To gain deeper insights about where an asset is located and to help search for AF elements. you can view where AF elements reside in the AF element hierarchy by viewing details about the element template, and additional places 
 where an element is referenced. AF element templates are propagated to OCS as asset types.
 
-1. In the `Transfer` pane, click the **AF Elements** tab.
-
-1. Select an AF element in the transfer list.
+1. Select an AF element on the **AF Elements** tab.
 
 1. Click the **View Details** button.
 
-   **Result:** The **AF Element Information** pane opens and displays details about AF element attributes (name, value, and data reference source path). 
+   **Result:** The `AF Element Information` pane opens and displays details about AF element attributes (name, value, and data reference source path). 
    
 1. Click the **Reference AF Elements** tab.
 
@@ -142,7 +142,7 @@ where an element is referenced. AF element templates are propagated to OCS 
 
 1. Repeat step 3-5 as needed.
 
-1. Click the **View Details** button or **x** to close the **AF Element Information** pane.
+1. Click the **View Details** button to close the `AF Element Information` pane.
 
 ## Build a PI points transfer list
 
@@ -201,7 +201,7 @@ Implicit PI points are PI points referenced by AF elements in a transfer. You ca
 
    **Note:** Implicit PI points are referenced by AF element attributes and retrieved from an AF server. Hiding implicit PI points does not remove them from a transfer.  
 
-2. **Optional:** Click the **Show Implicit PI Points** toggle button again to reveal hidden implicit PI points.
+1. Optional: Click the **Show Implicit PI Points** toggle button again to reveal hidden implicit PI points.
 
 ## View PI point details
 
@@ -237,6 +237,7 @@ Before you can transfer data to OCS, you must save the transfer to retain your P
 
 The `Details` pane provides information about the agent associated with the transfer, the transfer progress, the data sources, and details about the PI points and AF elements transferred.  As shown in the screen capture below, the sections in the `Details` pane can be expanded and collapsed using the chevron arrows ( ![](../../images/chevrons.png) ):  
 
+![](../../images/details-pane1.png)
 ![](../../images/details-pane2.png) 
 
 | Numbered section | Description                                                  |
@@ -260,20 +261,22 @@ Data is ready for transfer to OCS after the desired PI points and/or AF elements
 
 ### Start the data transfer
 
-1. In the `PI to OCS Agents` window, select the PI to OCS Agent that contains the data you want to transfer. 
+1.  Optional: In the `PI to OCS Agents` window, select the PI to OCS Agent associated with the data transfer. 
 
 1. Optional: In the `Details` pane, click the `Transfer Overview` down area to expand this section.
 
    **Result:** The `Transfer Overview` section expands.
 
-2. Click the **Start Transfer** button, then click **Start**.
+1. Click the **Start Transfer** button, then click **Start**.
 
-   **Result:** The transfer process begins and information about the transfer is updated in the `Details` pane.
+   **Result:** The transfer of data begins and the transfer status is reflected in the `Transfer Overview` section.
 
-3. In the `Details` pane, expand the `Data Source` section to view the status of a transfer as data is sent to OCS.
+1. In the `Details` pane, expand the `Data Source` section to view the status of a transfer as data is sent to OCS.
 
-   **Note:** The rate at which data is transferred varies and depends on the density of data in the source PI Data Archive and/or AF server. See [Data transfer statuses](xref:data-transfer-statuses) for a list of transfer statuses and descriptions. To find out more information about an asset error or agent status, click the **Logs** button above the agent list. 
-   
-4. Optional: To stop a transfer, click **Stop Transfer**, then click **Stop**.
+   **Note:** The rate at which data is transferred varies and depends on the density of data in the source PI Data Archive and/or AF server. See [Data transfer statuses](xref:data-transfer-statuses) for a list of transfer statuses and descriptions. To find out more information about an asset error or agent status, click the **Logs** button above the list of agents to access more information. Possible statuses that appear in the **Current Activity** field may indicate an issue include Uncategorized Error, PI Point Type Change Detected, and No Valid PI Points In Transfer.   
 
-5. Optional: To remove a transfer, click **Remove Transfer**, then click **Remove**.
+1. Optional: If the fields in the `Details` pane indicate there are issues with the transfer or agent, click the **Logs** button to open the Logs window to view more information about the transfer.
+    
+1. Optional: To stop a transfer, click **Stop Transfer**, then click **Stop**.
+
+1. Optional: To remove a transfer, click **Remove Transfer**, then click **Remove**.
