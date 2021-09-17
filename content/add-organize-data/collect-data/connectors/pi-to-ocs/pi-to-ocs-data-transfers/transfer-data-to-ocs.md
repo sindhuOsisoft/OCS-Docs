@@ -272,7 +272,7 @@ Data is ready for transfer to OCS after the desired PI points and/or AF elements
 
 1. In the `Details` pane, expand the `Data Source` section to view the status of a transfer as data is sent to OCS.
 
-   **Note:** The rate at which data is transferred varies and depends on the density of data in the source PI Data Archive and/or AF server. See [Data transfer statuses](xref:data-transfer-statuses) for a list of transfer statuses and descriptions. To find out more information about an asset error or agent status, click the **Logs** button above the list of agents to access more information. Possible statuses that appear in the **Current Activity** field may indicate an issue include Uncategorized Error, PI Point Type Change Detected, and No Valid PI Points In Transfer.   
+   **Note:** The rate at which data transfers varies and depends on the density of data in the source PI Data Archive and/or AF server. See [Data transfer statuses](xref:data-transfer-statuses) for a list of transfer statuses and descriptions. To find out more information about an asset error, agent status, or asset create/update error, click the **Logs** button above the list of agents to access more information. Possible statuses that appear in the **Current Activity** field may indicate an issue include Uncategorized Error, PI Point Type Change Detected, and No Valid PI Points In Transfer.   
 
 1. Optional: If the fields in the `Details` pane indicate there are issues with the transfer or agent, click the **Logs** button to open the Logs window to view more information about the transfer.
     
