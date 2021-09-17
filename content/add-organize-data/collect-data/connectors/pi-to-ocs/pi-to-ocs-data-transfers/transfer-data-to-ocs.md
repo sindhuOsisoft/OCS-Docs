@@ -125,14 +125,13 @@ You build an AF elements transfer by setting query criteria and then selecting A
 
 ## View AF element details
 
-You can view details about an individual AF element such as related attributes and its source path in AF. To gain deeper insights about where an asset is located and to help search for AF elements. you can view where AF elements reside in the AF element hierarchy by viewing details about the element template, and additional places 
-where an element is referenced. AF element templates are propagated to OCS as asset types.
+You can view details about an individual AF element such as related attribute names, values, and data references. 
 
 1. Select an AF element on the **AF Elements** tab.
 
 1. Click the **View Details** button.
 
-   **Result:** The `AF Element Information` pane opens and displays details about AF element attributes (name, value, and data reference source path). 
+   **Result:** The `AF Element Information` pane opens and displays details about AF element attributes (name, value, and data reference). 
    
 1. Click the **Reference AF Elements** tab.
 
@@ -140,7 +139,7 @@ where an element is referenced. AF element templates are propagated to OCS 
 
 1. To view details for another AF element, deselect the currently selected element, and then select a different element in the transfer list.
 
-1. Repeat step 3-5 as needed.
+1. Repeat step 4 as needed.
 
 1. Click the **View Details** button to close the `AF Element Information` pane.
 
@@ -244,8 +243,8 @@ The `Details` pane provides information about the agent associated with the tran
 | ---------------- | ------------------------------------------------------------ |
 | **1**            | `Agent Overview:` Lists the agent description (if any), namespace, status, version, and date and time of last connection. |
 | **2**            | `Transfer Overview:` Displays transfer details and progress. Also contains buttons to view, remove or stop a transfer. |
-| **3a**            | `Data Sources:` Displays details about the data source server(s) and version(s), as well as the streaming status of a data transfer. It also lists how much historical data has been transferred for a given time period.  If an AF server has been added, details about the AF server and transferred elements are shown under the listed  AF server data source ( ![](../../images/af-data-icon.png) ). The AF status fields provide information about the number of AF elements and assets succesfully transferred and created:  <ul><li>**Total Elements in Transfer**: The total number of AF elements in transfer to OCS. </li><li>**Total Elements Transferred**: The number of elements transferred to OCS.</li><li>**Total Assets Created**: The number of assets created in OCS.</li><li>**Assets Updated**: The number of assets updated during the transfer process.</li><li>**Asset Create/Update Errors:** The number of errors generated while creating or updating assets in OCS.</li> |
-|**3b**            |Under the registered Data Archive ( ![](../../images/pda-source-icon.png) ), the Streaming and Historical Events Per Second fields list the number of events successfully transferred to OCS. Historical events represent the number of incoming events per second that come from a backlog of events for the PI points associated with the transfer, which are not transferred as “real-time” events. Streaming events represent the number of current, real-time events transferred into OCS. |
+| **3a**            | Under the registered Data Archive ( ![](../../images/pda-source-icon.png) ), the Streaming and Historical Events Per Second fields list the number of events successfully transferred to OCS. Historical events represent the number of incoming events per second that come from a backlog of events for the PI points associated with the transfer, which are not transferred as “real-time” events. Streaming events represent the number of current, real-time events transferred into OCS. |
+|**3b**            |If an AF server has been added, details about the AF server and transferred elements are shown under the listed  AF server data source ( ![](../../images/af-data-icon.png) ). The AF status fields provide information about the number of AF elements and assets succesfully transferred and created:  <ul><li>**Total Elements in Transfer**: The total number of AF elements in transfer to OCS. </li><li>**Total Elements Transferred**: The number of elements transferred to OCS.</li><li>**Total Assets Created**: The number of assets created in OCS.</li><li>**Assets Updated**: The number of assets updated during the transfer process.</li><li>**Asset Create/Update Errors:** The number of errors generated while creating or updating assets in OCS.</li> |
 
 ## Transfer data to OCS
 

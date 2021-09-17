@@ -9,7 +9,7 @@
   topicHref: pi-to-ocs-data-transfers/transfer-data-to-ocs.md
 - name: PI to OCS Agent maintenance
   href: pi-to-ocs-agent/toc.yml
-  topicHref: pi-to-ocs-agent/filter-remove-agents.md
+  topicHref: pi-to-ocs-agent/remove-agent-portal.md
 - name: PI to OCS logs 
   href: pi-to-ocs-log-messages/toc.yml
   topicHref: pi-to-ocs-log-messages/view-logs.md
