@@ -18,3 +18,5 @@
   topicHref: troubleshoot-pi-to-ocs/troubleshoot-pi-point-errors.md
 - name: Known issues
   href: known-issues.md
+- name: PI to OCS release summary
+  href: pi2ocs-rel-notes.md
