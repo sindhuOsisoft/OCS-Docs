@@ -6,6 +6,7 @@ uid: pi2ocs-rel-summary
 
 ## Release 1.7.0: September 20, 2021
 
+
 ## Overview
 
 This release covers the PI To OCS Agent, a component that is installed on-premises to replicate data and assets from the PI System to OSIsoft Cloud Services.
