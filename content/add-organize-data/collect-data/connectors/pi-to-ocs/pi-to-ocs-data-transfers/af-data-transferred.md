@@ -27,7 +27,7 @@ This table lists what AF objects can and cannot be included in a PI to OCS data 
 | PI point arrays                                              | No                                     |
 | Implicit PI points with multiple attributes on an AF element | Only one attribute will be transferred |
 | Implicit PI points with attributes that reference other attributes | No                               |
-| Attributes that reside on a non-connected data source/PI Data Archive | No                 |
+| Attributes that reference a non-registered data source/PI Data Archive | No                 |
 
 ## Performance metrics: AF data transfer
 
