@@ -14,11 +14,11 @@ After creating your types, you can add streams and associate a type with the str
 
 1. Click the ![Menu icon](images/menu-icon.png) and click **Sequential Data Store** (under Data Management).
 
-1. Click the **Namespace** selection button to open the `Select a Namespace` window. Select the namespace in which you want to create the stream. 
+1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png) and select the namespace in which you want to create the stream. 
 
 1. From the **Streams** drop-down list, select **Streams** if it is not already selected. 
 
-1. Click the **More Options** icon in the upper-right corner, then click **Manage Default Permissions**.  
+1. Click the ![More Options button](images/more-options.png) icon, then click **Manage Default Permissions**.  
 
    **Result:** The `Manage Default Permissions for New Streams` window opens. The default permissions for streams created in the selected namespace are configured here.
    

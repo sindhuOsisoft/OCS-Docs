@@ -61,17 +61,20 @@ Follow the procedure to use the asset explorer to create an asset type.
 You can take an existing asset and use it as the basis for creating an asset type.
 
 1. Click the ![Menu icon](images/menu-icon.png) icon and click **Asset Explorer** (under Visualization).
-2. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png) and select **MyOCS**.
-3. Select the **MyOCS.Asset** asset.
+ 
+1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png) and select **MyOCS**.
+
+1. Select the **MyOCS.Asset** asset.
+
     **Note:** In the upper right corner of the right pane, **Asset Type** is set to *< None >* indicating that this asset is not based on an asset type. 
 
 1. Click the ![More Options button](images/more-options.png) icon, then click **Save as Asset Type**.
 
-2. In the `Create an Asset Type for MyOCS.Asset` window, enter the following:
+1. In the `Create an Asset Type for MyOCS.Asset` window, enter the following:
    - `Name` &ndash; **MyOCS.TankType**
    - `Description` &ndash; (Optional) Add a description for the asset type. By default, this description is inherited by assets created with this asset type, but it can be overwritten on the individual assets.
 
-3. Click **Create**. 
+1. Click **Create**. 
 
    The MyOCS.TankType asset type is added to the asset type list. Note that the **Asset Type** for the MyOCS.Asset asset is now set to **MyOCS.TankType**. 
 

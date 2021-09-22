@@ -14,11 +14,11 @@ After creating the namespace, the next step is to add one or more types. For mor
 
 1. Click the ![Menu icon](images/menu-icon.png) icon and click **Sequential Data Store** (under Data Management).
 
-1. Click the **Namespace** selection button to open the `Select a Namespace` window. Select the namespace in which you want to create the stream. 
+1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace in which you want to create the stream. 
 
 1. From the **Streams** drop-down list, select **Types**.
 
-1. Click the **More Options** icon on the menu bar, then click **Manage Default Permissions**.
+1. Click the ![More Options button](images/more-options.png) icon, then click **Manage Default Permissions**.
  
    **Result:** The `Manage Default Permissions for New Types` window opens.
 
@@ -76,17 +76,17 @@ After creating the namespace, the next step is to add one or more types. For mor
 
 The following steps explore information about the type you just created.
 
-1. Click the checkbox to select the **MyOCS.PumpState** type in the list. Click **More options**, then click **Manage Permissions**.
+1. Click the checkbox to select the **MyOCS.PumpState** type in the list. Click the ![More Options button](images/more-options.png) icon, then click **Manage Permissions**.
 
     This opens the `Manage Permissions for MyOCS.PumpState` window where you can override the default permissions and set permissions for the specific type. You must be assigned the Tenant Administrator role to configure the type permissions.
 
     Review the permissions for the MyOCS.PumpState type, and when you have finished exploring this window, click **Cancel** to continue. 
 
-1. Click **More options**, then click **View Type**.
+1. Click the ![More Options button](images/more-options.png) icon, then click **View Type**. <!--VTT, 9/22/21: It appears this step is no longer needed + the View Type command is not on the More Options menu. After selecting a type, it's properties are shown in the left pane.-->
 
    This window shows the type details that you entered when you added the type. Click **Cancel** to continue.
 
-1. Click **More options**, then click **Get Type Streams**.
+1. Click the ![More Options button](images/more-options.png) icon, then click **Get Type Streams**.
 
    This takes you to the **Streams** list and, by default, OCS uses the typeId:MyOCS.PumpState query to filter for any streams with the MyOCS.PumpState type. The list is currently empty, because streams have not yet been created with this type.
 
