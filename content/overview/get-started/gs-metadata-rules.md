@@ -26,7 +26,7 @@ The first step is to identify and select a stream whose name will be the basis f
 
 1. Click the ![Menu icon](images/menu-icon.png) icon, and click **Metadata Management** (under Data Management).
 
-1. Click the **Change Namespace** drop-down list.  In the `Select a Namespace` window, click **MyOCS**.
+1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select **MyOCS**.
 
 1. Click **Add Metadata Rule**.
 
@@ -42,7 +42,7 @@ In this step, you identify delimiters in the stream name. Delimiters include per
 
 1. Click the plus sign (**+**) above each of the three delimiters.
 
-    This identifies the different sections of the stream name pattern. A row is added for each part of your stream name. There are four rows as shown below.![Metadata rules](images/metadata-step2.png)
+    This identifies the different sections of the stream name pattern. A row is added for each part of your stream name. There are four rows as shown below.![Metadata rules](images/metadata-step2.png) <!--VTT, 6/22/21: Recommend removing this image.-->
 
    **Note:** You can click on the minus sign (&ndash;) to ignore a delimiter.
 
@@ -70,7 +70,7 @@ In this step, you identify delimiters in the stream name. Delimiters include per
 
 On the Define Mappings page, you see the following. Below the stream pattern are the two metadata keys that will be mapped in this step. 
 
-![Define mappings](images/metadata-mapping.png)
+![Define mappings](images/metadata-mapping.png) <!--VTT, 6/22/21: Recommend removing this image.-->
 
 1. Select the **Region** key. (This is selected by default.)
 
@@ -99,7 +99,7 @@ On the Define Mappings page, you see the following. Below the stream pattern are
    OCS searches and finds any existing streams that match the pattern (in this example, the **MyOCS.{Region}.{Site}.*** pattern). For each stream that matches the pattern, it lists that part of the stream name, in this example, it lists the part that corresponds to the **Site** key.
    
 
-![Metadata mapping](images/metadata-mapping-site.png)
+![Metadata mapping](images/metadata-mapping-site.png) <!--VTT, 6/22/21: Recommend removing this image.-->
 
 6. In the **Map To** text box, enter **San Leandro**. 
 
