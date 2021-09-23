@@ -76,13 +76,13 @@ On the Define Mappings page, you see the following. Below the stream pattern are
 
    **Note:** You may change the metadata key name by editing the **Key** text box.
 
-2. Select **Copy Values** for the **Mapping Type**.
+1. Select **Copy Values** for the **Mapping Type**.
 
    **Copy Values** copies the string contained in that part of the stream name and assigns it to the **Region** key.
 
-3. Click **Site**.
+1. Click **Site**.
 
-4. Select **Map Values** for the **Mapping Type**.
+1. Select **Map Values** for the **Mapping Type**.
 
    This option allows you to map the part of the stream name associated with the **Site** key to another value. You may either manually enter the mappings or generate the mappings from existing streams. 
   
@@ -94,24 +94,21 @@ On the Define Mappings page, you see the following. Below the stream pattern are
 
      A stream (for example, MyOCS.WestCoast.Mfg.Inventory) can match both patterns, but the values ("WestCoast," "Mfg") are mapped for only one of the metadata rules (MyOCS.{Location}.{Department}.\*). Therefore, if you execute the MyOCS.{Region}.{Site}.\* rule, it will not generate metadata for the MyOCS.WestCoast.Mfg.Inventory stream.
 
-5. To generate mappings from existing streams, click **Generate Mappings**.
+1. To generate mappings from existing streams, click **Generate Mappings**.
 
-   OCS searches and finds any existing streams that match the pattern (in this example, the **MyOCS.{Region}.{Site}.*** pattern). For each stream that matches the pattern, it lists that part of the stream name, in this example, it lists the part that corresponds to the **Site** key.
+   OCS searches and finds any existing streams that match the pattern (the **MyOCS.{Region}.{Site}.*** pattern). For each stream that matches the pattern, it lists that part of the stream name, and in this example, it lists the part that corresponds to the **Site** key.
    
+1. In the **Map To** text box, enter **San Leandro**. 
 
-![Metadata mapping](images/metadata-mapping-site.png) <!--VTT, 6/22/21: Recommend removing this image.-->
+1.  You can create additional mappings for streams which are not yet stored in OCS but which you anticipate in the future. Click **Add Mappings** to add another mapping.
 
-6. In the **Map To** text box, enter **San Leandro**. 
+1. In the **Map From** text box, enter **PHL**. 
 
-7.  You can create additional mappings for streams which are not yet stored in OCS but which you anticipate in the future. Click **Add Mappings** to add another mapping.
-
-8. In the **Map From** text box, enter **PHL**. 
-
-9. In the **Map To** text box, enter **Philadelphia**.
+1. In the **Map To** text box, enter **Philadelphia**.
 
    When you have finished defining the mappings for the metadata keys, a green check mark appears next to the keys.
 
-10. Click **Next**.
+1. Click **Next**.
 
 ## <a name="step-4"></a>Step 4: Apply the rule and preview the results
 
