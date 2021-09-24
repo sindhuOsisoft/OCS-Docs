@@ -42,8 +42,6 @@ In this step, you identify delimiters in the stream name. Delimiters include per
 
 1. Click the plus sign (**+**) above each of the three delimiters.
 
-    This identifies the different sections of the stream name pattern. A row is added for each part of your stream name. There are four rows as shown below.![Metadata rules](images/metadata-step2.png) <!--VTT, 6/22/21: Recommend removing this image.-->
-
    **Note:** You can click on the minus sign (&ndash;) to ignore a delimiter.
 
 2. In the first row ("MyOCS") click the drop-down list and select **String Literal**.
@@ -62,15 +60,11 @@ In this step, you identify delimiters in the stream name. Delimiters include per
 
    When you are done, the pattern looks like the following. The stream pattern defined in the table translates to MyOCS.{Region}.{Site}.* This stream pattern returns all streams that start with the string *MyOCS*, followed by three parts delimited with periods. The second part corresponds to the region and the third part corresponds to the site. *Region* and *Site* are metadata.![Medata rule pattern](images/metadata-rule-pattern.png)
 
-   
-
 6. Click **Next**. 
 
 ## <a name="step-3"></a>Step 3: Define metadata mappings
 
-On the Define Mappings page, you see the following. Below the stream pattern are the two metadata keys that will be mapped in this step. 
-
-![Define mappings](images/metadata-mapping.png) <!--VTT, 6/22/21: Recommend removing this image.-->
+In this step, you define mappings. 
 
 1. Select the **Region** key. (This is selected by default.)
 
