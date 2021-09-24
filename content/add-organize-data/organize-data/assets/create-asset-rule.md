@@ -103,8 +103,6 @@ In this step, you specify the naming pattern used to find and match the appropri
 
    <!-- WRITER'S NOTE: All the screen captures need to be reviewed and probably updated. In particular, the screen captures in this "Step 1: Extract the tokens from the stream" will need to be updated. The wording of the choices is being changed. -->
 
-   ![](images/first-token.png)
-
    The token and the placeholder value, `{site} - PHI`, are added to the **Tokens** pane. 
 
 1. Repeat steps 1-4 for each part of the stream name. 
@@ -137,15 +135,13 @@ In this step, you specify the naming pattern used to find and match the appropri
 
 In this step, you specify the token that identifies the stream measurement in the stream. Then you map values for each token.
 
-1. In the `Configure Stream Reference Name Token` pane, click the ![Select token icon](images/select-token-icon.png) icon to open the `Select Stream Reference Name Token` window.
+1. In the `Configure Stream Reference Name Token` pane, click the ![Select token icon](images/change-property-icon.png) icon to open the `Select Stream Reference Name Token` window.
 
 1. Select the token that identifies the stream measurement and click **Select**. <!--WRITER'S NOTE: This step is still not very clear. Please review it again after the UI changes which may make it clearer. --> <!--VTT, 9/23/21: Agreed. Let managment know that we need to add QA testing of procedures for the new UI rebranding effort.-->
 
  In the `Tank Rule A` example, the token for the last part of the stream name identifies the measurement, either `Press` or `Temp`, and we gave this token the name `measurement`. 
 
  The `Token Mappings Status` pane displays a list of all the tokens identified on the previous page. The token for the measurement is indicated with the ![Measurement icon](images/measurement-icon.png) icon.
-
- ![Token Status Mapping](images/token-status-mapping.png)
 
 1. Select a token in the `Token Mappings Status` list.
 
@@ -155,29 +151,19 @@ In this step, you specify the token that identifies the stream measurement in th
 
    - **Rename Token Values** &ndash; Replace the values in the stream name and stream metadata with mapped values.
 
-   In the `Tank Rule A` example, the `equipment_type` and `equipment_id` tokens use the existing token values. The following screen capture shows the token value mapping for the `equipment_type` token. 
-
-   ![Equipment_type mapping](images/equipment-type-mapping.png)
-
+   In the `Tank Rule A` example, the `equipment_type` and `equipment_id` tokens use the existing token values.
+ 
 1. If you selected **Rename Token Values**, click **Generate Mappings** to display the list of token values. 
 
    OCS searches for streams that match the stream pattern and provides a list of the token values. 
 
    In this example, the `site` token is selected. **Rename Token Values** is selected, and **Generate Mappings** generates two values, `PHI` and `SL`. 
 
-   ![Token Value Mapings](images/token-value-mappings.png)
-
 1. For each value on the left, provide the value to use in its place in the text box on the right.
 
    In this example, `PHI` is mapped to `Philadelphia`, and `SL` is mapped to `San Leandro`.
 
-   ![Map to values](images/map-to-values.png)
-
    For the measurement token, click in the text box to display a list of measurements or properties that are defined in the asset type and select the value to map to the token value. The values in the list come from the asset type. If the asset rule is not based on a type, then you must manually enter the values for each of the mappings.
-
-   The screen capture below shows the values that are mapped for the `measurement` token.
-
-   ![](images/configured-token-values.png)
 
 1. To manually add additional mappings, click **Add Mapping**. 
 
@@ -213,11 +199,7 @@ In this step, you specify how the rule builds assets by assigning the tokens to 
 
     1. In the **Type** field, select the data type for the metadata from the drop-down.
      
-   The following screen capture shows an example of asset fields and metadata mapped to tokens. 
-   
-   ![](images/configure-asset-with-tokens.png)
-
-1. When you are finished mapping tokens to asset fields and metadata, click **Next**.
+    1. When you are finished mapping tokens to asset fields and metadata, click **Next**.
 
 ### <a name="step-4"></a>Step 4: Preview the assets
 
@@ -225,11 +207,9 @@ The asset preview displays a list of the assets that will be created using the a
 
 1. Review the assets. Verify that they are created as you expect and verify that the correct streams are referenced.
 
-   ![Preview assets](images/preview-assets.png)
-
    **Note:** 
 
-   - The ![Tag icon](images/tag-icon.png) icon identifies the metadata and the ![Rule icon](images/rule-icon.png) icon identifies the stream references. 
+   - The ![Tag icon](images/tag-icon.png) icon identifies the metadata and the ![Rule icon](images/measurement-icon.png) icon identifies the stream references. 
 
    - The stream Id is identified for each stream. In the example above, the Id of the stream in the first row is `PHI-TNK01`.
 
