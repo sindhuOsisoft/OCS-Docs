@@ -14,7 +14,7 @@ To perform this procedure, you must be a [Community Administrator](xref:communit
 
 1. On the `Communities` overview page, find the community where you want to add users and click **Details**.
 
-2. On the `Community Details` page, on the **My Users** tab, click **New User**.
+2. On the **My Users** tab of the `Community Details` page, click **New User**.
 
 3. Select users. If necessary, you can filter the list of users by typing in the **Filter users** box. You can also filter by role. Selecting any role shown at the top of the user list displays only users assigned that role.
 
@@ -46,7 +46,7 @@ Any user can perform this procedure.
 
 1. On the `Communities` overview page, find the community where you want to remove users and click **Details**.
 
-2. Select **More Options** ![More Options](images\more-options.png) and click **Leave Community**. A confirmation dialog opens.
+2. Click the **More Options** ![More Options](images\more-options.png) icon, then click **Leave Community**. A confirmation dialog opens.
 
 3. Click **Leave**.
 
