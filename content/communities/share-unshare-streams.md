@@ -62,7 +62,7 @@ To perform this procedure you must have already defined streams.
 
 5. From the list of streams, select one or more to unshare.
 
-6. Select the **More Options** ![More Options](images\more-options.png "More Options") icon, then select **Unshare Stream** from the dropdown list.
+6. Click the **More Options** ![More Options](images\more-options.png "More Options") icon, then select **Unshare Stream** from the dropdown list.
 
     If you selected multiple streams in the previous step, a pane appears for managing streams. You can select **Unshare Streams** on that pane.
 
