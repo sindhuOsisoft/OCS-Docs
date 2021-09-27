@@ -10,7 +10,7 @@ For more information on asset types, see [Asset types](xref:AssetTypes).
 
 1. Click the menu icon ![menu icon](images/icon_navigation_bigger.png), then click **Visualization** > **Asset Explorer**.
 
-1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace in which you want to create the stream.
+1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the desired namespace.
 
 1. Verify that the **Assets/Asset Type** selector is set to **Assets**.
 
@@ -38,9 +38,7 @@ For more information on asset types, see [Asset types](xref:AssetTypes).
 
 1. Select the stream from the list of streams.
 
-     **Note:** Only streams of the type specified for the stream reference are displayed. In this example, only streams of type PI-Float32 are displayed.
-
-     Search on the stream name, ID, or description. You can use the asterisk (*) as a wildcard.
+     **Note:** Only streams of the type specified for the stream reference are displayed. You can search on the stream name, ID, or description. You can use the asterisk (*) as a wildcard.
 
 1. Click **Add**.
 
