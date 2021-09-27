@@ -37,7 +37,7 @@ We will construct an asset rule, named `Tank Rule A`, that creates three assets,
 
 1. Click the ![Menu icon](images/menu-icon.png) icon, then select **Data Management** > **Asset Management**.
 
-1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace in which you want to create the stream.
+1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the desired namespace.
 
 1. Click **Add a Rule**.
 
@@ -51,7 +51,7 @@ We will construct an asset rule, named `Tank Rule A`, that creates three assets,
    
    - **Asset Type** &ndash; (Optional) Asset type on which the asset is based. The assets created with the asset rule inherit the properties of the asset type, including stream type, metadata, and status configurations.
    
-     In this example, the asset type is named Boiler Tank.
+     For example, the asset type is named Boiler Tank.
      
      For more information on asset types, see [Asset types](xref:AssetTypes) and [Create an asset from an asset type](xref:CreateAssetFromAssetType).
 
@@ -61,7 +61,7 @@ We will construct an asset rule, named `Tank Rule A`, that creates three assets,
 
 1. In the `Select Stream` window, click the stream to use as the basis of the naming pattern for the asset rule. 
 
-   **Tip:** Select a stream with a name that models the pattern of the stream names this rule is intended to identify.
+   **Tip:** Select a stream with a name that models the pattern of the stream names the rule is intended to identify.
    
    The `Tank Rule A` examples uses the `PHI-Tank03Press` stream to create the stream pattern.
 
@@ -137,7 +137,7 @@ In this step, you specify the token that identifies the stream measurement in th
 
 1. In the `Configure Stream Reference Name Token` pane, click the ![Select token icon](images/change-property-icon.png) icon to open the `Select Stream Reference Name Token` window.
 
-1. Select the token that identifies the stream measurement and click **Select**. <!--WRITER'S NOTE: This step is still not very clear. Please review it again after the UI changes which may make it clearer. --> <!--VTT, 9/23/21: Agreed. Let managment know that we need to add QA testing of procedures for the new UI rebranding effort.-->
+1. Select the token that identifies the stream measurement and click **Select**. <!--WRITER'S NOTE: This step is still not very clear. Please review it again after the UI changes which may make it clearer. --> <!--VTT, 9/23/21: Agreed. QA testing of procedures is recommended for the new UI rebranding effort.-->
 
  In the `Tank Rule A` example, the token for the last part of the stream name identifies the measurement, either `Press` or `Temp`, and we gave this token the name `measurement`. 
 
