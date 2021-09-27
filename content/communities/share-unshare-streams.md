@@ -14,17 +14,15 @@ To perform this procedure you must have already defined streams.
 
 1. On the navigation bar, click **Sequential Data Store**.
 
-2. If necessary, select a namespace at top left.
+2. Optional: Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace that contains the stream you want to share.
 
-    ![Select a namespace and streams](images\select-namespace-streams.png "Select a namespace and streams")
-
-3. If it is not already selected, select **Streams** at top left.
+3. If it is not already selected, select **Streams** at the top left.
 
 4. Select one or more streams to share.
 
     To search for a particular stream, enter a search term in the **Search for streams** text box. If necessary, use a wildcard operator "*" to return results that start or end with a particular phrase. For more information, see [Search in SDS](xref:sdsSearching).
 
-5. Select **More Options** ![More Options](images\more-options.png "More Options") and select **Share Stream** from the dropdown list.
+5. Click the **More Options** ![More Options](images\more-options.png "More Options") icon, then select **Share Stream** from the dropdown list.
 
     If you selected multiple streams in the previous step, a pane appears for managing streams. You can select **Share Streams** on that pane.
 
@@ -48,19 +46,15 @@ To perform this procedure you must have already defined streams.
 
     If you have shared streams, a **Streams** tab appears at right.
 
-4. On the **Streams** tab, select the streams you want to unshare and click **Unshare Streams**. When prompted for confirmation, click **Unshare**.
+4. On the **Streams** tab, select the streams you want to unshare, then click **Unshare Streams**. When prompted for confirmation, click **Unshare**.
 
 ## Unshare streams from the `Sequential Data Store`
 
 1. On the navigation bar, click **Sequential Data Store**.
 
-2. If necessary, select a namespace or community from the **Change Namespace or Community** dropdown list.
-
-    ![Select a namespace or community](images\select-namespace-community.png "Select a namespace or community")
+2. Optional: Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace that contains the stream you want to share.
 
 3. Use the toggle switches to filter streams by namespace or community.
-
-    ![Filter by namespace or community](images\namespace-communities-switches.png "Filter by namespace or community")
 
 4. From the list, select a namespace or a community.
 
@@ -68,7 +62,7 @@ To perform this procedure you must have already defined streams.
 
 5. From the list of streams, select one or more to unshare.
 
-6. Select **More Options** ![More Options](images\more-options.png "More Options") and select **Unshare Stream** from the dropdown list.
+6. Select the **More Options** ![More Options](images\more-options.png "More Options") icon, then select **Unshare Stream** from the dropdown list.
 
     If you selected multiple streams in the previous step, a pane appears for managing streams. You can select **Unshare Streams** on that pane.
 
