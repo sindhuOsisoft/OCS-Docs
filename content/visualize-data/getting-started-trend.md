@@ -10,11 +10,9 @@ Use trace data in a trend to monitor assets, anticipate problems, and proactivel
 Procedure
 ---------
 
-1. Log in to OSIsoft Cloud Services.
-
-2. Click the navigation icon ![](images/icon_navigation_bigger.png) (upper left corner) and click **Trend** (under Visualization). 
+1. In the left pane, select **Visualization** > **Trend**.
    
-3. In the Add Traces blade, click the **+** sign to add the trace to the trend. 
+1. In the Add Traces blade, click the **+** sign to add the trace to the trend. 
 
    Tip: 
 
@@ -40,12 +38,12 @@ Procedure
 
    The Legend table below the trend displays the Trace view. It shows the legend for each trace, the last value, minimum, maximum, and average values in the displayed time range.
 
-7. Click on a trace to select it for further analysis.<br>The selected trace is highlighted, and two cursors automatically mark the minimum and maximum values for the displayed time range. These cursors, called *easy cursors,* remain as long as the trace is highlighted.<br>
+1. Click on a trace to select it for further analysis.<br>The selected trace is highlighted, and two cursors automatically mark the minimum and maximum values for the displayed time range. These cursors, called *easy cursors,* remain as long as the trace is highlighted.<br>
 
     ![Maximum and minimum cursors](images/Max_min_cursors.png)
 <br>
 
-8. Click the plus sign (+) above the trace to lock the cursors in place.<br>
+1. Click the plus sign (+) above the trace to lock the cursors in place.<br>
     The *+* turns into an *x*.  To unlock the cursor, click the *x*.
          <br>
          <br>
@@ -58,4 +56,3 @@ Procedure
 ## Related topics
 
 [Context switch in visual trending](xref:ContextSwitch)
-

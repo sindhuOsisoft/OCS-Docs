@@ -8,9 +8,9 @@ Follow the procedures to create an asset, add and configure its metadata and pro
 
 ## Create the asset
 
-1. Click the menu icon ![menu icon](images/icon_navigation_bigger.png), then click **Visualization** > **Asset Explorer**.
-   
-1. To change the [namespace](xref:ccNamespaces), click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace and click **Continue**.
+1. In the left pane, select **Visualization** > **Asset Explorer**.
+ 
+1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the desired namespace.
 
 5. Verify that the **Assets/Asset Type** selector is set to **Assets**.
 

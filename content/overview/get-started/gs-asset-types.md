@@ -18,9 +18,9 @@ You can create an asset type in one of the following ways:
 
 Follow the procedure to use the asset explorer to create an asset type.
 
-1. Click the ![Menu icon](images/menu-icon.png) icon and click **Asset Explorer** (under Visualization).
+1. In the left pane, select **Visualization** > **Asset Explorer**.
 
-1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png) and select **MyOCS**.
+1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select **MyOCS**.
 
 1. From the **Asset/Asset Types Selector** list, select **Asset Types**.
 
@@ -60,17 +60,17 @@ Follow the procedure to use the asset explorer to create an asset type.
 
 You can take an existing asset and use it as the basis for creating an asset type.
 
-1. Click the ![Menu icon](images/menu-icon.png) icon and click **Asset Explorer** (under Visualization).
+1. In the left pane, select **Visualization** > **Asset Explorer**.
  
-1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png) and select **MyOCS**.
+1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select **MyOCS**.
 
 1. Select the **MyOCS.Asset** asset.
-
-    **Note:** In the upper right corner of the right pane, **Asset Type** is set to *< None >* indicating that this asset is not based on an asset type. 
+    **Note:** In the upper-right corner of the right pane, **Asset Type** is set to *< None >* indicating that this asset is not based on an asset type. 
 
 1. Click the ![More Options button](images/more-options.png) icon, then click **Save as Asset Type**.
 
 1. In the `Create an Asset Type for MyOCS.Asset` window, enter the following:
+   
    - `Name` &ndash; **MyOCS.TankType**
    - `Description` &ndash; (Optional) Add a description for the asset type. By default, this description is inherited by assets created with this asset type, but it can be overwritten on the individual assets.
 

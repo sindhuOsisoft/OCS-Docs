@@ -11,7 +11,11 @@ Access and interact with OCS through the web-based portal. When you first access
 
 ## OCS features
 
-The left pane contains a collapsable menu. Click a menu item to expand a section and access OCS features. Click the **COLLAPSE** chevrons at the bottom of the menu to collapse or expand the menu to show only icons or view both text and icons. <!--Angela Flores 6/23/21 - I would take the feature menu screenshot out. The list below explains the contents. Given the rapid pace of development, this screenshot is always going to be out-of-date. --><!--VTT 9/20/21 - Removed feature menu screenshot for rebranding.-->
+Expanding the left pane opens a menu of OCS features. This pane is always available in the OCS portal, and you can make menu selections even while collapsed.
+
+| Pane expanded | Pane collapsed |
+|:--:|:--:|
+| ![pane expanded](../images/left-pane-expanded.png) | ![pane collapsed](../images/left-pane-collapsed.png) |
 
 OCS includes the following features:
 

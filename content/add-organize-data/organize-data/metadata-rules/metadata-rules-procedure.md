@@ -10,7 +10,7 @@ Use metadata rules to identify groups of similar streams for analytical purposes
 
 To create a new metadata rule, follow these steps:
 
-1. In the OCS portal, click the menu icon and select **Sequential Data Store** under **Data Management**. 
+1. In the left pane, select **Data Management** > **Sequential Data Store**.
 2. On the `Sequential Data Store` page, click **Streams**.
 3. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace in which you want to create the stream.
 4. Expand the `Streams` pane if necessary to copy the full name of the stream that will be the basis for your metadata rule.

@@ -35,7 +35,7 @@ We will construct an asset rule, named `Tank Rule A`, that creates three assets,
 
 ## Add an asset rule and select the stream
 
-1. Click the ![Menu icon](images/menu-icon.png) icon, then select **Data Management** > **Asset Management**.
+1. In the left pane, select **Data Management** > **Asset Management**.
 
 1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the desired namespace.
 
@@ -97,7 +97,7 @@ In this step, you specify the naming pattern used to find and match the appropri
 
    The **1. Match** list of choices displays different ways to identify this string of characters. Some of the choices would work with the example stream, but they would fail to identify the site information in all stream names. For example, *the string literal "PHI"* or *the next 3 characters* would not identify *SL* as the site. 
 
-   As you create tokens, keep in mind that the **Match** option selected must identify the correct information for all the streams the rule needs to identify. The rule must also exclude any streams that you do not want identified with this rule, for example, streams that belong to a pump asset. In this example, *everything preceding the delimiter"-"* will extract the site information for all streams. 
+   When you create tokens, keep in mind that the **Match** option selected must identify the correct information for all the streams the rule needs to identify. The rule must also exclude any streams that you do not want identified with this rule, for example, streams that belong to a pump asset. In this example, *letters preceding the delimiter"-"* will extract the site information for all streams. 
 
    The token is assigned the name `site`. 
 
@@ -139,9 +139,7 @@ In this step, you specify the token that identifies the stream measurement in th
 
 1. Select the token that identifies the stream measurement and click **Select**. <!--WRITER'S NOTE: This step is still not very clear. Please review it again after the UI changes which may make it clearer. --> <!--VTT, 9/23/21: Agreed. QA testing of procedures is recommended for the new UI rebranding effort.-->
 
- In the `Tank Rule A` example, the token for the last part of the stream name identifies the measurement, either `Press` or `Temp`, and we gave this token the name `measurement`. 
-
- The `Token Mappings Status` pane displays a list of all the tokens identified on the previous page. The token for the measurement is indicated with the ![Measurement icon](images/measurement-icon.png) icon.
+ In the `Tank Rule A` example, the token for the last part of the stream name identifies the measurement, either `Press` or `Temp`, and we gave this token the name `measurement`. The `Token Mappings Status` pane displays a list of all the tokens identified on the previous page. The token for the measurement is indicated with the ![Measurement icon](images/measurement-icon.png) icon.
 
 1. Select a token in the `Token Mappings Status` list.
 
@@ -152,22 +150,22 @@ In this step, you specify the token that identifies the stream measurement in th
    - **Rename Token Values** &ndash; Replace the values in the stream name and stream metadata with mapped values.
 
    In the `Tank Rule A` example, the `equipment_type` and `equipment_id` tokens use the existing token values.
- 
-1. If you selected **Rename Token Values**, click **Generate Mappings** to display the list of token values. 
 
-   OCS searches for streams that match the stream pattern and provides a list of the token values. 
+1. If you selected **Rename Token Values**, click **Generate Mappings** to display the list of token values for streams that match the stream pattern. 
 
-   In this example, the `site` token is selected. **Rename Token Values** is selected, and **Generate Mappings** generates two values, `PHI` and `SL`. 
+   In the `Tank Rule A` example, the `site` token is selected. **Rename Token Values** is selected, and **Generate Mappings** generates two values, `PHI` and `SL`. 
 
-1. For each value on the left, provide the value to use in its place in the text box on the right.
+1. For each value on the left, enter or select the value to use in its place in the text box on the right.
+   
+   If the asset rule is based on an asset type, click in the text box to display a list of measurements or properties that are defined in the asset type and select the value to map to the token value. If the asset rule is not based on a type, then you must manually enter the values for each of the mappings.
 
    In this example, `PHI` is mapped to `Philadelphia`, and `SL` is mapped to `San Leandro`.
 
-   For the measurement token, click in the text box to display a list of measurements or properties that are defined in the asset type and select the value to map to the token value. The values in the list come from the asset type. If the asset rule is not based on a type, then you must manually enter the values for each of the mappings.
+   ![Map to values](images/map-to-values.png)
 
 1. To manually add additional mappings, click **Add Mapping**. 
 
-1. When you have configured the token values for all your tokens, indicated by the green check mark, click **Next**.
+1. When you have configured the token values for all tokens, indicated by the green check mark, click **Next**.
 
 ### <a name="step-3"></a>Step 3: Configure the asset
 
@@ -226,7 +224,8 @@ The asset preview displays a list of the assets that will be created using the a
 1. Click the `Details` tab in the `Preview Information` pane, to review the asset rule statistics to validate that the rule produced the expected number of assets and the expected number of streams were processed.
 
    In the [Tank Rule A example](#tank), we expect to see three assets as indicated in the **Total Assets**. **Streams Processed** is the total number of streams in the namespace. The asset rule checks every stream name in the namespace to see if it matches the specified pattern. In this example, six of the nine streams matched the pattern.
-   ![Asset Statistics](images/stats.png)
+   
+   ![Asset statistics](images/stats.png)
   
 1. To return to earlier steps and make any changes to the tokens, token mapping, or asset configuration, click **Back**.
 
@@ -242,11 +241,9 @@ The asset preview displays a list of the assets that will be created using the a
 
 Once the asset rule is successfully executed, review the created assets and confirm the results.
 
-1. From the ![Menu icon](images/menu-icon.png) icon, select **Visualization** > **Asset Explorer**.
+1. In the left pane, select **Visualization** > **Asset Explorer**.
 
-1. Use search and the metadata filters to find the assets you expect to be created. For information, see [Filter assets in the Asset Explorer](xref:FilterAssets)
-
-1. Verify that the assets in your preview have been created.
+1. Use search and the metadata filters to find the assets you expect to be created. For information, see [Filter assets in the Asset Explorer](xref:FilterAssets).
 
 1. Select an asset to see its details.
 

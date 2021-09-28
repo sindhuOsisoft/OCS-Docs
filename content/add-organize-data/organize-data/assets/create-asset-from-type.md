@@ -8,7 +8,7 @@ For more information on asset types, see [Asset types](xref:AssetTypes).
 
 ## Procedure
 
-1. Click the menu icon ![menu icon](images/icon_navigation_bigger.png), then click **Visualization** > **Asset Explorer**.
+1. In the left pane, select **Visualization** > **Asset Explorer**.
 
 1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the desired namespace.
 

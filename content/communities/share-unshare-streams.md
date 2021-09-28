@@ -12,7 +12,7 @@ Use these procedures to share or stop sharing streams of data with other communi
 
 To perform this procedure you must have already defined streams.
 
-1. On the navigation bar, click **Sequential Data Store**.
+1. In the left pane, select **Data Management** > **Sequential Data Store**.
 
 2. Optional: Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace that contains the stream you want to share.
 
@@ -38,11 +38,13 @@ To perform this procedure you must have already defined streams.
 
 ## Unshare streams from `Community Details`
 
-1. On the `Communities` overview page, find the community where you are sharing streams and click **Details**.
+1. In the left pane, select **Data Management** > **Communities**.
 
-2. On the `Community Details` page, click the **Tenants** tab.
+1. Find the community where you are sharing streams and click **Details**.
 
-3. Select your own tenant.
+1. On the `Community Details` page, click the **Tenants** tab.
+
+1. Select your own tenant.
 
     If you have shared streams, a **Streams** tab appears at right.
 
@@ -50,7 +52,7 @@ To perform this procedure you must have already defined streams.
 
 ## Unshare streams from the `Sequential Data Store`
 
-1. On the navigation bar, click **Sequential Data Store**.
+1. In the left pane, select **Data Management** > **Sequential Data Store**.
 
 2. Optional: Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace that contains the stream you want to share.
 
