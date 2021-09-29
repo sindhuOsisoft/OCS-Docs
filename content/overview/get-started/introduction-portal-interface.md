@@ -6,8 +6,8 @@ uid: introPortalInterface
 
 Access and interact with OCS through the web-based portal. When you first access the OCS portal, several panes provide information about the system's health as well as quick links to popular documentation topics.
 
-![Portal interface](../images/portal-interface.png "OCS portal interface")
-<!--Angela Flores 6/23/21 - This screenshot has a stray tool tip from another application. It needs to be cleaned up. --> <!--Victoria Touati 8/4/21 - Screenshot replaced & published to Zoomin. -->
+![Portal window](../images/portal-interface.png "OCS portal interface")
+<!--Angela Flores 6/23/21 - This screenshot has a stray tool tip from another application. It needs to be cleaned up. --> <!--VT, 8/4/21 - Screenshot replaced & published. -->
 
 ## OCS features
 
@@ -41,18 +41,18 @@ Most pages consist of two panes:
   - The Information tab appears in some windows and provides documentation about the current feature and how to perform relevant tasks.
   - Some resources have additional panes for other configuration tasks.
 
-## Top right of portal
+## Portal toolbar
 
-There are several icons and links at the top right of the portal.
+The portal toolbar is located in the upper right of the portal window.
 
-![Icons and links in top right of portal window](../images/top-right-portal-window.png)
+![Portal toolbar](../images/top-right-portal-window.png)
 
-The table below provides a list and description of these items.
+The table below provides a list and descriptions of these toolbar commands.
 
-| Numbered Item/Name | Function |
+| Numbered Item | Function |
 |---------------|----------|
-| 1 - Namespace |Lists and allows you to change the current namespace. |
+| 1 - Change Namespace dropdown menu |Click to select a different namespace. |
 | 2 - View Notifications icon |Click to view  OCS-generated notifications. | 
-| 3 - Question mark icon | Click to access online documentation. |
-| 4 - User profile icon  | Click to view a dropdown menu of the following: The currently logged in user, tenant details, resource usage, feedback page, and sign out of the portal. |
-| 5 - Customize link | Click to customize the layout of the OCS portal home page. |
+| 3 - Question mark icon | Click to access the online documentation. |
+| 4 - User profile icon  | Click to view a menu of the following commands: The currently logged in user, tenant details, resource usage, feedback page, and sign out of the portal. |
+| 5 - Customize link | Click to customize the layout of the portal dashboard. |
