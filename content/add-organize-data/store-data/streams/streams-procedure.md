@@ -13,7 +13,7 @@ Sequential Data Store (SDS) stream data are values or events of the same SDS typ
 
 1. In the left pane, select **Data Management** > **Sequential Data Store**.
 
-1. Click the **Change Namespace** button ![Namespace button](../images/namespace-btn.png), then select the namespace in which you want to create the stream.
+1. Click the **Change Namespace** button in the upper-right toolbar, then select the namespace in which you want to create the stream.
    
 1. From the **Streams** dropdown list, select **Streams** if it is not already selected.
  

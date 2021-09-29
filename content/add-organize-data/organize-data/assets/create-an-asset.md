@@ -10,7 +10,7 @@ Follow the procedures to create an asset, add and configure its metadata and pro
 
 1. In the left pane, select **Visualization** > **Asset Explorer**.
  
-1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the desired namespace.
+1. Click the **Change Namespace** button in the upper-right toolbar, then select the desired namespace.
 
 5. Verify that the **Assets/Asset Type** selector is set to **Assets**.
 

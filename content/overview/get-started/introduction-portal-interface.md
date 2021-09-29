@@ -43,7 +43,7 @@ Most pages consist of two panes:
 
 ## Portal toolbar
 
-The portal toolbar is located in the upper right of the portal window.
+The portal toolbar is located in the upper-right corner of the portal window.
 
 ![Portal toolbar](../images/top-right-portal-window.png)
 

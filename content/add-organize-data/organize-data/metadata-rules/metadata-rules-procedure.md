@@ -12,13 +12,13 @@ To create a new metadata rule, follow these steps:
 
 1. In the left pane, select **Data Management** > **Sequential Data Store**.
 2. On the `Sequential Data Store` page, click **Streams**.
-3. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace in which you want to create the stream.
+3. Click the **Change Namespace** button in the upper-right toolbar, then select the namespace in which you want to create the stream.
 4. Expand the `Streams` pane if necessary to copy the full name of the stream that will be the basis for your metadata rule.
 5. In the left pane, click **Data Management** > **Metadata Management**.
  
    **Result:** The `Metadata Management` page opens.
  
-1. Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace in which the model stream resides and where the metadata rule is to be created.
+1. Click the **Change Namespace** button in the upper-right toolbar, then select the namespace in which the model stream resides and where the metadata rule is to be created.
 1. Click **Add Metadata Rule**.
  
    **Result:** The `Select Stream` page displays.

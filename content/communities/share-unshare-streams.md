@@ -14,7 +14,7 @@ To perform this procedure you must have already defined streams.
 
 1. In the left pane, select **Data Management** > **Sequential Data Store**.
 
-2. Optional: Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace that contains the stream you want to share.
+2. Optional: Click the **Change Namespace** button in the upper-right toolbar, then select the namespace that contains the stream you want to share.
 
 3. If it is not already selected, select **Streams** at the top left.
 
@@ -54,7 +54,7 @@ To perform this procedure you must have already defined streams.
 
 1. In the left pane, select **Data Management** > **Sequential Data Store**.
 
-2. Optional: Click the **Change Namespace** button ![Namespace button](images/namespace-btn.png), then select the namespace that contains the stream you want to share.
+2. Optional: Click the **Change Namespace** button in the upper-right toolbar, then select the namespace that contains the stream you want to share.
 
 3. Use the toggle switches to filter streams by namespace or community.
 
