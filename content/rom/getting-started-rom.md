@@ -67,7 +67,7 @@ Procedure
 
 1. Click the ![Trend views icon](images/trend-views-icon.png) icon to toggle through the views.
 
-    **Note:** The Legend table shows the legend for each trace, the last value, minimum, maximum, and average values in the displayed time range.
+    **Note:** The legend table shows the legend for each trace, the last value, minimum, maximum, and average values in the displayed time range.
 
     ![Legend Table](images/Legend_Table_Med.png)
     
@@ -85,7 +85,7 @@ Procedure
 
 1. Add other cursors at data points of interest.
 
-    **Note:** When two cursors are locked, the Legend table displays summary calculations for the values between the two cursors.
+    **Note:** When two cursors are locked, the legend table displays summary calculations for the values between the two cursors.
 
 1. Click the link icon ![Copy link icon](images/share-icon.png) in the menu bar to copy the URL of the workspace.
 

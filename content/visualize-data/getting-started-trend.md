@@ -36,7 +36,7 @@ Procedure
 
    **Note:** The trace will move in time increments displayed in the time range picker. If the trend displays the last 8 hours, **Step backward** shows the previous 8-hour period. If it displays the last 30 days, **Step forward** shows the next 30-day period. Click the triangle to select another time range or specify a custom range.
 
-   The Legend table below the trend displays the Trace view. It shows the legend for each trace, the last value, minimum, maximum, and average values in the displayed time range.
+   The legend table below the trend displays the Trace view. It shows the legend for each trace, the last value, minimum, maximum, and average values in the displayed time range.
 
 1. Click on a trace to select it for further analysis.<br>The selected trace is highlighted, and two cursors automatically mark the minimum and maximum values for the displayed time range. These cursors, called *easy cursors,* remain as long as the trace is highlighted.<br>
 
@@ -47,7 +47,7 @@ Procedure
     The *+* turns into an *x*.  To unlock the cursor, click the *x*.
          <br>
          <br>
-    Note: When two cursors are locked, the Legend table displays summary calculations for the values between the two cursors, known as the Cursor view.
+    Note: When two cursors are locked, the legend table displays summary calculations for the values between the two cursors, known as the Cursor view.
 
 9. Click the Share Trending Session ![share trend session icon](images/share-icon.png) icon in the menu bar to copy the URL of the workspace.  <br>
 
