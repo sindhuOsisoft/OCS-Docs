@@ -52,8 +52,8 @@ Follow the procedure to use the asset explorer to create an asset type.
     
 1. In the asset type pane, use the icons in the upper right of the toolbar to switch between the following:
 
-     -  ![Card view](images/card-view.png) &ndash; Card view displays the asset types as a series of tiles 
-     -  ![Table view](images/table-view.png) &ndash; Table view displays the asset types in a table format
+     -  ![Card view](images/card-view.png) &ndash; Card view displays the asset types as a series of tiles. 
+     -  ![Table view](images/table-view.png) &ndash; Table view displays the asset types in a table format.
      -  ![Autorefresh](images/autorefresh-btn.png) &ndash; Autorefresh checks for updates and refreshes the screen with new results. 
 
 ## <a name="asset-type2"></a>Create an asset type from an asset

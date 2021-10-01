@@ -18,7 +18,7 @@ Follow this procedure to filter and view a subset of assets:
 
    **Note:** Send this link to your colleagues and partners. When they paste this URL into a browser, they will see the fleet view you created.
 
-   **Hint:** Bookmark this link to return to this fleet view.
+   **Tip:** Bookmark this link to return to this fleet view.
 
 ## See also
 

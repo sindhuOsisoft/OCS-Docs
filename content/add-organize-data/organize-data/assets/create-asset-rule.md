@@ -195,7 +195,7 @@ In this step, you specify how the rule builds assets by assigning the tokens to 
     
     1. In the **Value Expression** field, enter the sequence of tokens and characters that resolve to create the value for the metadata. To pick from a list of tokens, enter { and select a token.
 
-    1. In the **Type** field, select the data type for the metadata from the drop-down.
+    1. In the **Type** field, select the data type for the metadata from the dropdown list.
      
     1. When you are finished mapping tokens to asset fields and metadata, click **Next**.
 

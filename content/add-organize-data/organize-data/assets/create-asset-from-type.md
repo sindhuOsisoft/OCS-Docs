@@ -38,7 +38,7 @@ For more information on asset types, see [Asset types](xref:AssetTypes).
 
 1. Select the stream from the list of streams.
 
-     **Note:** Only streams of the type specified for the stream reference are displayed. You can search on the stream name, ID, or description. You can use the asterisk (*) as a wildcard.
+     **Note:** Only streams of the type specified for the stream reference are displayed. You can search the stream name, ID, or description. You can use the asterisk (*) as a wildcard.
 
 1. Click **Add**.
 

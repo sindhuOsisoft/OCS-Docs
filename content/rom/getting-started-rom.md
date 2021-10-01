@@ -73,7 +73,7 @@ Procedure
     
 1. The error may not have occurred in the time range currently in view. Click **Step backward** or **Step forward** to move the time range backward or forward.
 
-    **Note:** The trace will move in increments of time that are displayed in the trend. If the trend displays the last 12 hours, use the step backward arrow in the Time picker to show the previous 12-hour period. If it displays the last 30 days, step forward arrow shows the next 30-day period.
+    **Note:** The trace will move in increments of time that are displayed in the trend. If the trend displays the last 12 hours, use the step backward arrow in the Time picker to show the previous 12-hour period. If it displays the last 30 days, the step forward arrow shows the next 30-day period.
 
 1. Click on a trace to select it for further analysis.
 

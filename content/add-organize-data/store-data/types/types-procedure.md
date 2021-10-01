@@ -21,8 +21,11 @@ After you have created a type, it cannot be modified.
 1. In the `Add Type` pane, enter the following information:
 
    - `Id` &ndash; Id for referencing the type
+    
    - `Name` &ndash; (Optional) User-friendly name. If you do not provide a name, the Id will be assigned as the name.
+   
    - `Description` &ndash; (Optional) Descriptive text that you can use to identify the type
+   
    - `Base Type` &ndash; (Optional) Select a previously created type on which the new type will be based. The new type inherits the properties of the base type. Inherited properties are read only and cannot be modified.
 
 1. Click  **Add Property** to add a property.

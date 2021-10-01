@@ -52,7 +52,7 @@ The table below provides a list and descriptions of these toolbar commands.
 | Numbered Item | Function |
 |---------------|----------|
 | 1 - Change Namespace dropdown menu |Click to select a different namespace. |
-| 2 - View Notifications icon |Click to view  OCS-generated notifications. | 
+| 2 - View Notifications icon |Click to view OCS-generated notifications. | 
 | 3 - Question mark icon | Click to access the online documentation. |
 | 4 - User profile icon  | Click to view a menu of the following commands: The currently logged in user, tenant details, resource usage, feedback page, and sign out of the portal. |
 | 5 - Customize link | Click to customize the layout of the portal dashboard. |

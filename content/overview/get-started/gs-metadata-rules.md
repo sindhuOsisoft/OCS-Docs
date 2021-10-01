@@ -44,7 +44,7 @@ In this step, you identify delimiters in the stream name. Delimiters include per
 
    **Note:** You can click on the minus sign (&ndash;) to ignore a delimiter.
 
-2. In the first row ("MyOCS") click the drop-down list and select **String Literal**.
+2. In the first row ("MyOCS") click the dropdown list and select **String Literal**.
 
    The string *MyOCS* will be used to match this part of the stream pattern. However, it is not mapped to metadata.
 
@@ -54,7 +54,7 @@ In this step, you identify delimiters in the stream name. Delimiters include per
 
 4. In the third row, ("SLTC"), accept the default **Metadata** setting, and enter **Site** as the key.
 
-5. In the fourth row, ("PumpA"), click the drop-down list and select **Wildcard**.
+5. In the fourth row, ("PumpA"), click the dropdown list and select **Wildcard**.
 
    The wildcard means that streams with any values in this part of the stream name will match the pattern. However, this part of the stream name is not mapped to metadata.
 

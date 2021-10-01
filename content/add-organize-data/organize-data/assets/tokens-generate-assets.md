@@ -17,7 +17,7 @@ The following table shows the token definitions for the Tank rule and the result
 | :-------------------: | --------------------- | -------------------------------------- | ---------------------------- |
 | ![one](images/one.png)   | Id                    | {site} {equipment_type}.{equipment_id} | San Leandro Tank.01          |
 | ![two](images/two.png)   | Name                  | {equipment_type} {equipment_id}        | Tank 01                      |
-| ![three](images/three.png) | Descri ption           | {site}                                 | San Leandro                  |
+| ![three](images/three.png) | Description           | {site}                                 | San Leandro                  |
 | ![four](images/four.png)  | Stream Reference Name | {measurement}                          | Pressure                     |
 
 The screen capture below displays the three assets that were created with the example Tank rule. The numbers identify the properties of Tank O1 that are derived by applying the asset rule. Refer to the table above to match the value with the configuration field and token definition.

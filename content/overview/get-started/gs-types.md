@@ -16,7 +16,7 @@ After creating the namespace, the next step is to add one or more types. For mor
 
 1. Click the **Change Namespace** button in the upper-right toolbar, then select the namespace in which you want to create the stream. 
 
-1. From the **Streams** drop-down list, select **Types**.
+1. From the **Streams** dropdown list, select **Types**.
 
 1. Click the ![More Options button](images/more-options.png) icon, then click **Manage Default Permissions**.
  
@@ -81,10 +81,6 @@ The following steps explore information about the type you just created.
     This opens the `Manage Permissions for MyOCS.PumpState` window where you can override the default permissions and set permissions for the specific type. You must be assigned the Tenant Administrator role to configure the type permissions.
 
     Review the permissions for the MyOCS.PumpState type, and when you have finished exploring this window, click **Cancel** to continue. 
-
-1. Click the ![More Options button](images/more-options.png) icon, then click **View Type**. <!--VTT, 9/22/21: It appears this step is no longer needed + the View Type command is not on the More Options menu. After selecting a type, it's properties are shown in the left pane.-->
-
-   This window shows the type details that you entered when you added the type. Click **Cancel** to continue.
 
 1. Click the ![More Options button](images/more-options.png) icon, then click **Get Type Streams**.
 
