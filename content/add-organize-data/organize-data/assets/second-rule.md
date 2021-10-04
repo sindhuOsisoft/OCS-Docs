@@ -21,6 +21,8 @@ Therefore, you must create a second asset rule, called Tank Rule B, to identify 
 
 **Note:** Use the same names for all of the tokens in both rules. This naming patern makes it easier to manage the rules and troubleshoot any problems that may occur.
 
+![](images/second-rule-token.png)
+
 Set up the mappings and configure the asset as described in [Create an asset rule](xref:CreateAssetRules).
 
 **Note:** The **Id** and **Name** for both rules must resolve to the same values to achieve the intended result, that is one asset that references both streams. If the Ids are different, then two assets with the name `Philadelphia 03` are created, one that references the `Pressure` stream and the other that references the `Temperature` stream.
