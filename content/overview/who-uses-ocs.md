@@ -46,7 +46,7 @@ Data science models are only as good as the data used in those models. Identifyi
 
 OCS supports easy integration with custom applications, extending the enterprise data infrastructure to in-house and partner applications. OCS offers ease of integration with a modern, secure REST API that is compatible with R and Python applications. Application developers use the REST API to interact with operational data. 
 
-## Operations departments use OCS to monitor remote locations  
+## Operations departments can monitor remote locations  
 
 OCS provides the ability to integrate data infrastructure from edge to cloud seamlessly. Designed to serve as a "system of systems," OCS supports data usage across the global enterprise. 
 
