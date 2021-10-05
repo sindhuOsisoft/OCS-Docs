@@ -3,7 +3,7 @@ uid: gpAuthorizationCodeClient
 ---
 # Add an authorization code client
 
-Authorization code clients are used with customer web applications that use OCS as their backend. They provide a secure means of authenticating users of the website to view OCS assets. See the following topics for more information about authorization code clients:
+Authorization code clients are used with customer web applications that use OCS as their backend. They provide a secure means of authenticating users of the website to view assets. See the following topics for more information about authorization code clients:
 
 - [Introduction to authorization code clients](xref:ccClients#authorization-code-client)
 - [Authorization code client PI Server counterpart](xref:ccClients#authorization-code-pi-server)
@@ -11,7 +11,7 @@ Authorization code clients are used with customer web applications that use OCS 
 
 ## Procedure
 
-1. Click the ![Menu icon](../images/menu-icon.png) icon and click **Clients** (under Security).
+1. Click the ![Menu icon](../images/menu-icon.png) icon, then click **Security** > **Clients**.
 
 1. From the Client Type drop-down list, select **Authorization Code**.
 
@@ -23,10 +23,10 @@ Authorization code clients are used with customer web applications that use OCS 
 1. Enter the URLs in the **Allowed Redirect URL(s)** text box, and click **+** to add it to the list.   
    The application specifies one of the URLs in this list when it authenticates against OCS, and the OCS identity server returns the results of the authentication to this URL.
 
-1. (Optional) Enter URLs in the **Allowed Logout Redirect URL(s)** text box, and click **+** to add it to the list. 
-   This is similar to the **Allowed Redirect URL(s)**. The application specifies a URL from this list when it logs out of OCS, and the OCS identity server sends the user to this URL after a successful log out.
+1. Optional: Enter URLs in the **Allowed Logout Redirect URL(s)** text box, then click **+** to add it to the list. 
+   This is similar to the **Allowed Redirect URL(s)**. The application specifies a URL from this list when it logs out of OCS, and the identity server sends the user to this URL after a successful log out.
 
-1. (Optional) Enter URLs in the **Allowed CORS Origin(s)** text box, and click **+** to add it to the list.  
+1. Optional: Enter URLs in the **Allowed CORS Origin(s)** text box, then click **+** to add it to the list.  
     This can be used to designate other URLs from which the application is allowed to make requests against OCS. For example, this may be necessary if the user authenticates from an application running at one URL but the result of the authentication is sent to an application running at a different URL.
    
 1. (Optional) Set the **Token Lifetime**.  
@@ -38,3 +38,4 @@ Authorization code clients are used with customer web applications that use OCS 
 ## Related links
 
 - [Authorization Code Clients](xref:identity-authorization-code-clients) API
+ 
