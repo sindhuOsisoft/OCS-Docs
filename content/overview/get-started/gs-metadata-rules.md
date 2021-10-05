@@ -86,7 +86,7 @@ On the Define Mappings page, you see the following. Below the stream pattern are
 
    This option allows you to map the part of the stream name associated with the **Site** key to another value. You may either manually enter the mappings or generate the mappings from existing streams. 
   
-    **Note:** If OCS encounters a value that does not match any of the mappings, it does not create metadata for that stream. This can be useful in the instance where there are two different metadata rules that have a similar naming pattern, for example:
+    **Note:** If there is a value that does not match any of the mappings, it does not create metadata for that stream. This can be useful in the instance where there are two different metadata rules that have a similar naming pattern, for example:
 
    - MyOCS.{Region}.{Site}.*
 
@@ -96,14 +96,14 @@ On the Define Mappings page, you see the following. Below the stream pattern are
 
 5. To generate mappings from existing streams, click **Generate Mappings**.
 
-   OCS searches and finds any existing streams that match the pattern (in this example, the **MyOCS.{Region}.{Site}.*** pattern). For each stream that matches the pattern, it lists that part of the stream name, in this example, it lists the part that corresponds to the **Site** key.
+   Any existing streams that match the pattern are found (in this example, the **MyOCS.{Region}.{Site}.*** pattern). For each stream that matches the pattern, it lists that part of the stream name, in this example, it lists the part that corresponds to the **Site** key.
    
 
 ![Metadata mapping](images/metadata-mapping-site.png)
 
 6. In the **Map To** text box, enter **San Leandro**. 
 
-7.  You can create additional mappings for streams which are not yet stored in OCS but which you anticipate in the future. Click **Add Mappings** to add another mapping.
+7.  You can create additional mappings for streams which are not yet stored, but which you anticipate in the future. Click **Add Mappings** to add another mapping.
 
 8. In the **Map From** text box, enter **PHL**. 
 
