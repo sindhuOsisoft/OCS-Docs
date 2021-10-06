@@ -4,9 +4,7 @@ uid: confirm-data-retrieval
 
 # Confirm data retrieval
 
-To confirm that SDS streams have been created and your data has being transferred, you can view information about these streams on the **Sequential Data Store** page in the OCS portal.
-
-1. Log on to the [OCS portal](https://cloud.osisoft.com/).
+To confirm that SDS streams have been created and your data has being transferred, you can view information about these streams on the **Sequential Data Store** page in the portal.
 
 1. Click the ![](../..\images\waffle-button.png) button, then click **Data Management > Sequential Data Store**.
  
