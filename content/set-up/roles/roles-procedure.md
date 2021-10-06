@@ -1,6 +1,7 @@
 ---
 uid: gpRoles
 ---
+
 # Add a role
 
 Roles are used to manage access to assets, resources, and services. See the following topics for more information about roles:
@@ -13,7 +14,7 @@ Roles are used to manage access to assets, resources, and services. See the foll
 
 Follow the procedure to create a role.
 
-1. Click the ![Menu icon](../images/menu-icon.png) icon and click **Security** > **Roles**.
+1. In the left pane, select **Security** > **Roles**.
 
 1. In the toolbar, click **Add Role**.
 

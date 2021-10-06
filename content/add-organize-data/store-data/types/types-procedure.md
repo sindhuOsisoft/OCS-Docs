@@ -6,28 +6,32 @@ uid: gpTypes
 
 Sequential Data Store (SDS) types define the shape and structure of events and how to associate events with streams of data. For more information about types, see [Types](xref:ccTypes) and [Types best practices](xref:bpTypes).
 
-After you have created a type, it cannot be modified. 
+After you have created a type, it cannot be modified.
 
 ## Procedure
 
-1. Click the ![Menu icon](../images/menu-icon.png) icon and click **Data Management** > **Sequential Data Store**.
+1. In the left pane, select **Data Management** > **Sequential Data Store**.
 
-1. Click the **Namespace** selection button to open the `Select a Namespace` window and choose the namespace in which you want to create the stream.  ![Namespace list](../images/sds-namespace.png)
+1. Click the **Change Namespace** button in the upper-right toolbar, then select the namespace in which you want to create the stream.
 
-1. From the **Streams** drop-down list, select **Types**. ![Streams list](../images/sds-types-procedure-types-list.png)
+1. In the left corner, click **Streams** > **Types**.
 
 1. Click **Add Type**.
 
-1. In the `Add Type` window, enter the following information:
+1. In the `Add Type` pane, enter the following information:
 
    - `Id` &ndash; Id for referencing the type
+    
    - `Name` &ndash; (Optional) User-friendly name. If you do not provide a name, the Id will be assigned as the name.
+   
    - `Description` &ndash; (Optional) Descriptive text that you can use to identify the type
+   
    - `Base Type` &ndash; (Optional) Select a previously created type on which the new type will be based. The new type inherits the properties of the base type. Inherited properties are read only and cannot be modified.
 
 1. Click  **Add Property** to add a property.
 
 1. Complete the following fields for the first property:
+ 
    - `Key` &ndash;  When selected, identifies the property as the index. Only system SDS types can be designated as keys. 
    
    - `Id` &ndash; Identifier for referencing the property.

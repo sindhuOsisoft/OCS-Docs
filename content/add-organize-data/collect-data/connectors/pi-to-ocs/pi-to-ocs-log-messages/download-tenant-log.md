@@ -8,10 +8,8 @@ Troubleshooting information can be found in logs. Logs contain messages about te
 
 ## Download a tenant log
 
-1. Click the menu icon, then click **Support** > **Logs**.
-
-   **Result:** The **Logs** page opens.
-
+1. In the left pane, select **Support** > **Logs**.
+   
 1. **Optional:** To view logs by namespace, select the **Namespace** option.
 
 1. **Optional:** To filter logs by time range, severity, and/or source, enter filter criteria in these fields:

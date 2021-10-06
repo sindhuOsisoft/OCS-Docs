@@ -1,6 +1,7 @@
 ---
 uid: gpUsers
 ---
+
 # Add a user
 
 A user is an identity that has access to a tenant. Roles assigned to a user determine what permissions the user has on resources. See the following topics for more information about users:
@@ -13,11 +14,11 @@ A user is an identity that has access to a tenant. Roles assigned to a user dete
 
 Follow the procedure to invite a user to your tenant.
 
-1. Click the ![Menu icon](../images/menu-icon.png) icon and click **Users** (under Security).
+1. In the left pane, select **Security** > **Users**.
 
 1. In the toolbar, click **Add User**.
 
-1. If multiple identity providers are enabled in your tenant, you are prompted to select an identity provider. Choose the appropriate identity provider for the user you are adding. After you select an option, you can later switch to a different option.
+1. If multiple identity providers are enabled in the tenant, you are prompted to select an identity provider. Choose the appropriate identity provider for the user you are adding. You can switch to a different option later.
 
 1. Enter a first and last name for the user.  
 

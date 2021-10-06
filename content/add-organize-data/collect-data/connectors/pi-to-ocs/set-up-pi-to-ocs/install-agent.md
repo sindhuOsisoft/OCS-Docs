@@ -32,12 +32,9 @@ This topic contains these sections:
 
 * [Verify the PI to OCS Agent is running and registered](#verify-the-pi-to-ocs-agent-is-running-and-registered)
 
-
 ## Install the PI to OCS Agent
 
-1. Click the menu icon, then click **Data Collection > PI to OCS Agents**.
-
-   **Result:** The `PI to OCS Agents` window opens.
+1. In the left pane, select **Data Collection** > **PI to OCS Agents**.
 
 2. Click the **Download Agent** button.
 
@@ -105,7 +102,7 @@ After installation, check that the PI to OCS Agent Windows service is running on
 
 1. On the host machine where you installed the agent, type *services.msc* in the text box next to the Windows menu button, then press ENTER.
 
-2. In the `Services` window, scroll to and verify that that the PI to OCS Agent’s status is running, then close the window.
+2. In the `Services` window, scroll to and verify that that the PI to OCS Agent's status is running, then close the window.
 
    ![](../../images/services-window.png)
 

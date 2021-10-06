@@ -15,7 +15,7 @@ PI to OCS has the following components:
 
 - *PI to OCS Agent* - an on-premises component that serves as a bridge between the data source(s) and the OCS destination. The agent runs as a service and performs fast, secure data transfers.
 
-- *PI System connection* - a cloud component which resides within OCS and receives data from the on-premises PI to OCS Agent and stores it in SDS.<!--Angela Flores 6/24/21 - I would argue that the "data source" is a part of the PI System connection. This component should have one name.-->
+- *PI System connection* - a cloud component which resides within OCS and receives data from the on-premises PI to OCS Agent and stores it in SDS.
 
 **Note:** Storage in SDS is partitioned by namespace.
 
