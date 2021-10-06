@@ -4,13 +4,11 @@ uid: download-tenant-log
 
 # Tenant log messages
 
-Troubleshooting information can be found in OCS logs. Logs contain messages about tenant-related activity, errors, and system messages. By default, logs report on activities that occurred within the past hour.
+Troubleshooting information can be found in logs. Logs contain messages about tenant-related activity, errors, and system messages. By default, logs report on activities that occurred within the past hour.
 
-## Download an OCS tenant log
+## Download a tenant log
 
-1. Log on to the [OCS portal](https://cloud.osisoft.com).
-   
-1. Click the menu ![ ](../../images/waffle-button.png) icon, then click **Logs**.
+1. Click the menu icon, then click **Support** > **Logs**.
 
    **Result:** The **Logs** page opens.
 
