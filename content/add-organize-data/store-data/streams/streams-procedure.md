@@ -11,7 +11,7 @@ Sequential Data Store (SDS) stream data are values or events of the same SDS typ
 
 ## Procedure
 
-1. Click the ![Menu icon](../images/menu-icon.png) and click **Sequential Data Store** (under Data Management).
+1. Click the ![Menu icon](../images/menu-icon.png) and click **Data Management** > **Sequential Data Store**.
 
 1. Click the **Namespace** selection button to open the `Select a Namespace` window. Select the namespace in which you want to create the stream.
    ![Namespace list](../images/sds-namespace.png)
@@ -23,7 +23,7 @@ Sequential Data Store (SDS) stream data are values or events of the same SDS typ
 
 1. In the `Add Stream` window, enter the following:
 
-   `Id` &ndash; (Optional) Identifier for referencing the stream. If you do not provide an Id, OCS generates a GUID.
+   `Id` &ndash; (Optional) Identifier for referencing the stream. If you do not provide an Id, a GUID is generated.
    
    `Name` &ndash; (Optional) User-friendly name for the stream. If you do not provide a name, it takes the value of the `Id`. 
    
