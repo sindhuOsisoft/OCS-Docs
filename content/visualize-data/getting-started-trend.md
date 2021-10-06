@@ -18,7 +18,7 @@ Procedure
 
    Tip: 
 
-   - Specify the stream name or description in the Search box to find the OCS streams you are interested in.
+   - Specify the stream name or description in the Search box to find the streams you are interested in.
 
    - After you have finished adding the traces, click the **x** in the Add Traces blade to hide the blade and maximize the available area to display your trend.
 
