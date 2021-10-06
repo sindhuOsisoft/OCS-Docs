@@ -10,7 +10,7 @@ After you have created a type, it cannot be modified.
 
 ## Procedure
 
-1. Click the ![Menu icon](../images/menu-icon.png) icon and click **Sequential Data Store** (under Data Management).
+1. Click the ![Menu icon](../images/menu-icon.png) icon and click **Data Management** > **Sequential Data Store**.
 
 1. Click the **Namespace** selection button to open the `Select a Namespace` window and choose the namespace in which you want to create the stream.  ![Namespace list](../images/sds-namespace.png)
 
@@ -36,7 +36,7 @@ After you have created a type, it cannot be modified.
    
    - `Type` &ndash;  SDS type of the property
    
-     **Note:** You can filter on the property types by entering text in the **Filter Types** box. You can also use the **System** or **Tenant** controls to include or exclude these types. *Tenant* includes any types that were previously created in the selected namespace for a particular tenant. *System* includes SDS types that are provided and defined by OCS such as *string*, *integer*, *double*, *datetime*, and *boolean*.
+     **Note:** You can filter on the property types by entering text in the **Filter Types** box. You can also use the **System** or **Tenant** controls to include or exclude these types. *Tenant* includes any types that were previously created in the selected namespace for a particular tenant. *System* includes SDS types that are provided and defined such as *string*, *integer*, *double*, *datetime*, and *boolean*.
    
    - `UOM` &ndash; (Optional) Select a unit of measure from the list. 
    
