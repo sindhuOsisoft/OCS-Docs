@@ -4,7 +4,7 @@ uid: CredentialManagement
 
 # Credential management
 
-All connections are made using secure credentials, which are either user credentials or client secrets.
+All connections to OCS are made using secure credentials, which are either user credentials or client secrets.
 
 ## User credentials and authentication
 
