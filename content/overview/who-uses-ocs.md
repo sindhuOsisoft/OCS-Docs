@@ -28,7 +28,7 @@ Curating and preparing data are the most time-consuming tasks when data scientis
 
 #### More data is available 
 
-OCS removes the challenges of complicated and overbuilt data solutions, such as data lakes and relational databases, and provides a direct option for extending the data infrastructure. Because of the flexibility of the REST API, data can be consumed by many software applications that data scientists use to perform their analysis. 
+OCS removes the challenges of complicated and overbuilt data solutions, such as data lakes and relational databases, and provides a direct option for extending the data infrastructure. Because of the flexibility of the OCS REST API, data can be consumed by many software applications that data scientists use to perform their analysis. 
 
 #### Data is prepared for efficient consumption 
 
