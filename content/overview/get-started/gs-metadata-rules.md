@@ -103,7 +103,7 @@ On the Define Mappings page, you see the following. Below the stream pattern are
 
 6. In the **Map To** text box, enter **San Leandro**. 
 
-7.  You can create additional mappings for streams which are not yet stored, but which you anticipate in the future. Click **Add Mappings** to add another mapping.
+7.  You can create additional mappings for streams that are not yet stored in OCS that you will create later. Click **Add Mappings** to add another mapping.
 
 8. In the **Map From** text box, enter **PHL**. 
 
