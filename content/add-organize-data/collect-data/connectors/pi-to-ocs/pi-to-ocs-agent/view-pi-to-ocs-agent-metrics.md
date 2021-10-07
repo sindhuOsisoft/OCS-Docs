@@ -4,7 +4,7 @@ uid: kpi-tile
 
 # View PI to OCS Agent metrics
 
-You can quickly view key performance indicator (KPI) metrics for installed PI to OCS Agents on the main landing page.
+You can quickly view key performance indicator (KPI) metrics for installed PI to OCS Agents on the Home page.
 
 #### Procedure
 
