@@ -79,7 +79,7 @@ This procedure explains how to download and install the PI to OCS Agent.
 
 After agent installation, follow these steps to confirm the PI to OCS Agent service is running and registered in OCS.
 
-1. On the agent host machine, type *services.msc* in the text box next to the Windows menu button, then select ENTER.
+1. On the agent host machine, type *services.msc* in the text box next to the Windows menu button, then press Enter.
 
 2. In the `Services` window, scroll to and verify that that the PI to OCS Agent’s status is running.
 
