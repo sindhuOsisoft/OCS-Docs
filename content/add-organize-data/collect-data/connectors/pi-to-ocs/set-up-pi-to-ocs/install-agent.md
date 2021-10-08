@@ -64,7 +64,7 @@ This procedure explains how to download and install the PI to OCS Agent.
     * **NT Service**: Use an NT account to connect to a Data Archive.
     * **This account**: Specify a user name and password (domain\account) to connect to a Data Archive.
 
-    **IMPORTANT:** The account used to run the PI to OCS Service requires Administrator privileges. Read permission to the PIARCDATA Security and PIPOINT Security tables, and the PI points and data to be transferred is also required.
+    **Important:** The account used to run the PI to OCS Service requires Administrator privileges. Read permission to the PIARCDATA Security and PIPOINT Security tables, and the PI points and data to be transferred are also required.
 
     **Result:** The PI to OCS Agent is installed.
     **Note:** Installation can take a few moments.
