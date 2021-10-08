@@ -22,7 +22,7 @@ You use the PI to OCS Agent Configuration Utility to set up and configure AF ser
 
 You can open the PI to OCS Agent Configuration Utility to change server connections and other settings after initial setup. 
 
-**Note:** If you're not the original user who installed the agent, the new user account will need to be authenticated in OCS before access is granted to the utility. 
+**Note:** If you are not the original user who installed the agent, authenticatication with the new user account is required before access is granted to the utility. 
 
 1. Click the Windows start button.
 
