@@ -34,7 +34,7 @@ This procedure explains how to download and install the PI to OCS Agent.
  
    **Tip:** You can download the PI to OCS Agent installation kit and then transfer it to the host computer. 
 
-1. Navigate to the downloaded PI to OCS agent installation file.
+1. Navigate to the downloaded PI to OCS Agent installation file.
 
     **Note:** The PI to OCS Agent installation cannot be completed if the system time is not correct. Additionally, you cannot complete the PI to OCS Agent installation if Internet Explorer Enhanced Security configuration is enabled. See [Disable Internet Explorer Enhanced Security Configuration](xref:disable-ie-security) for details.
 
