@@ -192,8 +192,7 @@ Host: dat-b.osisoft.com
 }
 ```
 To help users develop .NET client applications for SDS, OSIsoft provides client libraries through NuGet packages, 
-[OCSClients](https://www.nuget.org/packages/OSIsoft.OCSClients/). OCSClients consists of necessary libraries
-to connect to OCS and manage data. Note that SDS client libraries are only available in .NET.
+[OCSClients](https://www.nuget.org/packages/OSIsoft.OCSClients/). OCSClients consists of necessary libraries to connect to OCS and manage data. Note that SDS client libraries are only available in .NET.
 
 You can use ``SdsTypeBuilder`` in .NET client libraries to create types:
 
@@ -377,7 +376,7 @@ Handling timeout issues can be difficult and confusing in a distributed programm
 times out, for example, the request is terminated before the client receives a response from the server. Meanwhile, the application is
 unaware of the state of the server.
 
-One solution is to use the ``Request-Timeout`` header, which is recognized by many services. Using the 
+One solution is to use the ``Request-Timeout`` header, which is recognized by many services in OCS. Using the 
 header, you can tell the server how long to spend on a particular request before timing out. If possible, the server 
 terminates the request if the time it takes to process the request exceeds the timeout value set in the header.
 

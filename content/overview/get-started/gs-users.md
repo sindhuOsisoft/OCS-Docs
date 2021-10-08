@@ -4,7 +4,7 @@ uid: gsUsers
 
 # Get started with users
 
-A user is an identity that has access to a tenant. Roles assigned to a user determine what permissions the user has on resources See the following topics for more information about users:
+A user is an identity that has access to a tenant. Roles assigned to a user determine what permissions the user has on resources. See the following topics for more information about users:
 
 - [Users](xref:ccUsers)
 

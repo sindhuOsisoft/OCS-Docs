@@ -12,4 +12,4 @@ To limit the potential consequences of client credential theft, do not assign cl
 
 ## One client per application
 
-OSIsoft recommends creating a client for each instance of a running application. This makes identification easier and decreases the attack surface from a leaked secret. In such an event, only one application needs to be updated.
+It is recommended to create a client for each instance of a running application. This makes identification easier and decreases the attack surface from a leaked secret. In such an event, only one application needs to be updated.

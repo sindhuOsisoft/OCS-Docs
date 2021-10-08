@@ -53,4 +53,4 @@ The benefits of seamless integration of data infrastructure include:
 - Operational data can be accessed and used anywhere; it is no longer isolated in one facility or system. 
 
 - New sources of operational data are available by storing the data in the cloud. 
-- Existing edge and PI Server data is integrated. 
+- Existing edge and PI Server data is integrated into OCS. 

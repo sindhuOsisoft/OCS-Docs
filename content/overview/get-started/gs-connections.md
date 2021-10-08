@@ -4,7 +4,7 @@ uid: gsConnections
 
 # Get started with connections
 
-There are two you can transfer data from external sources into OCS:
+There are two types of connections you can use to transfer data from external sources into OCS:
 
 - The PI to OCS Agent sends PI point data from an on-premises PI Data Archive server to a namespace. See [Get started with PI to OCS connections](xref:gsPItoOCS).
 - OSIsoft Message Format (OMF) enables OMF applications to send data to a namespace. See [Get started with OMF connections](xref:gsOMF).

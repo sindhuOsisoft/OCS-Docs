@@ -235,7 +235,7 @@ You can view attribute details for selected PI points in a transfer, and also hi
 
 ## Save a transfer
 
-Before you can transfer data, you must save the transfer to retain your PI point and/or AF element selections.
+Before you can transfer data to OCS, you must save the transfer to retain your PI point and/or AF element selections.
 
 1. In the `Transfer` pane, click **Save**.
 
