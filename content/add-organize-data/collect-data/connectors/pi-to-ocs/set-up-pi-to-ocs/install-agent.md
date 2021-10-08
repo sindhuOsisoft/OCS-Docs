@@ -42,7 +42,7 @@ This procedure explains how to download and install the PI to OCS Agent.
 
 1. Select **Yes** in the **Welcome** screen, then select **Next**.
 
-   **Result:** The **Company Information** screen opens.
+   The **Company Information** screen opens.
       
 1. Enter your OCS tenant ID or company alias in the **Tenant ID or Company Alias** text box, then select **Next**.
 
