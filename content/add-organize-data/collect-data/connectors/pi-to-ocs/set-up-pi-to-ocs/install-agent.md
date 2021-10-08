@@ -66,7 +66,7 @@ This procedure explains how to download and install the PI to OCS Agent.
 
     **Important:** The account used to run the PI to OCS Service requires Administrator privileges. Read permission to the PIARCDATA Security and PIPOINT Security tables, and the PI points and data to be transferred are also required.
 
-    **Result:** The PI to OCS Agent is installed.
+   The PI to OCS Agent is installed.
     **Note:** Installation can take a few moments.
 
 1. Select **Close** to exit out of the PI to OCS Agent wizard.
