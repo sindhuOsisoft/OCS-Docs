@@ -71,7 +71,7 @@ This procedure explains how to download and install the PI to OCS Agent.
 
 1. Select **Close** to exit out of the PI to OCS Agent wizard.
     
-    **Result**: The PI to OCS Configuration Utility opens. See [Run the PI to OCS Agent Configuration Utility](xref:pi-to-ocs-utility) for instructions.
+   The PI to OCS Configuration Utility opens. See [Run the PI to OCS Agent Configuration Utility](xref:pi-to-ocs-utility) for instructions.
 
     **Note:** The PI to OCS Agent is not registered until you add and configure a Data Archive.
 
