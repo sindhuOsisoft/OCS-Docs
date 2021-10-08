@@ -28,7 +28,7 @@ This procedure explains how to download and install the PI to OCS Agent.
 
 1. Select **Download Agent**.
 
-    Result: The `Agent Installer Download` dialog box opens. 
+    The `Agent Installer Download` dialog box opens. 
 
 1. Download the agent to the desired location.
  
