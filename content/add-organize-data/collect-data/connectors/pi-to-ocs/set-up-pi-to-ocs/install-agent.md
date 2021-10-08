@@ -4,7 +4,7 @@ uid: install-agent
 
 # Install the PI to OCS Agent
 
-This topic explains how to install the PI to OCS agent and then verify that the installed agent is running and registered on OCS. 
+This topic explains how to install the PI to OCS Agent and then verify that the installed agent is running and registered on OCS. 
 
 **Important:** When you install the PI to OCS Agent, follow these guidelines:
 
