@@ -16,7 +16,7 @@ To confirm that SDS streams have been created and your data has being transferre
 
 1. Click the **Streams** down-arrow, then click **Types**.
 
-1. **Optional:** Enter search criteria to locate specific streams in the **Search** text box, then press ENTER.
+1. **Optional:** Enter search criteria to locate specific streams in the **Search** text box, then press Enter.
 
       **Result:** If there are matches, matching streams are shown.
 
