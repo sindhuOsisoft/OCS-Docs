@@ -10,7 +10,7 @@ You can quickly view key performance indicator (KPI) metrics for installed PI to
 
 1. Click **Home** on the menu. 
 
-   **Result:** The portal Home page opens.
+   **Result:** The portal home page opens.
 
    ![](../../images/kpi-tile.png)
 
