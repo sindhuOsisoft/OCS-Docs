@@ -19,3 +19,7 @@ For more information on asset types, see [Asset types](xref:AssetTypes).
 1. Optional: Enter a description for the asset type.
 
 1. Click **Create**.
+
+1. Optional: Enter a description for the asset type.
+
+1. Click **Create**.

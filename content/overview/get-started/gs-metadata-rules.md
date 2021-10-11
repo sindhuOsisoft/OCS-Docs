@@ -102,6 +102,8 @@ In this step, you define mappings.
 
 1.  You can create additional mappings for streams which are not yet stored in OCS, but will be created later. Click **Add Mappings** to add another mapping.
 
+    OCS searches and finds any existing streams that match the pattern (the **MyOCS.{Region}.{Site}.*** pattern). For each stream that matches the pattern, it lists that part of the stream name, and in this example, it lists the part that corresponds to the **Site** key.
+   
 1. In the **Map From** text box, enter **PHL**. 
 
 1. In the **Map To** text box, enter **Philadelphia**.

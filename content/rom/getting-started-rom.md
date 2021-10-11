@@ -31,9 +31,9 @@ The following procedure describes how to use the portal to monitor your assets a
     | ![Alarm icon](images/alarm-icon.png)    | Bad |
     | ![Unknown icon](images/unknown-icon.png)    | Unknown |
 
-1. Click on an asset to open the `Asset Details` pane.
+1. Click on an asset to open the Asset Details pane.
 
-    The `Asset Details` pane provides metadata and property data on the asset that you can use to determine the cause of any problems. The **Metadata** tab displays metadata associated with the asset.
+   The `Asset Details` pane provides metadata and property data on the asset that you can use to determine the cause of any problems. The **Metadata** tab displays metadata associated with the asset.
 
 1. Click the **Measurements** tab.
 

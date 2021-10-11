@@ -11,7 +11,7 @@ Access and interact with OCS through the web-based portal. When you first access
 
 ## OCS features
 
-Clicking the navigation icon at top left opens a menu of features. This icon is always available in the portal.
+Expanding the left pane opens a menu of OCS features. This pane is always available in the OCS portal, and you can make menu selections even while collapsed.
 
 | Pane expanded | Pane collapsed |
 |:--:|:--:|
@@ -23,10 +23,6 @@ OCS includes the following features:
 
 - **Data Collection**: Provides the ability to bring data from multiple sources and systems into a OCS namespace.
 
-- **Data Management**: Provides tools for setting up basic capabilities, including tenants, connections to PI Systems, the Sequential Data Store (SDS), and metadata rules for data streams.
-
-- **Data Collection**: Provides mechanisms to bring data from multiple sources and systems into a namespace.
- 
 - **Visualization**: Allows you to view data trends and use assets to set up digital twins of real-world physical entities. <!--Angela Flores 6/23/21 - this is the only place in the documentation that uses the phrase "digital twins of real-world physical entities". What feature is that trying to describe? The only thing in the Visualization portion of the documentation is Trend. -->
 
 - **Analytics**: Provides tools for shaping and querying large datasets.
@@ -35,7 +31,7 @@ OCS includes the following features:
 
 - **Developer Tools**: Provides code samples, an API console, and an editor for the OSIsoft Message Format (OMF).
 
-- **Support**: Provides access to documentation, logs, support links, a blog, and other useful information.
+- **Support**: Provides access to documentation, logs, support links, the OCS blog, and other useful information.
 
 ## Feature pages
 
