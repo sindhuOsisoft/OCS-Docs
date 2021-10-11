@@ -36,7 +36,7 @@ To remove the PI to OCS Agent application from a host machine, you uninstall it 
 
    **Note:** After uninstalling the agent from the host machine, you still need to remove the agent from the portal. 
 
-7. Select the user account you wish to use to log on, then close the browser window.
+1. Select the user account you wish to use to log on, then close the browser window.
 
    **Result:** You are returned to the **PI to OCS Agent** window.
 
