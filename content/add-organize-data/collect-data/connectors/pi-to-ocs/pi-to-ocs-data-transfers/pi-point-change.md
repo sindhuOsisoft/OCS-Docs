@@ -27,10 +27,6 @@ Once an SDS stream has been created, its underlying SdsType cannot change. As a 
 
     **Note:** The Windows Event Viewer logs is the preferred source of information for PI point type changes.
 
-- Take one of the following actions to either restart or recreate the transfer in order to resend data from the source PI point:
-
-    - To maintain the data and continue streaming data for that particular tag, create a new SDS stream and copy the data to that new stream. Then, delete the SDS stream in question and restart the transfer.
-    - To maintain the data, but not the streaming data for that particular tag, create a new transfer without the PI point in question and then start the transfer. 
-    - To stream data for that particular tag, but not maintain previously transferred data, delete the SDS stream in question and restart the transfer.
+- Either restart or recreate the transfer in order to resend data from the source PI point.
 
 To see what types of point coercions are supported in PI Data Archive, refer to the ["Allowable point type coercions"](https://docs.osisoft.com/bundle/pi-server/page/allowable-point-type-coercions.html) topic.<!--Angela Flores 6/28/21 should that be "coercions" or "conversions"? -->
