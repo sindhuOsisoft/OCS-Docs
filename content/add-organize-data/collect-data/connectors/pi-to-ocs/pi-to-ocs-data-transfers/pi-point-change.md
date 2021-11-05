@@ -4,10 +4,10 @@ uid: pi-point-change
 
 # What is a PI point type change?
 
-A PI point type change occurs when a PI point's type is changed on the source PI Data Archive after the corresponding stream has been created in the OCS Sequential Data Store (SDS) database. When PI to OCS Services detects this change, it is unable to determine why the change occurred and takes the following actions:
+A PI point type change occurs when a PI point's type is changed on the source PI Data Archive after the corresponding stream has been created in the OCS Sequential Data Store (SDS) database. When PI to OCS Services detects this change, it takes the following actions:
 
-- Displays the `PI Point Type Change Detected` message next to the **Current Activity** field in the Details pane as shown below 
-- Prevents any data being sent from the source PI point to the SDS stream until the type is changed to match the corresponding PI point type in SDS 
+- Displays the `PI Point Type Change Detected` message next to the **Current Activity** field in the Details pane as shown in the screenshot below 
+- Prevents any data being sent from the source PI point to the SDS stream until the type is changed to match the corresponding PI point type in SDS and the transfer is restarted 
 - Logs details about the corresponding SDS stream in the both the Windows Event Viewer and OCS logs 
 
 ![](../../images/pi-point-type-change.png)
@@ -23,9 +23,9 @@ A point change can occur for the following reasons:
 
 Once an SDS stream has been created, its underlying SdsType cannot change. As a result, new data from the PI point in question cannot be stored in the same stream. You must decide what to do with the existing SDS stream and data that has already been transferred by taking the following corrective actions:
 
-- View the [Windows Event Viewer logs](xref:view-logs) and [OCS logs](xref:download-tenant-log) to determine if the PI point type was changed before or after the transfer was started.
+- View the [Windows Event Viewer logs](xref:view-logs) or [OCS logs](xref:download-tenant-log) to determine which PI Point has incurred a PI point type change.
 
-    **Note:** The Windows Event Viewer logs is the preferred source of information for PI point type changs.
+    **Note:** The Windows Event Viewer logs is the preferred source of information for PI point type changes.
 
 - Take one of the following actions to either restart or recreate the transfer in order to resend data from the source PI point:
 
