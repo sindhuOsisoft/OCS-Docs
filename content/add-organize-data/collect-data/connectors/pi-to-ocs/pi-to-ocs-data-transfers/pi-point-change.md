@@ -4,7 +4,7 @@ uid: pi-point-change
 
 # What is a PI point type change?
 
-A PI point type change occurs when the a PI point's type is changed on the source PI Data Archive after the corresponding stream has been created in the OCS Sequential Data Store (SDS) database. When PI to OCS Services detects this change, it is unable to determine why the change occurred and takes the following actions:
+A PI point type change occurs when a PI point's type is changed on the source PI Data Archive after the corresponding stream has been created in the OCS Sequential Data Store (SDS) database. When PI to OCS Services detects this change, it is unable to determine why the change occurred and takes the following actions:
 
 - Displays the `PI Point Type Change Detected` message next to the **Current Activity** field in the Details pane as shown below 
 - Prevents any data being sent from the source PI point to the SDS stream until the type is changed to match the corresponding PI point type in SDS 
