@@ -281,7 +281,7 @@ Data is ready for transfer after the desired PI points and/or AF elements have b
 
    **Result:** The transfer of data begins and the transfer status is reflected in the `Transfer Overview` section.
 
-    **Note:** When you start a transfer that contains AF elements, assets are created for each AF element in the transfer. If you rename and/or move an AF element in PI System Explorer during a transfer, a message displays on the Transfer page to indicate that an AF element ID could not be located on the source AF server. The corresponding asset will not be updated in OCS. Before you make changes to AF elements, stop the transfer, make the changes, and then restart the transfer to ensure all changes are captured by the transfer.
+    **Note:** When you transfer AF elements, assets are created for each AF element in the transfer. If you rename and/or move an AF element in PI System Explorer during a transfer, the AF element ID changes and OCS cannot locate the original element on the source AF server. As a result, the corresponding asset cannot be updated. To ensure all changes are captured in the transfer, stop the transfer before renaming or moving an AF element, make the change(s), and then restart the transfer.
 
 1. In the `Details` pane, expand the `Data Source` section to view the status of a transfer as data is sent.
 
