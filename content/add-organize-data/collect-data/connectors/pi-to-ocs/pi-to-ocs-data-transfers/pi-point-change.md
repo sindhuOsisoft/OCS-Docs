@@ -23,7 +23,7 @@ A point change can occur for the following reasons:
 
 Once an SDS stream has been created, its underlying SdsType cannot change. As a result, new data from the PI point in question cannot be stored in the same stream. You must decide what to do with the existing SDS stream and data that has already been transferred by taking the following corrective actions:
 
-- View the [Windows Event Viewer logs](xref:) and [OCS logs](xref:) to determine if the PI point type was changed before or after the transfer was started.
+- View the [Windows Event Viewer logs](xref:view-logs) and [OCS logs](xref:download-tenant-log) to determine if the PI point type was changed before or after the transfer was started.
 
     **Note:** The Windows Event Viewer logs is the preferred source of information for PI point type changs.
 
