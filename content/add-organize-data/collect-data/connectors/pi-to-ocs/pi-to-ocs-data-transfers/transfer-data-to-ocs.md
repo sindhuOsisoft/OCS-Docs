@@ -281,6 +281,8 @@ Data is ready for transfer after the desired PI points and/or AF elements have b
 
    **Result:** The transfer of data begins and the transfer status is reflected in the `Transfer Overview` section.
 
+    **Note:** When you start a transfer that contains AF elements, assets are created for each AF element in the transfer. If you rename and/or move an AF element in PI System Explorer during a transfer, a message displays on the Transfer page to indicate that an AF element ID could not be located on the source AF server. The corresponding asset will not be updated in OCS. Before you make changes to AF elements, stop the transfer, make the changes, and then restart the transfer to ensure all changes are captured by the transfer.
+
 1. In the `Details` pane, expand the `Data Source` section to view the status of a transfer as data is sent.
 
    **Note:** The rate at which data transfers varies and depends on the density of data in the source PI Data Archive and/or AF server. See [Data transfer statuses](xref:data-transfer-statuses) for a list of transfer statuses and descriptions. To find out more information about an asset error, agent status, or asset create/update error, click the **Logs** button above the list of agents to access more information. Possible statuses that appear in the **Current Activity** field may indicate an issue include Uncategorized Error, PI Point Type Change Detected, and No Valid PI Points In Transfer.   
