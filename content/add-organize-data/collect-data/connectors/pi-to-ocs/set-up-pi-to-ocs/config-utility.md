@@ -136,7 +136,7 @@ You can assign an AF mapping to an AF identity. AF mappings enable a specific se
 
 After adding an AF server, you select the source PI Data Archive that contains the PI points you want to transfer. 
 
-**Note:** There is a one to one Data Archive to PI to OCS Agent constraint for PI to OCS transfers. If your AF server references multiple Data Archives, only one Data Archive can be selected and configured for the transfer.  
+**Note:** There is a one-to-one (1:1) Data Archive to PI to OCS Agent constraint for PI to OCS transfers. If your AF server references multiple Data Archives, only one Data Archive can be selected and configured for the transfer.  
 
 The list of available PI Data Archive servers is based on what servers are referenced by AF elements on the AF server you selected. If you are upgrading an agent, the PI to OCS Agent Configuration Utility maintains the previously selected PI Data Archive configuration.  
 
